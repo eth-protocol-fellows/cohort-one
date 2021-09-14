@@ -57,3 +57,10 @@ Here are some starting points for learning about the Ethereum protocol.
    - Overview: https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/
    - Why Proof of Stake? (Vitalik Buterin): https://vitalik.ca/general/2020/11/06/pos2020.html
    - The Merge: https://ethereum.org/en/eth2/merge/
+
+### Thought Leaders on Twitter
+- Vitalik Buterin, [@VitalikButerin](https://twitter.com/VitalikButerin)
+- Tim Beiko, [@TimBeiko](https://twitter.com/TimBeiko)
+- Phil Daian, [@phildaian](https://twitter.com/phildaian)
+- Hasu, [@hasufl](https://twitter.com/hasufl)
+- Sam Sun [@samczsun](https://twitter.com/samczsun)
