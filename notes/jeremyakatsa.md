@@ -1,6 +1,10 @@
 ## NFT Capacity Improvent Notes To Refer To:
 
-Links to Refer Back To:
+# Interesting Findings, Observations and Discoveries:
+
+- NFT marketplaces are essentially like "Digital-Museums" (OpenSea, Foundation, etc) and the wallets to store NFTs (Rainbow, etc) are like "Digital-Houses".
+
+# Links to Refer Back To:
 
 NFT Basics:
 https://ethereum.org/en/nft/
