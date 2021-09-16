@@ -58,3 +58,8 @@ Here are some starting points for learning about the Ethereum protocol.
    - Overview: https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/
    - Why Proof of Stake? (Vitalik Buterin): https://vitalik.ca/general/2020/11/06/pos2020.html
    - The Merge: https://ethereum.org/en/eth2/merge/
+
+### NFT Building Blocks
+- ERC-721 Non-Fungible Token Standard: https://ethereum.org/en/developers/docs/standards/tokens/erc-721/
+- ERC-1155 The Crypto Item Standard: https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226
+
