@@ -4,6 +4,10 @@
 
 - NFT marketplaces are essentially like "Digital-Museums" (OpenSea, Foundation, etc) and the wallets to store NFTs (Rainbow, etc) are like "Digital-Houses".
 
+## NFT Building Blocks:
+- https://ethereum.org/en/developers/docs/standards/tokens/erc-721/
+- https://eips.ethereum.org/EIPS/eip-2309
+
 ## Links to Refer Back To:
 
 NFT Basics:
