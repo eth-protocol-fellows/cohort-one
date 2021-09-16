@@ -8,6 +8,9 @@
 - [Piper](#piper)
     - [Update #1](#piper-update-1)
 
+- [JeremyAkatsa](#jeremyakatsa)
+    - [Update #1](#jeremyakatsa-update-1)
+
 
 ## Contributing
 
@@ -26,3 +29,11 @@ Development updates from [`pipermerriam`](https://github.com/pipermerriam/)
 ### Piper: Update 1
 
 This is simply a placeholder for now.
+
+## JeremyAkatsa
+
+Development updates from [`jeyakatsa`](https://github.com/jeyakatsa)
+
+### JeremyAkatsa: Update 1
+
+Started Researching potential projects to work on (particularly interested in the Sharding process in order to increase the NFT allocation space on the blockchain, doing more research on this subject). NFT space allocaion expansion [possible primary focus]. Quite possible to expand this space into the RUST programming language to further onboard more developers.
