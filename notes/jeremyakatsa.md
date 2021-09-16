@@ -1,6 +1,9 @@
-NFT Capacity Improvent Notes To Refer To:
+## NFT Capacity Improvent Notes To Refer To:
 
 Links to Refer Back To:
+
+NFT Basics:
+https://ethereum.org/en/nft/
 
 Block Chain Scalability (Future of Ethereum):
 https://vitalik.ca/general/2021/05/23/scaling.html
