@@ -36,4 +36,4 @@ Development updates from [`jeyakatsa`](https://github.com/jeyakatsa)
 
 ### JeremyAkatsa: Update 1
 
-Started Researching potential projects to work on (particularly interested in the Sharding process in order to increase the NFT allocation space on the blockchain, doing more research on this subject).
+Started Researching potential projects to work on (particularly interested in the Sharding process in order to increase the NFT allocation space on the blockchain, doing more research on this subject). NFT space allocaion expansion [possible primary focus].
