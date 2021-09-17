@@ -8,7 +8,8 @@ Areas of interest
 
 Stateless Ethereum Specs  
 https://github.com/ethereum/stateless-ethereum-specs  
-https://ethresear.ch/t/an-updated-roadmap-for-stateless-ethereum/9046  
+https://ethresear.ch/t/an-updated-roadmap-for-stateless-ethereum/9046
+https://snakecharmers.ethereum.org/the-winding-road-to-functional-light-clients/    
 
 Portal Network  
 https://github.com/ethereum/stateless-ethereum-specs/blob/master/roadmaps.md  
