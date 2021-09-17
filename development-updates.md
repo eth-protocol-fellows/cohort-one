@@ -36,4 +36,5 @@ Development updates from [`jeyakatsa`](https://github.com/jeyakatsa)
 
 ### JeremyAkatsa: Update 1
 
-Started Researching potential projects to work on (particularly interested in the Sharding process in order to increase the NFT allocation space on the blockchain, doing more research on this subject). NFT space allocaion expansion [possible primary focus]. Quite possible to expand this space into the RUST programming language to further onboard more developers.
+- Possible Project Dive-in: Sharding for ETH2 (in order to improve overall NFT capacity capabilities).
+Currently researching : https://hackmd.io/@vbuterin/sharding_proposal for NFT space allocaion expansion [possible primary focus]. 
