@@ -8,6 +8,7 @@ Areas of interest
 
 Stateless Ethereum Specs
 https://github.com/ethereum/stateless-ethereum-specs
+https://ethresear.ch/t/an-updated-roadmap-for-stateless-ethereum/9046
 
 The Portal Network
 https://github.com/ethereum/stateless-ethereum-specs/blob/master/roadmaps.md
