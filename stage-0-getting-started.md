@@ -37,7 +37,7 @@ Here are some starting points for learning about the Ethereum protocol.
 
 #### Contributing to Ethereum Ecosystem
   - EIP-1 (i.e. how Ethereum Improvement Proposals Work): https://eips.ethereum.org/EIPS/eip-1
-
+  - Coding Languages & Repositories: https://ethereum.org/en/developers/docs/nodes-and-clients/#clients
 
 ### Current Research and EIPS
 - Research Forums: https://ethresear.ch/
