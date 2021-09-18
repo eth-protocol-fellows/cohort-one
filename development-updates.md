@@ -36,6 +36,6 @@ Development updates from [`jeyakatsa`](https://github.com/jeyakatsa)
 
 ### JeremyAkatsa: Update 1
 
-Project Dive-in: Sharding for ETH2 (in order to improve overall NFT capacity capabilities).
-- Priority 1: Focusing Work Efforts on Data Availability Sampling: https://github.com/jeyakatsa/consensus-specs/blob/dev/specs/das/das-core.md
+Project Dive-in:
+- Focusing Work Efforts on Altair -- Minimal Light Client: https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md
 - Researching: BeaconChain(https://ethos.dev/beacon-chain/) & Sharding Proposal (https://hackmd.io/@vbuterin/sharding_proposal).
