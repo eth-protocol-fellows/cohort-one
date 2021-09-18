@@ -4,7 +4,14 @@
 
 ### Sharding Base:
 https://ethereum.org/en/eth2/shard-chains/
+
 - Sharding is a multi-phase upgrade to improve Ethereum’s scalability and capacity. Shard chains spread the network's load across 64 new chains. They make it easier to run a node by keeping hardware requirements low. This upgrade is planned to follow the merge of Mainnet with the Beacon Chain.
+- Sharding Consensus: https://blog.ethereum.org/2020/03/27/sharding-consensus/
+- Beacon Chain: https://ethos.dev/beacon-chain/
+- An attestation is a validator’s vote, weighted by the validator’s balance.  Attestations are broadcasted by validators in addition to blocks.
+Validators also police each other and are rewarded for reporting other validators that make conflicting votes, or propose multiple blocks.
+The contents of the Beacon Chain is primarily a registry of validator addresses, the state of each validator, attestations, and links to shards.  Validators are activated by the Beacon Chain and can transition to states, briefly described later in Beacon Chain Validator Activation and Lifecycle.
+
 #### Other Info:
 - PoS: https://github.com/ethereum/eth2.0-specs
 https://github.com/ethereum/eth2.0-specs/blob/dev/specs/merge/beacon-chain.md
