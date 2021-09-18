@@ -36,6 +36,6 @@ Development updates from [`jeyakatsa`](https://github.com/jeyakatsa)
 
 ### JeremyAkatsa: Update 1
 
-- Project Dive-in: Sharding for ETH2 (in order to improve overall NFT capacity capabilities).
-Priority 1: Focusing on Beacon Chain development: https://ethos.dev/beacon-chain/
-Also researching : https://hackmd.io/@vbuterin/sharding_proposal for NFT space allocaion expansion. 
+Project Dive-in: Sharding for ETH2 (in order to improve overall NFT capacity capabilities).
+- Priority 1: Focusing on Beacon Chain development: https://ethos.dev/beacon-chain/
+...also researching : https://hackmd.io/@vbuterin/sharding_proposal for NFT space allocaion expansion. 
