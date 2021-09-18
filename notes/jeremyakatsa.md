@@ -1,35 +1,35 @@
-# NFT Capacity Improvent Notes To Refer To:
+# NFT Capacity Improvents:
 
-## Possible Project Focus: Sharding (in order to improve NFT Capacity capabilities---> ETH2 Upgrade):
+## Project Focus: ~Sharding (ETH2 Upgrade)~
 
-### Sharding Base:
-https://ethereum.org/en/eth2/shard-chains/
-
-- Sharding is a multi-phase upgrade to improve Ethereum’s scalability and capacity. Shard chains spread the network's load across 64 new chains. They make it easier to run a node by keeping hardware requirements low. This upgrade is planned to follow the merge of Mainnet with the Beacon Chain.
+### Sharding:
+- Base: https://ethereum.org/en/eth2/shard-chains/
 - Sharding Consensus: https://blog.ethereum.org/2020/03/27/sharding-consensus/
 - Beacon Chain: https://ethos.dev/beacon-chain/
+
+#### Important:
+- Sharding is a multi-phase upgrade to improve Ethereum’s scalability and capacity. Shard chains spread the network's load across 64 new chains. They make it easier to run a node by keeping hardware requirements low. This upgrade is planned to follow the merge of Mainnet with the Beacon Chain.
 - An attestation is a validator’s vote, weighted by the validator’s balance.  Attestations are broadcasted by validators in addition to blocks.
 Validators also police each other and are rewarded for reporting other validators that make conflicting votes, or propose multiple blocks.
 The contents of the Beacon Chain is primarily a registry of validator addresses, the state of each validator, attestations, and links to shards.  Validators are activated by the Beacon Chain and can transition to states, briefly described later in Beacon Chain Validator Activation and Lifecycle.
 
 #### Other Info:
-- PoS: https://github.com/ethereum/eth2.0-specs
-https://github.com/ethereum/eth2.0-specs/blob/dev/specs/merge/beacon-chain.md
-https://ethresear.ch/t/the-eth1-eth2-transition/6265
-https://notes.ethereum.org/m9IX3OkkTveXCCOSzGkUiw
-https://github.com/ethereum/eth2.0-specs/pull/2257
+- Eth2 Specs: https://github.com/ethereum/eth2.0-specs
+- Github: https://github.com/ethereum/eth2.0-specs/blob/dev/specs/merge/beacon-chain.md
+- Transition (Eth1 - Eth2): https://ethresear.ch/t/the-eth1-eth2-transition/6265
+- Eth2 Notes: https://notes.ethereum.org/m9IX3OkkTveXCCOSzGkUiw
 - Sharding Proposal: https://hackmd.io/@vbuterin/sharding_proposal
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-### Interesting Findings, Observations and Discoveries:
+#### Interesting Findings, Observations and Discoveries:
 - NFT marketplaces are essentially like "Digital-Museums" (OpenSea, Foundation, etc) and the wallets to store NFTs (Rainbow, etc) are like "Digital-Houses".
 
-### NFT Building Blocks:
+#### NFT Building Blocks:
 - https://ethereum.org/en/developers/docs/standards/tokens/erc-721/
 - https://eips.ethereum.org/EIPS/eip-2309
 
-### Links to Refer Back To:
+#### Misc:
 - NFT Basics: https://ethereum.org/en/nft/
 - Block Chain Scalability (Future of Ethereum): https://vitalik.ca/general/2021/05/23/scaling.html
 - Why Sharding? (Vitalik Buterin): https://vitalik.ca/general/2021/04/07/sharding.html
