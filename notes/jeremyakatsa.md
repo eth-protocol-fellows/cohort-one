@@ -3,8 +3,9 @@
 ## Project Focus: Altair -- Minimal Light Client
 
 ### Phase 0 (current):
-- Altair: https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md
+- Beacon Apis: https://github.com/ethereum/beacon-APIs
 - Bootstrapping Beacon Light Chain Client: https://notes.ethereum.org/@ralexstokes/S1RSe1JlF
+- Altair: https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md
 - Validator Life Cycle: https://notes.ethereum.org/7CFxjwMgQSWOHIxLgJP2Bw#A-note-on-Ethereum-20-phase-0-validator-lifecycle
 #### Basics:
 - Beacon Chain: A registry of validator addresses, the state of each validator, attestations, and links to shards. Validators are activated by the Beacon Chain and can transition to states.
