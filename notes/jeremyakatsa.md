@@ -1,6 +1,6 @@
 # NFT Capacity Improvents:
 
-## Project Focus: ~Sharding (ETH2 Upgrade)~
+## Project Focus: Sharding (ETH2 Upgrade)
 
 ### Sharding:
 - Base: https://ethereum.org/en/eth2/shard-chains/
