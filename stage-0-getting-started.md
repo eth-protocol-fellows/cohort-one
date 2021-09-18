@@ -58,6 +58,7 @@ Here are some starting points for learning about the Ethereum protocol.
    - Overview: https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/
    - Why Proof of Stake? (Vitalik Buterin): https://vitalik.ca/general/2020/11/06/pos2020.html
    - The Merge: https://ethereum.org/en/eth2/merge/
+   - Clients (Coding Languages of Ethereum 2): https://ethereum.org/en/eth2/get-involved/#clients
 
 ### NFT Building Blocks
 - ERC-721 Non-Fungible Token Standard: https://ethereum.org/en/developers/docs/standards/tokens/erc-721/
