@@ -8,6 +8,9 @@
 - [Piper](#piper)
     - [Update #1](#piper-update-1)
 
+- [Himanshu](#himanshu)
+    - [Update #1](#himanshu-update-1)
+
 - [JeremyAkatsa](#jeremyakatsa)
     - [Update #1](#jeremyakatsa-update-1)
 
@@ -29,6 +32,15 @@ Development updates from [`pipermerriam`](https://github.com/pipermerriam/)
 ### Piper: Update 1
 
 This is simply a placeholder for now.
+
+## Himanshu
+
+Development updates from [`himanshu`](https://github.com/himanshu3w/)
+
+### Himanshu: Update 1
+
+Researching : BeaconChain And L2 Scaling
+
 
 ## JeremyAkatsa
 
