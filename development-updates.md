@@ -36,6 +36,8 @@ Development updates from [`jeyakatsa`](https://github.com/jeyakatsa)
 
 ### JeremyAkatsa: Update 1
 
+Currently Working On:
+- Installing Yarn for Lodestar in order to start building out a light client implementation (or prototype if feasable)
+- Researching: Beacon Chain Specs(https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/beacon-chain.md) BeaconChain(https://ethos.dev/beacon-chain/) & Sharding Proposal (https://hackmd.io/@vbuterin/sharding_proposal).
 Project Dive-in:
-- Focusing Work Efforts on Altair -- Minimal Light Client: https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md
-- Researching: BeaconChain(https://ethos.dev/beacon-chain/) & Sharding Proposal (https://hackmd.io/@vbuterin/sharding_proposal).
+- Altair -- Minimal Light Client: https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md
