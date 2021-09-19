@@ -27,3 +27,6 @@ https://ethresear.ch/t/an-updated-roadmap-for-stateless-ethereum/9046
 
 Ethereum Yellow Paper Walkthrough 
 https://www.lucassaldanha.com/ethereum-yellow-paper-walkthrough-1/
+
+Discord Server Guidebook
+https://github.com/tvanepps/EthereumDiscordGuidebook
