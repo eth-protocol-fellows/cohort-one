@@ -10,7 +10,6 @@
 - Validator Life Cycle: https://notes.ethereum.org/7CFxjwMgQSWOHIxLgJP2Bw#A-note-on-Ethereum-20-phase-0-validator-lifecycle
 #### Basics:
 ---Beacon Chain: A registry of validator addresses, the state of each validator, attestations, and links to shards. Validators are activated by the Beacon Chain and can transition to states.
-
 ---Beacon Chain Checkpoints (similar structure as a Linked-List): A checkpoint is a block in the first slot of an epoch.  If there is no such block, then the checkpoint is the preceding most recent block.  There is always one checkpoint block per epoch. A block can be the checkpoint for multiple epochs.
 
 ---Epoch boundary blocks (EBB): can be considered synonymous with checkpoints.
