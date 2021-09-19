@@ -3,6 +3,7 @@
 ## Project Focus: Altair -- Minimal Light Client
 
 ### Phase 0 (current):
+- Beacon Api Direct Link: https://ethereum.github.io/beacon-APIs/
 - Beacon Apis: https://github.com/ethereum/beacon-APIs
 - Bootstrapping Beacon Light Chain Client: https://notes.ethereum.org/@ralexstokes/S1RSe1JlF
 - Altair: https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md
