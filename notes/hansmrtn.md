@@ -2,14 +2,32 @@
 
 ## Areas of Interest
 
-- go-ethereum project
-- py-evm
+- Client Development
+    - go-ethereum project
+    - py-evm project
+
+
+### Cohort Goal 
+
+My goal for participating in the cohort-one program is to become a regular contributor to the core Ethereum Protocol. 
+
+## Useful Resources
+
+- Takenobu T. PDF on [EVM Illustrated](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)
+- Medium Article on [Diving into the EVM](https://blog.qtum.org/diving-into-the-ethereum-vm-6e8d5d2f3c30)
+- CoinCulture's [Notes on the EVM](https://github.com/CoinCulture/evm-tools/blob/master/analysis/guide.md)
 
 ## Projects
 
 ### Go Ethereum 
 
+#### Goal
+
+TBD
+
 #### Resources
+
+- [Extended Notes](https://hackmd.io/eW_VaqZBTkeOTgkLyDmjdw)
 - [go-ethereum repo](https://github.com/ethereum/go-ethereum)
 - [Dev guide](https://geth.ethereum.org/docs/developers/devguide)
 - [good first issues](https://github.com/ethereum/go-ethereum/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
@@ -22,6 +40,9 @@
 
 ### Py-EVM
 - [py-evm repo](https://github.com/ethereum/py-evm)
+
+#### Goal
+TBD
 
 #### Projects/Issues
 
