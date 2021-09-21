@@ -1,6 +1,12 @@
-# geth Notes
+# Notes on the go-ethereum Project
 
-## Packages
+The goal of this document is to provide high-level documentation and overviews of the go-ethereum project. 
+
+[Ethereum Block Structure](https://i.stack.imgur.com/7eiCt.jpg)
+
+This document is intended for internal learning only, and by no means should serve as "official" documentation or protocol characterization. 
+
+## geth Packages
 
 - [accounts](https://github.com/ethereum/go-ethereum/tree/master/accounts) - Implements high-level Ethereum Account Mgmt. 
 - ~~build~~
