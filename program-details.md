@@ -61,7 +61,7 @@ The program will formally run for four months.
 
 The program will take applicants over a period of one week, starting Monday September 6th and closing Monday September 13th.
 
-Applicant selection will occur in private. Selected candidates will be announced by Monday September 20th.
+Applicant selection will occur in private. Selected candidates will be announced by Monday September 20th (no later than 24th September).
 
 We are interested in applicants who wish to work "full time" on a project, but this is not a hard requirement.  Anything much less than "half time" is likely insufficient.
 
