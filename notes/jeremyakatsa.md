@@ -1,6 +1,6 @@
 # Ethereum Capacity Improvents:
 
-## Project Focus: Altair -- Minimal Light Client
+## Project Focus: Altair -- Minimal Light Client Prototype Build
 
 ### Phase 0 (current):
 - Lodestar: https://lodestar.chainsafe.io/
