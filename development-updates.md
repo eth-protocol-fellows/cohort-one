@@ -40,8 +40,9 @@ Project Dive-in:
 ---Altair -- Minimal Light Client Prototype Build (ref: https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md)
 
 Currently:
-- [Wednesday 9/22/21] Lodestar Beacon synching error with Chainsafe currently being resolved (synch still processing)...
-- [Tuesday 9/21/21] Had to restart synch in order to open synch issue with Chainsafe (taking much longer than anticipated (24+ hours) to synch), might need another 24hrs+ since synch restarted.
+- [Thursday 9/23/21] Lodestar Beacon sync (with all networks) ran and tested. Sync error passed to Chainsafe core dev to resolve. Currently working on resolving "Keystores not found within network file" issue for Validation (quite possibly through installation type)... running multiple installations to chip away at issue.
+- ~~[Wednesday 9/22/21] Lodestar Beacon synching error with Chainsafe currently being resolved (synch still processing)..~~
+- ~~[Tuesday 9/21/21] Had to restart synch in order to open synch issue with Chainsafe (taking much longer than anticipated (24+ hours) to synch), might need another 24hrs+ since synch restarted.~~
 - ~~[Monday 9/20/21] Connected to Testnet, synching Lodestar Beacon Node with terminal (awaiting sync to complete). Logging errors to open GitHub issue reports through Chainsafe when possible.~~
 - ~~[Sunday 9/19/21] Installed Yarn and Lodestar on Git terminal, moving onto connecting Mainnet.~~
 - ~~[Sunday 9/19/21] Installing Yarn for Lodestar in order to start building out a light client implementation (or prototype if feasable)~~
