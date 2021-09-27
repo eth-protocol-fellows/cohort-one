@@ -18,6 +18,9 @@ This document will be updated weekly with new information regarding:
 - interesting thoughts & discoveries,
 - findings of new resources (links) 
 
+# Project Ideas
+- The 2300 gas stipend(https://hackmd.io/@vbuterin/evm_feature_removing#The-2300-gas-stipend)
+
 # Resources
 - https://blog.ethereum.org/2019/11/27/validated-staking-on-eth2-0/
 - https://blog.ethereum.org/2020/01/13/validated-staking-on-eth2-1-incentives/
@@ -25,3 +28,4 @@ This document will be updated weekly with new information regarding:
 - https://blog.ethereum.org/2020/03/27/sharding-consensus/
 - https://blog.ethereum.org/2020/05/21/keys/
 - https://blog.ethereum.org/2020/08/21/validated-why-client-diversity-matters/
+
