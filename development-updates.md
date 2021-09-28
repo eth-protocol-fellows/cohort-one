@@ -39,8 +39,8 @@ Development updates from [`jeyakatsa`](https://github.com/jeyakatsa)
 Project Dive-in:
 ---Altair -- Minimal Light Client Prototype Build (ref: https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md)
 
-- [Monday 9/27/21]: Opened repo to begin building out Minimal Light Client Prototype (https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/tree/main). Working with Lodestar Core Dev on resolving keystore validation issue.
-- [Sunday 9/26/21]: Opened validation connection issue (https://github.com/ChainSafe/lodestar/issues/3249), currently working on resolving Local Testnet connection issue locally on terminal.
+- [Monday 9/27/21]: Opened repo to begin building out Minimal Light Client Prototype (https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype). Keystore validation issue resolved (https://github.com/ChainSafe/lodestar/issues/3249). Sill working on resolving Local Testnet connection issue locally on terminal.
+- ~~[Sunday 9/26/21]: Opened validation connection issue, currently working on resolving Local Testnet connection issue locally on terminal.~~
 - ~~[Saturday 9/25/21]: Ran multiple installations, validation error still occurring, moving onto opening issue with Chainsafe before moving onto resolving local testnet connection issue.~~
 - ~~[Thursday 9/23/21] Lodestar Beacon sync (with all networks) ran and tested. Sync error passed to Chainsafe core dev to resolve (https://github.com/ChainSafe/lodestar/issues/3220). Currently working on resolving "Keystores not found within network file" issue for Validation (quite possibly through installation type)... running multiple installations to chip away at issue.~~
 - ~~[Wednesday 9/22/21] Lodestar Beacon synching error with Chainsafe currently being resolved (synch still processing)..~~
