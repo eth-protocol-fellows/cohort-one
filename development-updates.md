@@ -11,6 +11,9 @@
 - [JeremyAkatsa](#jeremyakatsa)
     - [Update #1](#jeremyakatsa-update-1)
 
+- [sevki yontem](#sevkibaba)
+    - [Update #1](#sevkibaba-update-1)
+
 
 ## Contributing
 
@@ -48,3 +51,11 @@ Project Dive-in:
 - ~~[Monday 9/20/21] Connected to Testnet, synching Lodestar Beacon Node with terminal (awaiting sync to complete). Logging errors to open GitHub issue reports through Chainsafe when possible.~~
 - ~~[Sunday 9/19/21] Installed Yarn and Lodestar on Git terminal, moving onto connecting Mainnet.~~
 - ~~[Sunday 9/19/21] Installing Yarn for Lodestar in order to start building out a light client implementation (or prototype if feasable)~~
+
+## sevkibaba
+
+Development updates from [`sevkibaba`](https://github.com/sevkibaba/)
+
+### sevkibaba: Update 1
+
+[See notes on Stage-1](./notes/sevki/Stage-1-Notes.md)
