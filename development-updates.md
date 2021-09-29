@@ -5,11 +5,15 @@
 > Add yours to the TOC if it isn't there already
 
 - [Contributing](#contributing)
-- [Piper](#piper)
-    - [Update #1](#piper-update-1)
+
+- [Dan](#dan)
+    - [Update #1](#dan-update-1)
 
 - [JeremyAkatsa](#jeremyakatsa)
     - [Update #1](#jeremyakatsa-update-1)
+
+- [Piper](#piper)
+    - [Update #1](#piper-update-1)
 
 - [sevki yontem](#sevkibaba)
     - [Update #1](#sevkibaba-update-1)
@@ -24,14 +28,11 @@ your development updates in this document.
 - Add it to the [Table of Contents](#table-of-contents)
 - Keep the overall list of people sorted alphabetically.
 
+## Dan
+Development updates from [`buchhlz2`](https://github.com/buchhlz2/)
 
-## Piper
-
-Development updates from [`pipermerriam`](https://github.com/pipermerriam/)
-
-### Piper: Update 1
-
-This is simply a placeholder for now.
+### Dan: Update 1
+[Link to update #1](https://hackmd.io/@dtb/Sk0Q0GW4K)
 
 ## JeremyAkatsa
 
@@ -51,6 +52,14 @@ Project Dive-in:
 - ~~[Monday 9/20/21] Connected to Testnet, synching Lodestar Beacon Node with terminal (awaiting sync to complete). Logging errors to open GitHub issue reports through Chainsafe when possible.~~
 - ~~[Sunday 9/19/21] Installed Yarn and Lodestar on Git terminal, moving onto connecting Mainnet.~~
 - ~~[Sunday 9/19/21] Installing Yarn for Lodestar in order to start building out a light client implementation (or prototype if feasable)~~
+
+## Piper
+
+Development updates from [`pipermerriam`](https://github.com/pipermerriam/)
+
+### Piper: Update 1
+
+This is simply a placeholder for now.
 
 ## sevkibaba
 
