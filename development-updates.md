@@ -18,6 +18,9 @@
 - [sevki yontem](#sevkibaba)
     - [Update #1](#sevkibaba-update-1)
 
+- [hansmrtn](#hansmrtn)
+    - [Update #1](#hansmrtn-update-1)
+
 
 ## Contributing
 
@@ -57,3 +60,11 @@ Development updates from [`sevkibaba`](https://github.com/sevkibaba/)
 ### sevkibaba: Update 1
 
 [See notes on Stage-1](./notes/sevki/Stage-1-Notes.md)
+
+## hansmrtn 
+
+Development updates from [`hansmrtn`](https://github.com/hansmrtn/)
+
+### hansmrtn: Update 1
+
+[Update #1](https://hackmd.io/@hansmrtn/Hyytr4ZVF)

@@ -1,5 +1,8 @@
 # hansmrtn Notes
 
+## Updates: 
+- Development: [Update 1](https://hackmd.io/@hansmrtn/Hyytr4ZVF)
+
 ## Areas of Interest
 
 - go-ethereum project
@@ -13,6 +16,14 @@
 My goal for participating in the cohort-one program is to become a knowledgeable and regular contributor to the core Ethereum Protocol. 
 
 ## Project Ideas
+
+### Python/Markdown Yellow Paper
+
+#### Goal 
+To render the core concepts of the [Yellow Paper](https://github.com/ethereum/yellowpaper) in a markdown document with executable Python chunks. 
+
+#### Resources: 
+- [The Idea](https://ethereum-magicians.org/t/replace-the-yellow-paper-with-executable-markdown-specification/6430/16)
 
 ### Go Ethereum 
 
