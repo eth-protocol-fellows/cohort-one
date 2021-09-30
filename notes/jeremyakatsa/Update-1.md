@@ -1,8 +1,8 @@
 ## Project Dive-in (Update 1):
-### ---Altair -- Minimal Light Client Prototype Build (ref: https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype)###
+### ---Altair -- Minimal Light Client Prototype Build ([Link to Prototype](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
-- [Wednesday 9/29/21]: Validation issue closed (due to potential irrelevancy to testing out Altair Client prototype (might jump back on this later (dependent on relevancy))). Forked teku repo (https://github.com/jeyakatsa/teku), laying out prototype blueprint.
+- [Wednesday 9/29/21]: Prototype Skeleton Built. Validation issue closed (due to potential irrelevancy to testing out Altair Client prototype (might jump back on this later (dependent on relevancy))). Forked teku repo (https://github.com/jeyakatsa/teku).
 - [Monday 9/27/21]: Opened repo to begin building out Minimal Light Client Prototype (https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype). Keystore validation issue *almost* resolved (https://github.com/ChainSafe/lodestar/issues/3249). Still working on resolving Local Testnet connection issue locally on terminal.
 - [Sunday 9/26/21]: Opened validation connection issue, currently working on resolving Local Testnet connection issue locally on terminal.
 - [Saturday 9/25/21]: Ran multiple installations, validation error still occurring, moving onto opening issue with Chainsafe before moving onto resolving local testnet connection issue.
