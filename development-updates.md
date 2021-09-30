@@ -5,11 +5,18 @@
 > Add yours to the TOC if it isn't there already
 
 - [Contributing](#contributing)
-- [Piper](#piper)
-    - [Update #1](#piper-update-1)
+
+- [Dan](#dan)
+    - [Update #1](#dan-update-1)
 
 - [JeremyAkatsa](#jeremyakatsa)
     - [Update #1](#jeremyakatsa-update-1)
+
+- [Piper](#piper)
+    - [Update #1](#piper-update-1)
+
+- [sevki yontem](#sevkibaba)
+    - [Update #1](#sevkibaba-update-1)
 
 
 ## Contributing
@@ -21,6 +28,19 @@ your development updates in this document.
 - Add it to the [Table of Contents](#table-of-contents)
 - Keep the overall list of people sorted alphabetically.
 
+## Dan
+Development updates from [`buchhlz2`](https://github.com/buchhlz2/)
+
+### Dan: Update 1
+[Link to update #1](https://hackmd.io/@dtb/Sk0Q0GW4K)
+
+## JeremyAkatsa
+
+Development updates from [`jeyakatsa`](https://github.com/jeyakatsa)
+
+### JeremyAkatsa: Update 1
+
+[Link to update #1](./notes/jeremyakatsa/Update-1.md)
 
 ## Piper
 
@@ -30,17 +50,10 @@ Development updates from [`pipermerriam`](https://github.com/pipermerriam/)
 
 This is simply a placeholder for now.
 
-## JeremyAkatsa
+## sevkibaba
 
-Development updates from [`jeyakatsa`](https://github.com/jeyakatsa)
+Development updates from [`sevkibaba`](https://github.com/sevkibaba/)
 
-### JeremyAkatsa: Update 1
+### sevkibaba: Update 1
 
-Project Dive-in:
-- Altair -- Minimal Light Client: https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md
-
-Currently:
-- Connected to mainnet, synching Lodestar Beacon Node with terminal (awaiting sync to complete). Logging errors to open GitHub issue reports through Chainsafe when possible.
-- ~~Installed Yarn and Lodestar on Git terminal, moving onto connecting Mainnet.~~
-- ~~Installing Yarn for Lodestar in order to start building out a light client implementation (or prototype if feasable)~~
-- Researching: Beacon Chain Specs(https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/beacon-chain.md) BeaconChain(https://ethos.dev/beacon-chain/) & Sharding Proposal (https://hackmd.io/@vbuterin/sharding_proposal).
+[See notes on Stage-1](./notes/sevki/Stage-1-Notes.md)

@@ -5,7 +5,7 @@ This repository is for organizing the second cohort of the "Core Developer Appre
 - [Previous cohort: `cohort-zero`](https://github.com/ethereum-cdap/cohort-zero)
 - [Program Details](./program-details.md)
 
-Come [join us in the R&D Discord](https://github.com/ethereum-cdap/cohort-one/issues/1)
+Come [join us in the R&D Discord](https://github.com/ethereum-cdap/cohort-one/issues/1)  and check this [Guidebook](https://github.com/tvanepps/EthereumDiscordGuidebook) for exploring Discord Server.
 
 ## Contributing
 

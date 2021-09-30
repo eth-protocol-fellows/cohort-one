@@ -1,14 +1,17 @@
 # Ethereum Capacity Improvents:
 
-## Project Focus: Altair -- Minimal Light Client
+## Project Focus: Altair -- Minimal Light Client Prototype Build
 
 ### Phase 0 (current):
 - Lodestar: https://lodestar.chainsafe.io/
+- Lodestar (Basic Contributions): https://chainsafe.github.io/lodestar/contributing/
+- Lodestar (Command-Lines): https://chainsafe.github.io/lodestar/reference/cli/
 - Beacon Api Direct Link: https://ethereum.github.io/beacon-APIs/
 - Beacon Apis: https://github.com/ethereum/beacon-APIs
 - Bootstrapping Beacon Light Chain Client: https://notes.ethereum.org/@ralexstokes/S1RSe1JlF
 - Altair: https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md
 - Validator Life Cycle: https://notes.ethereum.org/7CFxjwMgQSWOHIxLgJP2Bw#A-note-on-Ethereum-20-phase-0-validator-lifecycle
+- Becoming a Beacon Chain Validator (Consensys): https://consensys.net/blog/blockchain-explained/my-journey-to-becoming-a-validator-on-ethereum-2-0/
 #### Basics:
 ---Beacon Chain: A registry of validator addresses, the state of each validator, attestations, and links to shards. Validators are activated by the Beacon Chain and can transition to states.
 
