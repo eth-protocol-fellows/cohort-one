@@ -1,4 +1,7 @@
 
+# Ethereum Client Architecture
+
+<img src="./assets/ClientArchitectureSchematic_Consensys.png" width=500>
 
 # Networking
 

@@ -62,3 +62,4 @@ I'm working on this part-time and would be very open to collaborating with other
 - Alex Stokes light client EDCON presentation https://www.youtube.com/watch?v=ysW-Bq05pJQ
 - Ethereum client architecture video https://www.youtube.com/watch?v=VH0obZ2A0Yg&list=PLNLh1EyDzSGP-lkNCBhCptoJ-NMu_BYfS&index=2
 - Ethereum networking video https://www.youtube.com/watch?v=hnw59hmk6rk&list=PLNLh1EyDzSGP-lkNCBhCptoJ-NMu_BYfS&index=3
+- Kademlia to Discv5 in Eth2 https://vac.dev/kademlia-to-discv5
