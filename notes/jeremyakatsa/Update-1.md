@@ -2,6 +2,7 @@
 ### ---Altair -- Minimal Light Client Prototype Build ([Link to Prototype](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
+- [Sunday 10/3/21]: Added node interface to main prototype package, validation packages to source test (source folder) and other base classes.
 - [Saturday 10/2/21]: Added specs and rebuilt skeleton based off Teku specifics and dependencies, converting specs into Java (from Python).
 - [Friday 10/1/21]: Light client specs integrated into skeleton(as Python), Java conversion next.
 - [Thursday 9/30/21]: Refactoring prototype skeleton based off Teku specifics.
