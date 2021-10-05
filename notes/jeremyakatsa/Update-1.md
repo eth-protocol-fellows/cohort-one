@@ -2,6 +2,7 @@
 ### ---Altair -- Minimal Light Client Prototype Build ([Link to Prototype](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
+- [Monday 10/4/21]: Downloading/installing Gradle and Eclipse to try and resolve issues. *Spring Tool Suite not condusive to building Beacon Chain Client in Java (due to Teku specifics). 
 - [Sunday 10/3/21]: Added node interface to main prototype package, validation packages to source test (source folder) and other base classes. Opened issue ticket with Consensys in regards to Teku reference (https://github.com/ConsenSys/teku/issues/4437).
 - [Saturday 10/2/21]: Added specs and rebuilt skeleton based off Teku specifics and dependencies, converting specs into Java (from Python).
 - [Friday 10/1/21]: Light client specs integrated into skeleton(as Python), Java conversion next.
