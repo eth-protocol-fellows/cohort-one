@@ -12,6 +12,9 @@
 - [JeremyAkatsa](#jeremyakatsa)
     - [Update #1](#jeremyakatsa-update-1)
 
+- [Keenan](#keenan)
+    - [Update #1](#keenan-update-1)
+
 - [Piper](#piper)
     - [Update #1](#piper-update-1)
 
@@ -44,6 +47,14 @@ Development updates from [`jeyakatsa`](https://github.com/jeyakatsa)
 ### JeremyAkatsa: Update 1
 
 [Link to update #1](./notes/jeremyakatsa/Update-1.md)
+
+## Keenan
+
+Development updates from [`nasdf`](https://github.com/nasdf)
+
+### Keenan: Update 1
+
+[Link to update #1](https://hackmd.io/@nasdf/SJ-TiK3VF)
 
 ## Piper
 
