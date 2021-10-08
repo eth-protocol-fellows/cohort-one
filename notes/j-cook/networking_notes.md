@@ -69,6 +69,15 @@ Along with the hello messages, the wire protocol can also send a "disconnect" me
 
 This DevP2P layer sits beneath the Ethereum protocol itself, providing the communication infrastructure that Ethereum runs on top of.
 
+### Discv4 and Discv5
+
+Ethereum’s current node discovery protocol is discv4. This is a stripped-down implementation of Kademlia as described above. There is no need for the FINDVALUE or STORE parts of Kadamlia's DHT so it is not used in discv4. In discv4 a new local node bootstraps its way into the network via a bootnode and then requests connections to its closest peers. Distance is not a geographic measure here, it is an encryption distance measured by the number of matchign bits in the encrypted node IDs. This process repeats with successively distant peers until sufficient connections are made. nodes using the discv4 protocol maintain ENR records. This protocol remains the default for Ethereum nodes (at least on geth) but it has some issues that motivate the development of an updated protocol. These issues include missing verification of subprotocols, making it impossible for discv4 discovery to identify peers on other networks such as Ethereum Classic or peers supporting specific subprotocols, at least until a session is already underway. Discv4 also makes use of timestamps which can lead to problems if nodes have inconsistent clocks. Peers are supposed to mutually contribute to discovery ('mutual endpoint verification') but this is not well served in discv4, meaning two peers could disagree on each other's verification status. 
+
+discv5 is an updated discovery protocol. To address the subprotocol issue, topic tables were introduced that can becompared between nodes to find mutually supported subprotocols and can be used to find nodes with specific functionality (e.g. supporting light clients). This is achieved by each node adding its own details to the topic table held by a peer by sending an "ad". This does not scale well to large networks. Endpoint verification has not yet been resolved in discv5. The distance calculation was amended to use the log2 of the XOR'd node IDs. This distance is passed to the FINDNODE function instead of passing an identifier, which returns all the nodes within that distance. Essentially, the process is reversed relative to discv4. However, discv5 has not yet slved
+
+A lot of Geth seems to be dynamically coded so that clients can use v4 OR v5. Beacon clients will use discv5 to discover and connect to peers.
+
+
 ### Sub-protocols
 
 #### Eth (wire)
@@ -88,27 +97,18 @@ Clients that support these sub-protocols exose them via the json-rpc
 enode: a url scheme for ethereum nodes: format username@host (nodeID is a hexadecimal # and 
 host is IP address). enode can be used to identify bootnodes
 
-
 ### PORTS and Protocols:
 
 8545 TCP: used by http based json-rpc api
 8546 TCP: used by Webscket based json rpc api
-30303 TCPand UDP: used by P2P network
+30303 TCP and UDP: used by P2P network
 30304: UDP used by P2P discovery overlay
 
+### ENR: Ethereum Node Records
 
-### enr
-server maintains big lost of peers and those peers are dynamically refreshed
+Ethereum node records were introduced as a way to circumvent some of the restrictions imposed by discv4, in particular the inflexibility in node connection information shared between peers during discovery. The Ethereum Node Record (ENR) is an object that contains three basic elements: a signature (hash of record contents made according to some agreed identity scheme), a sequence number that tracks changes to the record, and an arbitrary list of key:value pairs. This list can contain any pairs defined by the user but is expected to contain connection information such as the node's public key, identity scheme used to generate the ENR signature, IP address, ports for UDP, TCP etc. This ENR format is designed to support future upgrades to the discovery network because arbitrary key:value pairs can be added or removed from the record
 
-
-### Discv4 and Discv5
-
-Ethereum’s current node discovery protocol is discv4. This is a stripped-down implementation of Kademlia as described above. There is no need for the FINDVALUE or STORE parts of Kadamlia's DHT so it is not used in discv4. In discv4 a new local node bootstraps its way into the network via a bootnode and then requests connections to its closest peers. Distance is not a geographic measure here, it is an encryption distance measured by the number of matchign bits in the encrypted node IDs. This process repeats with successively distant peers until sufficient connections are made. nodes using the discv4 protocol maintain ENR records. This protocol remains the default for Ethereum nodes (at least on geth) but it has some issues that motivate the development of an updated protocol. These issues include missing verification of subprotocols, making it impossible for discv4 discovery to identify peers on other networks such as Ethereum Classic or peers supporting specific subprotocols, at least until a session is already underway. Discv4 also makes use of timestamps which can lead to problems if nodes have inconsistent clocks. Peers are supposed to mutually contribute to discovery ('mutual endpoint verification') but this is not well served in discv4, meaning two peers could disagree on each other's verification status. 
-
-discv5 is an updated discovery protocol. To address the subprotocol issue, topic tables were introduced that can becompared between nodes to find mutually supported subprotocols and ca be used to find nodes with specific functionality (e.g. supporting light clients). This is achieved by each node adding its own details to the topic table held by a peer by sending an "ad". This does not scale well to large networks. Endpoint verification has not yet been resolved in discv5. The distance calculation was amended to use the log2 of the XOR'd node IDs. This distance is passed to the FINDNODE function instead of passing an identifier, which returns all the nodes within that distance. Essentially, the process is reversed relative to discv4. However, discv5 has not yet slved
-
-A lot of Geth seems to be dynamically coded so that clients can use v4 OR v5. ETH2 will use v5.
-
+ the nodes public key (keys, if an execution and consensus client exist on a single network - more later), 
 
 ## How is p2p implemented in geth?
 
@@ -141,26 +141,42 @@ So while the current network design serves it’s original purpose well, it is s
 
 ## Ethereum networking beyond the merge
 
-The first critical thing to understand is that post-merge, node operators will run two ethereum clients in parallel: an execution client and a consensus client. The execution client is an existing "eth1" client like geth that will interface with the existing mainnet, although with the consensus and block gossip functionality removed. The EVM, validator deposit contract and block production will all still live on the execution layer and be controlled by the execution client. The exe-client will still manage the transaction gossip and transaction mempool, including bundling transactions into blocks. Those blocks will then be called up to the consensus layer for validation by function calls originating at the consensus client. State and history sync will still be managed by the execution client. This requires the current Ethereum mainnet's P2P layer to persist beyond the merge to support the execution layer.
+The first critical thing to understand is that post-merge, node operators will run two ethereum clients in parallel: an execution client and a consensus client. The execution client is an existing mainnet client (e.g. geth, nethermind...) that will interface with the existing Ethereum network, although with the consensus and block gossip functionality removed. The EVM, validator deposit contract and block production will all still live on the execution layer and be controlled by the execution client. State and history sync and the transaction mempool will also remain in the domain of the execution client. Responsibility for bundling transactions into blocks also stays with the execution client. However, post-merge the relevant function calls for creating and validating blocks will originate at the consensus client. This requires the current Ethereum mainnet's p2p layer to persist beyond the merge to support the execution layer, a local connection between the execution and consensus clients, and a separate consensus p2p layer.
 
-From the perspective of the consensus client, the current Ethereum mainnet will just be one of the 64 blockchain shards, except for the fact that it contains the EVM. To execute something on the EVM, the consensus layer has to pass an execution payload to the execution layer, which is executed by the EVM and the results returned to the consensus layer.
+The execution p2p layer will remain the same as it is now, although there is some enthusiasm to deprecate devP2P in favour of libP2P eventually. Certainly, this will come much later than the merge if at all. The execution clients still need to participate in transaction gossip so that they can manage the transaction mempool. This requires encrypted communication between authenticated peers since transactions are valuable. Participation in block gossip is no longer needed, as this is delegated up to the consensus client. There is also no need to engage in PoW validation, as providing valid PoW hashes is no longer relevant for consensus. These execution layer responsibilities necessitate the persistence of both the discovery protocol (including bonding) and the DevP2P layer including RLPx sessions and transactions via the eth sub-protocol. Encoding will remain predominantly RLP.
 
-Execution packets will be sent from the cons-client to the exe-client to be executed on the evm. The cons-client will also query the deposit contract on the exe-client to check for new validators that have deposited 32 ETH into the contract. This two-way exchange of information between the clients necessitates a local communication channel between them - this will be a local RPC connection. Each layer then needs its own networking layer to communicate with its peersand listen for network gossip. For the cons-layer the p2p layer is required to validate blocks etc. 
+The execution layer now also needs to receive instructions from, and return data to, the consensus client. Best practice is for a validator to run both the execution and consensus clients locally, as outsourcing the execution layer to a third party opens a significant attack surface (e.g. a malicious execution client operator could generate invalid transactions to force a slashing event, or simply retain all the block rewards). This means that communication between the two clients can be achieved using a local RPC connection. Since both clients sit behind a single network identity, they share a ENR (Ethereum node record) which contains a sepaate key for each client (eth1 key and eth2 key).
 
-It is important for the Beacon chain controls the rhythm of block production, so these functions are methods in the exe-client called by the cons-client.
+The consensus client needs to participate in block gossip in order to receive blocks to validate and broadcast new blocks when it acts as block proposer. This requires a discovery layer that connects the consensus client to other trusted consensus clients on the network, and a TCP-based P2P layer for sending Beacon blocks, attestations etc in secure sessions. For the consensus layer, the p2p layer has been built using libP2P rather than devP2P. The discovery protocol uses discv5 over UDP. RLP encoding is replaced by SSZ (simple serialize) and snappy compression in the consensus layer. 
 
+To validate transactions, the consensus layer has to pass an execution payload to the execution layer. This payoad contains the transactions which is executed by the EVM and the results returned to the consensus layer. The control flow is as follows, with the relevant networking layer shown in brackets:
+
+When consensus client acts as validator:
+ - consensus client receives a block via the block gossip protocol (consensus p2p)
+ - consensus client prevalidates the block, i.e. ensures it arrived from a valid sender with correct metadata
+ - The transactions in the block are sent to the execution layer as an execution payload (local RPC connection)
+ - The execution layer executes the transactions and validates the state in the block header (i.e. checks hashes match)
+ - execution layer passes validation data back to consensus layer, block now considered to be validated (local RPC connection)
+ - consensus layer now adds block to head of chain and attests to it, broadcasting the attestation over the network (consensus p2p)
+
+When consensus client is block producer
+- consensus client receives notice that it is the next block producer (consensus p2p)
+- consensus layer calls `create block` method in execution client (local RPC)
+- execution layer accesses the transaction mempool which has been populated by the transaction gossip protocol (execution p2p)
+- execution client bundles transactions into a block, executes the transactions and generates a block hash
+- consensus client grabs the transactions and block hash from the consensus client and adds them to the beacon block (local RPC)
+- consensus client broadcasts the block over the block gossip protocol (consensus p2p)
+- other clients receive the proposed block via the block gossip protocol and validate as described above (consensus p2p)
+
+Once the block has been attested by sufficient validators it is added to the head of the chain, justified and eventually finalised. The difference between justification and finalisation is that although they have passed initial validation and are intended to become part of the canonical chain history, it is still possible to roll back justified blocks. Finalised blocks are an immutable part of the historical chain shared by the entire network.
+
+<br></br>
 <img src="./assets/cons_client_net_layer.png" width=500>
+<br></br>
 <img src="./assets/exe_client_net_layer.png" width=500>
-
+ 
 Network layer schematic for post-merge consensus and execution clients, from [ethresear.ch](https://ethresear.ch/t/eth1-eth2-client-relationship/7248)
-
-The networking layer for the exe-client will stay roughly the same after the merge, although there is some enthusiasm for deprecating DevP2P in favour of libP2P in the future.
-
-Of course, as well as communicating with the exe-client via RPC, the cons-client also needs to connect to, and communicate with, other consensus clients on the network. This will be built on top of TCP using libP2P and discvery will still be discv5 DHT. Since both clients sit behind a single network identity, they share a ENR (Ethereum node record) which contains a sepaate key for each client (eth1 key and eth2 key).
-
-
-new block arrives over consensus layer gossip - the consensus client prevalidates (checks proposer sig etc) then sends the execution payload from the received beacon block down to the execution layer, where the transactions are executed. This validates the transactions. Meanwhile the consensus layer validates the Beacon block, awaiting the validation result from the execution client. If both clients sucessfully fulfill their respective validation functions, the consensus client considers the block validated and can attest to it. This block is then added to the head of the chain and broadcast over the P2P network to be justified and later finalised by the active validators.
-
+<br></br>
 
 
 ## Why does the consensus client prefer SSZ to RLP?
@@ -199,8 +215,20 @@ how is validator using state to validate?
 eth2 - discv5, libp2p pubsub, req/res from libp2p
 portal network uses parts not all - used v5
 q: json-rpc requires exe-client?
+does a beacon portal network necessarily need to also be/interface with an execution layer portal network to enable transactions?
 
 
+- Q1: Does the consensus client expose its own json-rpc? I guess not, I don't see why it would need to.
+- Q2: Will all 64 shards be executable? Will they all eventually support evm?
+- Q3: Would a Beacon light client need a p2p connection to the execution layer in order to submit transactions?
+    - this ties in to Q1 as a light client needs access to the json-rpc endpoint, but this is exposed by the execution client not the consensus client
+    - Q3.5: does this imply the beacon light client p2p should overlay/extend the existing portal network rather than standing alone?
+- Q4: Why does the portal network favour uTP as its base-level protocol instead of e.g. UDP?
+- Q5: 
+
+
+
+## Portal network
 muTP transport layer (microTorrent) as implemented in bit-torrent
 p2p layer will need to pass a bespoke routing table
 how is a transaction handled by the consensus client? how does this abstract to the light client
