@@ -1,17 +1,7 @@
 
-Altair - beacon contains comittee sig
-
-q: rlp vs ssz for merkle proof
-light client path not availble in prysm (available in lodestar though)
-portal network designed for eth1 primarily
-what network requirement for retrieving relevant data - pubkeys, next committee
-header for validating state, also do something w state - balances, validators, staking balances etc
-how is validator using state to validate?
-eth2 - discv5, libp2p pubsub, req/res from libp2p
-portal network uses parts not all - used v5
-
-
 # Networking
+
+## Ethereum networking pre-merge
 
 This doc contains notes on Ethereum's networking layer. The layer can be divided into two stacks: the first is the discovery stack which sits on top of UDP and allows a new node to find peers to connect to and the second is the DevP2P stack that sits on top of TCP-IP and allows nodes to exchange information. These layers act in parallel, with the discovery layer feeding new network participants into the network, and the DevP2P layer enabling their interactions. The DevP2P layer is a broad bit of terminology because DevP2P is really a whole stack of protocols that are implemented by Ethereum to establish and maintain the peer-to-peer network. There seems to be quite a lot of ambiguity in the material available on blogs, videos, slides etc online, so where in doubt I have taken my definitions from my close-read of the Geth source code.
 
@@ -61,7 +51,7 @@ So at the end of this stage, the new node has a continuous PING-PONG exchange oc
 
 ## Interactions between nodes
 
-After new nodes enter the network, their interactions are governed by protocols in the DevP2P stack. These all sit on top of TCP and include the RLPx transport protocol, wire protocol and several sub-protocols. RLPx is the transport layer responsible for initiating, authenticating and maintaining sessions between nodes. RLPx itself defines how nodes talk to each other, defining a valid message encryption format that clients can expect to send and receive. RLPx encodes messages using RLP (Recursive Length Prefix) which is a very space-efficient method of encoding data into a minimal structure for sending between nodes.
+After new nodes enter the network, their interactions are governed by protocols in the DevP2P stack. These all sit on top of TCP and include the RLPx transport protocol, wire protocol and several sub-protocols. RLPx is the protocol governing initiating, authenticating and maintaining sessions between nodes. RLPx encodes messages using RLP (Recursive Length Prefix) which is a very space-efficient method of encoding data into a minimal structure for sending between nodes.
 
 A RLPx session between two nodes begins with an initial cryptographic handshake. This involves the node sending an auth message which is then verified by the peer. On successful verification, the peer generates an auth-acknowledgement message to return to the initiator node. This is a key-exchange process that enables the nodes to communicate privately and securely. A successful cryptographic handshake then triggers both nodes to to send a "hello" message to one another. This message is part of the wire protocol. The wire protocol is initiated by a successful exchange of hello messages.
 
@@ -75,7 +65,9 @@ The hello messages contain:
   
 This is the information required for a successful interaction because it defines what capabilities are shared between both nodes and configures the communication. There is a process of sub-protocol negotiation where the lists of sub-protocols supported by each node are compared and those that are common to both nodes can be used in the session.
 
-Along with the hello messages, the wire protocol can also send a "disconnect" message that gives warning to a peer that the connection will be closed. The wire protocol also includes PING and PONG messages that are sent periodically to keep a session open. The RLPx and wire protocol exchanges therefore establish the foundations of communication between the nodes, providing the scaffolding for useful information to be exchanged according to a specific sub-protocol.
+Along with the hello messages, the wire protocol can also send a "disconnect" message that gives warning to a peer that the connection will be closed. The wire protocol also includes PING and PONG messages that are sent periodically to keep a session open. The RLPx and wire protocol exchanges therefore establish the foundations of communication between the nodes, providing the scaffolding for useful information to be exchanged according to a specific sub-protocol. 
+
+This DevP2P layer sits beneath the Ethereum protocol itself, providing the communication infrastructure that Ethereum runs on top of.
 
 ### Sub-protocols
 
@@ -113,7 +105,7 @@ server maintains big lost of peers and those peers are dynamically refreshed
 
 Ethereum’s current node discovery protocol is discv4. This is a stripped-down implementation of Kademlia as described above. There is no need for the FINDVALUE or STORE parts of Kadamlia's DHT so it is not used in discv4. In discv4 a new local node bootstraps its way into the network via a bootnode and then requests connections to its closest peers. Distance is not a geographic measure here, it is an encryption distance measured by the number of matchign bits in the encrypted node IDs. This process repeats with successively distant peers until sufficient connections are made. nodes using the discv4 protocol maintain ENR records. This protocol remains the default for Ethereum nodes (at least on geth) but it has some issues that motivate the development of an updated protocol. These issues include missing verification of subprotocols, making it impossible for discv4 discovery to identify peers on other networks such as Ethereum Classic or peers supporting specific subprotocols, at least until a session is already underway. Discv4 also makes use of timestamps which can lead to problems if nodes have inconsistent clocks. Peers are supposed to mutually contribute to discovery ('mutual endpoint verification') but this is not well served in discv4, meaning two peers could disagree on each other's verification status. 
 
-discv5 is an updated discovery protocol. To address the subprotocol issue, topic tables were introduced that can becompared between nodes to find mutually supported subprotocols and ca be used to find nodes with specific functionality (e.g. supporting light clients). This is achieved by each node adding its own details to the topic table held by a peer by sending an "ad". This des not scale well to large networks. Endpoint verification has not yet been resolved in discv5. The distance calculation was amended to use the log2 of the XOR'd node IDs. This distance is passed to the FINDNODE function instead of passing an identifier, which returns all the nodes within that distance. Essentially, the process is reversed relative to discv4. However, discv5 has not yet slved
+discv5 is an updated discovery protocol. To address the subprotocol issue, topic tables were introduced that can becompared between nodes to find mutually supported subprotocols and ca be used to find nodes with specific functionality (e.g. supporting light clients). This is achieved by each node adding its own details to the topic table held by a peer by sending an "ad". This does not scale well to large networks. Endpoint verification has not yet been resolved in discv5. The distance calculation was amended to use the log2 of the XOR'd node IDs. This distance is passed to the FINDNODE function instead of passing an identifier, which returns all the nodes within that distance. Essentially, the process is reversed relative to discv4. However, discv5 has not yet slved
 
 A lot of Geth seems to be dynamically coded so that clients can use v4 OR v5. ETH2 will use v5.
 
@@ -137,11 +129,6 @@ The final task of the `Start()` function is to spawn a parallel go routine that 
 On a successful ping-pong exchange, functions from v4wire or v5wire start an rlpx session over tcp with the newly discovered peers. The function `setupDialScheduler()` that was called in `server.Start()` identifies when the peer table is populated and then starts dialing out to those peers over TCP. Once connected, they swap crypto handshakes to make their exchange secret, then initiate an encrypted RLPx session.
 
 
-## libP2P
-
-DevP2P and libP2P are both collections of protocols that can be used to define the networking layer of peer-to-peer systems. libP2P is a general-purpose, modular set of components that can be sed to build a wide range of p2p networks. libP2P did not exist when Ethereum's networking layer was first built - instead Ethereum was built on a bespoke set of packages designed only to make Ethereum work, rather than to make a generic p2p framework. These Ethereum-specific packages are collectively known as DevP2P and they have formed the backbone of Ethereum's peer-to-peer communication system since Ethereum's inception.
-
-Beacon clients are being built using libp2p in preference to devp2p, for several reasons...
 
 ## light clients
 
@@ -152,17 +139,42 @@ Since this architecture puts all the load on full nodes, and full nodes are alre
 So while the current network design serves it’s original purpose well, it is severely lacking from a light-client perspective.
 
 
-## Differences in beacon clients
+## Ethereum networking beyond the merge
 
-The first critical thing to understand is that post-merge, node operators will run two ethereum clients in parallel. The execution layer will be an existing "eth1" client like geth, running all its current functions except consensus. This includes discovering and connecting to other execution layer clients and 
-syncing the blockchain. This execution layer client will have to expose itself to a Beacon client (e.g. prysm, lodestar)....
+The first critical thing to understand is that post-merge, node operators will run two ethereum clients in parallel: an execution client and a consensus client. The execution client is an existing "eth1" client like geth that will interface with the existing mainnet, although with the consensus and block gossip functionality removed. The EVM, validator deposit contract and block production will all still live on the execution layer and be controlled by the execution client. The exe-client will still manage the transaction gossip and transaction mempool, including bundling transactions into blocks. Those blocks will then be called up to the consensus layer for validation by function calls originating at the consensus client. State and history sync will still be managed by the execution client. This requires the current Ethereum mainnet's P2P layer to persist beyond the merge to support the execution layer.
+
+From the perspective of the consensus client, the current Ethereum mainnet will just be one of the 64 blockchain shards, except for the fact that it contains the EVM. To execute something on the EVM, the consensus layer has to pass an execution payload to the execution layer, which is executed by the EVM and the results returned to the consensus layer.
+
+Execution packets will be sent from the cons-client to the exe-client to be executed on the evm. The cons-client will also query the deposit contract on the exe-client to check for new validators that have deposited 32 ETH into the contract. This two-way exchange of information between the clients necessitates a local communication channel between them - this will be a local RPC connection. Each layer then needs its own networking layer to communicate with its peersand listen for network gossip. For the cons-layer the p2p layer is required to validate blocks etc. 
+
+It is important for the Beacon chain controls the rhythm of block production, so these functions are methods in the exe-client called by the cons-client.
+
+<img src="./assets/cons_client_net_layer.png" width=500>
+<img src="./assets/exe_client_net_layer.png" width=500>
+
+Network layer schematic for post-merge consensus and execution clients, from [ethresear.ch](https://ethresear.ch/t/eth1-eth2-client-relationship/7248)
+
+The networking layer for the exe-client will stay roughly the same after the merge, although there is some enthusiasm for deprecating DevP2P in favour of libP2P in the future.
+
+Of course, as well as communicating with the exe-client via RPC, the cons-client also needs to connect to, and communicate with, other consensus clients on the network. This will be built on top of TCP using libP2P and discvery will still be discv5 DHT. Since both clients sit behind a single network identity, they share a ENR (Ethereum node record) which contains a sepaate key for each client (eth1 key and eth2 key).
 
 
+new block arrives over consensus layer gossip - the consensus client prevalidates (checks proposer sig etc) then sends the execution payload from the received beacon block down to the execution layer, where the transactions are executed. This validates the transactions. Meanwhile the consensus layer validates the Beacon block, awaiting the validation result from the execution client. If both clients sucessfully fulfill their respective validation functions, the consensus client considers the block validated and can attest to it. This block is then added to the head of the chain and broadcast over the P2P network to be justified and later finalised by the active validators.
+
+
+
+## Why does the consensus client prefer SSZ to RLP?
+
+SSZ stands for simple serialization. It uses fixed offsets that make it easy to decode individual parts of an encoded message without having to decode the entire structure, which is very useful for the consensus client as it can efficiently grab specific pieces of information from encoded messages. It is also designed specifically to integrate with Merkle protocols, with related efficiency gains for Merkleisation. Since all hashes in the cons-client are Merkle roots, this adds up to a significant improvement. SSZ also guarantees unique representations of values.
 
 ## Altair
 
 Altair adds new messages, topics and data to the Req-Resp, Gossip and Discovery domain. Some Phase 0 features will be deprecated, but not removed immediately.
 
+validators sign blocks, light client trusts validators to be honest
+light client needs head of chain and state information
+headers contain state root
+also requires functionality to add transactions to execution layer tx mempool (or eventually another shard) or via an L2/dapp
 
 ## Links:
 networking video https://www.youtube.com/watch?v=hnw59hmk6rk&list=PLNLh1EyDzSGP-lkNCBhCptoJ-NMu_BYfS&index=3
@@ -170,3 +182,25 @@ kademlia to discv5 https://vac.dev/kademlia-to-discv5
 eclipse attack paper (contains nice explanation of Geth p2p in 2018) https://eprint.iacr.org/2018/236.pdf
 kademlia paper https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf
 intro to ethereum p2p video https://p2p.paris/en/talks/intro-ethereum-networking/
+rlpx specs https://github.com/ethereum/devp2p/blob/master/rlpx.md
+scope of the merge http://ethresear.ch/t/the-scope-of-eth1-eth2-merger/7362
+eth1/eth2 relationship http://ethresear.ch/t/eth1-eth2-client-relationship/7248
+merge and eth2 client details video https://www.youtube.com/watch?v=zNIrIninMgg
+
+
+Altair - beacon contains comittee sig
+
+
+light client path not availble in prysm (available in lodestar though)
+portal network designed for eth1 primarily
+what network requirement for retrieving relevant data - pubkeys, next committee
+header for validating state, also do something w state - balances, validators, staking balances etc
+how is validator using state to validate?
+eth2 - discv5, libp2p pubsub, req/res from libp2p
+portal network uses parts not all - used v5
+q: json-rpc requires exe-client?
+
+
+muTP transport layer (microTorrent) as implemented in bit-torrent
+p2p layer will need to pass a bespoke routing table
+how is a transaction handled by the consensus client? how does this abstract to the light client
