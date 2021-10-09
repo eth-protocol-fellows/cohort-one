@@ -2,6 +2,7 @@
 ### ---Altair -- Minimal Light Client Prototype Build ([Link to Prototype](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
+- [Saturday 10/9/21]: Prototype skeleton build placed on hold, resolving new dependency importing issue before building can commence.
 - [Thursday 10/7/21]: Refactoring prototype skeleton based off Gradle specifics (off Teku).
 - [Wednesday 10/6/21]: Teku dependency import issue resolved (mostly) *issue closed*. Skeleton for prototype to be reorganized and built with Eclipse/Gradle diametrics (build reference added to README).
 - [Tuesday 10/5/21]: Downloaded/Installed Gradle and Eclipse, moving onto testing Teku dependency imports.
