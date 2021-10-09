@@ -2,6 +2,14 @@
 ### ---Altair -- Minimal Light Client Prototype Build ([Link to Prototype](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
+- [Thursday 10/7/21]: Refactoring prototype skeleton based off Gradle specifics (off Teku).
+- [Wednesday 10/6/21]: Teku dependency import issue resolved (mostly) *issue closed*. Skeleton for prototype to be reorganized and built with Eclipse/Gradle diametrics (build reference added to README).
+- [Tuesday 10/5/21]: Downloaded/Installed Gradle and Eclipse, moving onto testing Teku dependency imports.
+- [Monday 10/4/21]: Downloading/installing Gradle and Eclipse to try and resolve issues. *Spring Tool Suite not condusive to building Beacon Chain Client in Java (due to Teku specifics).*
+- [Sunday 10/3/21]: Added node interface to main prototype package, validation packages to source test (source folder) and other base classes. Opened issue ticket with Consensys in regards to Teku reference (https://github.com/ConsenSys/teku/issues/4437).
+- [Saturday 10/2/21]: Added specs and rebuilt skeleton based off Teku specifics and dependencies, converting specs into Java (from Python).
+- [Friday 10/1/21]: Light client specs integrated into skeleton(as Python), Java conversion next.
+- [Thursday 9/30/21]: Refactoring prototype skeleton based off Teku specifics.
 - [Wednesday 9/29/21]: Prototype Skeleton Built. Validation issue closed (due to potential irrelevancy to testing out Altair Client prototype (might jump back on this later (dependent on relevancy))). Forked teku repo (https://github.com/jeyakatsa/teku).
 - [Monday 9/27/21]: Opened repo to begin building out Minimal Light Client Prototype (https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype). Keystore validation issue *almost* resolved (https://github.com/ChainSafe/lodestar/issues/3249). Still working on resolving Local Testnet connection issue locally on terminal.
 - [Sunday 9/26/21]: Opened validation connection issue, currently working on resolving Local Testnet connection issue locally on terminal.

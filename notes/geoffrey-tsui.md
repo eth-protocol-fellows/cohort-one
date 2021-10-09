@@ -20,7 +20,20 @@ Flashbots has identifed the following six areas as goals to solve the MEV crisis
 5. Complete Privacy - No one, including miners/validators, aggregators, will be able to access incoming transaction data
 6. Finality - MEV, once extracted, can not be reversed after inclusion into a block (ie protection vs time bandit attacks)
 
-## Links
+Open research areas in Flashbots:
+
+1. Search Optimization
+
+2. Account Abstraction
+What is account abstraction and why is it good? At the moment ETH accounts are fundamentally divided into Externally Owned Accounts (EOA) controlled by end-users, and contract accounts. Transactions can only be originated from EOAs. Account abstraction aims to put EOA and contract accounts on equal footing so that transactions can come from contract accounts directly, and contract account accounts can also pay gas.
+
+One example for why this is useful is the rise of smart contract wallets. Currently, smart contract wallets need some kind of EOA to interact with them, whether thats from the end-user or from the smart contract wallet provider via some third party relayer. However, this introduces a degree of centralization from having to trust the relayer as well as inefficiency by having to pay the relayer to incentivize their services. With account abstraction, users can send zero gas metatransactions directly to the smart contract wallet and have the smart wallet pay for their gas.
+
+A second example is with applications like tornado cash. Presumably, after one has deposited ETH into tornado cash, the user would like to use a freshly made account with zero transactions to withdraw the ETH for privacy purposes. However, currently the account would need to be funded with some small ETH first (typically from a centralized exchange) to pay the gas to call for the withdrawal. This could be a potential break in privacy as the transaction to the centralized exchange could leak private information. The current solution is for the withdrawer to use a relay network for the wathdrawal which again has the same issues as in the first example.
+
+
+
+## Interesting Links
 
 https://github.com/flashbots/mev-research/blob/main/resources.md
 
@@ -29,3 +42,5 @@ https://ethresear.ch/t/targeting-zero-mev-a-content-layer-solution/9224
 https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6
 
 https://vitalk.ca/general/2021/01/05/rollup.html
+
+https://medium.com/mycrypto/the-ethereum-virtual-machine-how-does-it-work-9abac2b7c9e
