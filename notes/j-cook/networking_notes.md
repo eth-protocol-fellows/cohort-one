@@ -100,9 +100,9 @@ host is IP address). enode can be used to identify bootnodes
 ### PORTS and Protocols:
 
 8545 TCP: used by http based json-rpc api
-8546 TCP: used by Webscket based json rpc api
-30303 TCP and UDP: used by P2P network
-30304: UDP used by P2P discovery overlay
+8546 TCP: used by Websocket based json rpc api
+30303 TCP and UDP: used by P2P network (inbound traffic from other nodes)
+30304: UDP used by P2P discovery overlay (outbound traffic from node)
 
 ### ENR: Ethereum Node Records
 
@@ -132,7 +132,7 @@ On a successful ping-pong exchange, functions from v4wire or v5wire start an rlp
 
 ## light clients
 
-The exisiting DevP2P LES network is designed using a client/server architecture – with light-clients as the clients, and full nodes as the servers (today, the term light-client is usually used to refer to a client of the existing DevP2P LES network).
+Light clients are implementatons of the client software that use minimal resources. The exisiting DevP2P LES network is designed using a client/server architecture – with light-clients as the clients, and full nodes as the servers (today, the term light-client is usually used to refer to a client of the existing DevP2P LES network).
 
 Since this architecture puts all the load on full nodes, and full nodes are already heavy to run, most node runners don’t activate this option.
 
@@ -179,6 +179,28 @@ Network layer schematic for post-merge consensus and execution clients, from [et
 <br></br>
 
 
+## What are the REQ/RESP, topics and discovery domains?
+
+The networking layer for the consensus layer can be split into three domains. Discovery has been covered in some detail already in this document but to recap it will use the discv5 protocol as per many of the existing Ethereum mainnet nodes. This runs over UDP and supports ENR lookup. Importantly, this includes topic advertisements used for protcol negotiations. A major difference between the existing nodes' implementation of discv5 and that of the consensus layer is that the latter implements an adaptor to integrate discv5 into a libP2P stack, deprecating devP2P. The reasons for this are nuanced, but essentially a networking stack built with libP2P eases the transition from discovering new peers to establishing connections and streams with them.
+
+The ENR for consensus nodes includes the node's public key, IP address, UDP and TCP ports and two consensus-specific fields: the attestation subnet bitfield and eth2 key. The former makes it easier for nodes to find peers participating in specific attestation gossip sub-networks. The eth2 key contans information about which Ethereum fork version the node is using, ensuring peers are connecting on the right Ethereum. These ENR records are therefore required in discovery.
+
+After discovery, all communications happen on the TCP transport layer which is a libP2P stack. Clients can dial and listen on IPv4 and/or IPv6 as defined in their ENR. RLPx is deprecated in favour of libP2P's noise secure channel handshake with secp256k1 identities. This defines the transport layer on top of which the gossip and req/resp protocols operate.
+
+The gossip domain includes all information that has to spread rapidly throughout the network. This includes beacon blocks, proofs, attestations, exits and slashings. This is transmitted using libP2P gossipsub v1 and relies on various metadata being stored locally at each node, including maximum size of gossip payloads to receive an transmit. 
+
+Beacon blocks and aggregation/proofs are considered primary global topics to be propagated to every node on the network. 
+
+
+- content of beacon blocks
+- more about the gossip mechanism
+- content of beacon agreegate and proof
+
+Attestation subnets are used to gossip individual attestations between clients included in a beacon committee. These committee nodes then aggregate the attestations and gossip them to the wider network to be included in future blocks.
+
+
+
+
 ## Why does the consensus client prefer SSZ to RLP?
 
 SSZ stands for simple serialization. It uses fixed offsets that make it easy to decode individual parts of an encoded message without having to decode the entire structure, which is very useful for the consensus client as it can efficiently grab specific pieces of information from encoded messages. It is also designed specifically to integrate with Merkle protocols, with related efficiency gains for Merkleisation. Since all hashes in the cons-client are Merkle roots, this adds up to a significant improvement. SSZ also guarantees unique representations of values.
@@ -204,6 +226,9 @@ eth1/eth2 relationship http://ethresear.ch/t/eth1-eth2-client-relationship/7248
 merge and eth2 client details video https://www.youtube.com/watch?v=zNIrIninMgg
 
 
+
+
+## scratch notes 
 Altair - beacon contains comittee sig
 
 
@@ -218,17 +243,15 @@ q: json-rpc requires exe-client?
 does a beacon portal network necessarily need to also be/interface with an execution layer portal network to enable transactions?
 
 
-- Q1: Does the consensus client expose its own json-rpc? I guess not, I don't see why it would need to.
+- Q1: Does the consensus client expose its own json-rpc? I guess not, unless interactive access to Beacon state is needed?
 - Q2: Will all 64 shards be executable? Will they all eventually support evm?
 - Q3: Would a Beacon light client need a p2p connection to the execution layer in order to submit transactions?
     - this ties in to Q1 as a light client needs access to the json-rpc endpoint, but this is exposed by the execution client not the consensus client
     - Q3.5: does this imply the beacon light client p2p should overlay/extend the existing portal network rather than standing alone?
 - Q4: Why does the portal network favour uTP as its base-level protocol instead of e.g. UDP?
-- Q5: 
 
 
 
 ## Portal network
 muTP transport layer (microTorrent) as implemented in bit-torrent
 p2p layer will need to pass a bespoke routing table
-how is a transaction handled by the consensus client? how does this abstract to the light client
