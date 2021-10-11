@@ -2,16 +2,17 @@
 
 ## Project Focus: Altair -- Minimal Light Client Prototype Build
 
+#### Need to Do (before build):
+- Study entire Teku framework (within JVM) before building Light Client Prototype...
+
 ### Phase 0 (current):
-- Lodestar: https://lodestar.chainsafe.io/
-- Lodestar (Basic Contributions): https://chainsafe.github.io/lodestar/contributing/
-- Lodestar (Command-Lines): https://chainsafe.github.io/lodestar/reference/cli/
+- Altair: https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md
+- Validator Life Cycle: https://notes.ethereum.org/7CFxjwMgQSWOHIxLgJP2Bw#A-note-on-Ethereum-20-phase-0-validator-lifecycle
 - Beacon Api Direct Link: https://ethereum.github.io/beacon-APIs/
 - Beacon Apis: https://github.com/ethereum/beacon-APIs
 - Bootstrapping Beacon Light Chain Client: https://notes.ethereum.org/@ralexstokes/S1RSe1JlF
-- Altair: https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md
-- Validator Life Cycle: https://notes.ethereum.org/7CFxjwMgQSWOHIxLgJP2Bw#A-note-on-Ethereum-20-phase-0-validator-lifecycle
 - Becoming a Beacon Chain Validator (Consensys): https://consensys.net/blog/blockchain-explained/my-journey-to-becoming-a-validator-on-ethereum-2-0/
+
 #### Basics:
 ---Beacon Chain: A registry of validator addresses, the state of each validator, attestations, and links to shards. Validators are activated by the Beacon Chain and can transition to states.
 
@@ -32,8 +33,9 @@
 ### Phase 1:
 ---Crosslinks: how the Beacon Chain follows the head of a shard chain. As there are 64 shards, each beacon block can contain up to 64 crosslinks.  A beacon block might only have one crosslink, if at that slot, there were no proposed blocks for 63 of the shards.
 
-### Nodes & Clients:
+### Full Nodes vs Light Nodes:
 https://ethereum.org/en/developers/docs/nodes-and-clients/nodes-as-a-service/
+
 Full node:
 
 ---Stores full blockchain data.
@@ -58,6 +60,9 @@ Light node:
 - Transition (Eth1 - Eth2): https://ethresear.ch/t/the-eth1-eth2-transition/6265
 - Eth2 Notes: https://notes.ethereum.org/m9IX3OkkTveXCCOSzGkUiw
 - Sharding Proposal: https://hackmd.io/@vbuterin/sharding_proposal
+- Lodestar: https://lodestar.chainsafe.io/
+- Lodestar (Basic Contributions): https://chainsafe.github.io/lodestar/contributing/
+- Lodestar (Command-Lines): https://chainsafe.github.io/lodestar/reference/cli/
 
 _________________________________________________________________________________________________________________________________________________________________________________
 
