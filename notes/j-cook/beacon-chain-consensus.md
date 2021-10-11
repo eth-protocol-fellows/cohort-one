@@ -1,0 +1,41 @@
+# Beacon Chain Consensus
+
+This document explains how the Beacon chain is used to come to consensus on the Ethereum blockchain.
+
+## PoW and PoS
+
+Currently, Ethereum uses a PoW consensus mechanism whereby miners compete in a competition to provide a valid inputs to recreate a specific hash. Specifically, miners are required to find values whose hashes begin with a given number of leading zeroes (more zeros = more difficulty) which can only be achieved by brute force (random guesses). Being fastest to compute that data gives the miner the right to add a block to the blockchain, with energy expenditure acting as a scarce economic resource provably expended. A crypto reward is given to the miner for successfully mining a block. Miners are more successful if they can make more guesses per unit time, so PoW promotes large energy expenditure (powering increasingly power-hungry hardware) and rapid hardware turnover. This is a primary reason for turning PoW consensus off in Ethereum. However, switching to an alternative consensus mechanism without compromising security, scalability or decentralisation is a major technical challenge. 
+
+PoS is the consensus mechanism that will replace PoW. Instead of miners expending energy, network participants called "validators" stake crypto (specifically, 32 ETH). If a validator acts honestly, their ETH accumulates through rewards. If a validator acts dishonestly or fails to meet their responsibilities, their staked ETH will be decremented. The magnitude of the decrement scales with the severity of the infraction, with major violations resulting in "slashing" of substantial proportions of their stake. 
+
+In reality, PoW and PoS are not really consensus mechanisms, they are modes of securing the network by making it is infeasibly expensive for an attacker to modify the history of the blockchain. consensus itself comes from the fork-choice algorithm that picks a definitive head of the chain. Under PoW the definitive chain is the one that has had the most work done on it, often thought of as the "longest" chain but this is not always true. PoW is secure because the expenditure required by a malicious miner or cabal of miners to change a historical block and then continue to outpace honest miners to establish their amended chain as the one with the most work is infeasibly large. They would need to control >51% of the entire hashpower of the network, which requires a huge amount of hardware, energy expenditure and luck. Under PoS, validators "attest" to what they believe to be the head of the chain, the next block to add and a signature. The canonical chain is the one supported by at least 2/3 of the validators. If a validator misses an opportunity to attest they receive a small penalty. However, if they contradict themselves by signing multiple blocks simultaneously then they are slashed. The magnitude of the slashing depends on the number of validators involved - if 30% of all validators submit dishonestly 100% of the validator's stake is destroyed. Since a majority of validators is required to finalize a block into the canonical chain, a coordinated attack would put 100% of all coordinating attackers stakes at risk. At present there are ~180,000 validators and ETH is worth $3300. This means that a realistic chain takeover attempt would cost an estimated $5,702,400,000 (~$6B). There are then additional security mechanisms in place such as random shuffling of validators that make it extremely unlikley that a sufficient majority could coordinate an attack, and the simple fact that a successful attack of that size would devalue ETH to the extent that the totality of the stolen asset value would almost certainly be greatly exceeded by the value injected to mount the attack in the first place. Below this security layer is a consensus mechanism that selects the chain that has accumulated the most attestations in its history. 
+
+Since validators are chosen at random, the computational race to provide a PoW proof is no longer required. Miners are no longer required to burn energy to secure the chain. Therefore, switching from PoW to PoS comes with a > 99.9% reduction in energy expenditure.
+
+### Aside: PoW for bootstrapping value
+
+The transition to PoS is a monumental leap forwards for Ethereum, but it is important to acknowledge the role that PoW played in establishing Ether as a digital asset and Ethereum as a secure network. PoW was an important period in Ethereum's history because it bootstrapped the value of ETH. PoS requires that the staked asset has real-world value and liquidity, otherwise arbitrarily large amounts of ETH could be staked to take control of the blockchain with negligible risk of loss to the attacker (no problem to lose arbitrarily large amounts of valueless tokens to slashing). PoW provided a link between some tangible real-world value in the form of energy burned in mining early Ethereum blocks. This bootstrapped ETH becoming a valuable asset with liquidity in a secondary market - now the token is sufficiently valuable to protect the network.
+
+## The Beacon Chain
+
+The Beacon Chain is a blockchain running in parallel to the main Ethereum chain what provides PoS consensus and finality to blocks of transactions. In the near-future, the PoW consensus in the main Ethereum chain will be switched off - this event is known as the "merge". At that time, the Beacon chain will command the Ethereum blockchain, setting the pace and rhythm of block production, managing fork choice and consensus and securing the network by governing the validators and their staked funds. 
+
+First, it is critical to understand that post-merge there will be two pieces of software required to act as a validator. First, a validator must run an execution-client, which is a current Ethereum client with the PoW mechanism turned off. The execution layer retains responsibility for listening for transactions, pooling them and bundling them into blocks, and supporting the EVM. A validator is also required to send 32ETH to the deposit contract, which is a smart contract that lives on the execution layer. In addition to this execution client, a validator must run a consensus client. This is the software responsible for listening for new blocks, validating them, attesting to them and eventually finalizing them, and establishing the head of the canonical chain. The two clients must be connected by a local RPC connection so that the consensus cleint can make function calls to the execution client, and the execution client can execute transactions when instructed to by the consensus client. The consensus client has its own P2P network that connects it with other consensus clients, providing access to block gossip.
+
+It is also important to know that the Beacon chain has been designed in anticipation of sharding. Sharding is the subdivision of the main Ethereum blockchain into (initially 64) sub-chains which can develop in parallel. The Beacon chain is responsible for coordinating all these shards. It was originally intended that sharding would precede the merge; however, the rapid development of scaling via rollups pushed the merge forwards in time such that sharding is now scheduled after the merge. The Beacon chain will therefore merge with some redundant functionality, awaiting sharding.
+
+Post-merge, the Beacon chain sets the tempo of block proposal and validation on Ethereum. This arises from the separation of time into Ethereum-specific units.  The smallest unit of time is the "slot". Each slot is an opportunity for a block to be added to the Beacon chain and each of the shards. Slots do not necessarily have to be filled, they can be skipped. These slots arise once very 12 seconds - assuming the system is running optimally, every 12 seconds each shard chain and the Beacon chain itself will grow by one block. This means that time needs to be synchronized across the validators on the network. One epoch is equal to 32 slots, or 6.4 minutes, and 2028 epochs (9.1 days) makes up one Ethereum week ("eek"). 
+
+
+
+## Beacon Blocks
+
+## Beacon State
+
+## Crosslinks
+
+## Clients
+
+## Altair
+
+## Relationship to execution clients
