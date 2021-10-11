@@ -2,6 +2,7 @@
 
 ## Updates: 
 - Development: [Update 1](https://hackmd.io/@hansmrtn/Hyytr4ZVF)
+- Project: [Comparing Tracing API outputs across clients](https://github.com/hansmrtn/tracing-apis)
 
 ## Areas of Interest
 

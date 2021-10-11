@@ -10,3 +10,4 @@
 
 - [Stage-0 Notes](./Stage-0-Notes.md)
 - [Stage-1 Notes](./Stage-1-Notes.md)
+- [State Expiry Cost Research](./State-Expiry-Cost-Research.md)
