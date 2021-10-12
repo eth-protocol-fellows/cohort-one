@@ -11,9 +11,10 @@ The purpose to join this program is to learn both in-depth knowledge of Ethereru
 ## EVM
 
 ### Resource
-- [Diving into the EVM](https://medium.com/@hayeah/diving-into-the-ethereum-vm-6e8d5d2f3c30)
+
 - [CoinCulture's Guide to the EVM](https://github.com/CoinCulture/evm-tools/blob/master/analysis/guide.md)
-- [Diving Into The Ethereum Virtual Machine](https://medium.com/@hayeah/diving-into-the-ethereum-vm-6e8d5d2f3c30)
+- Diving Into The Ethereum EVM [1](https://blog.qtum.org/diving-into-the-ethereum-vm-6e8d5d2f3c30), [2](https://medium.com/@hayeah/diving-into-the-ethereum-vm-part-2-storage-layout-bc5349cb11b7), [3](https://medium.com/@hayeah/diving-into-the-ethereum-vm-the-hidden-costs-of-arrays-28e119f04a9b), [4](https://medium.com/@hayeah/how-to-decipher-a-smart-contract-method-call-8ee980311603), [5](https://medium.com/@hayeah/diving-into-the-ethereum-vm-part-5-the-smart-contract-creation-process-cb7b6133b855), [6](https://blog.qtum.org/how-solidity-events-are-implemented-diving-into-the-ethereum-vm-part-6-30e07b3037b9)
+- Understand EVM bytecode [1](https://blog.trustlook.com/understand-evm-bytecode-part-1/), [2](https://blog.trustlook.com/understand-evm-bytecode-part-2/), [3](https://blog.trustlook.com/understand-evm-bytecode-part-3/), [4](https://blog.trustlook.com/understand-evm-bytecode-part-4/)
 - Executable specification for the ETH 1.0
   - [The proposal](https://ethereum-magicians.org/t/replace-the-yellow-paper-with-executable-markdown-specification/6430/6)
   - [The repository](https://github.com/ethereum/execution-specs)
