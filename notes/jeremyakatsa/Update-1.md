@@ -2,6 +2,7 @@
 ### ---Altair -- Minimal Light Client Prototype Build ([Link to Prototype](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
+- [Tuesday 10/12/21]: Added more Source Folders, Packages, etc to Prototype.
 - [Monday 10/11/21]: Added Validator Package.
 - [Sunday 10/10/21]: Prototype skeleton build recommenced.
 - [Saturday 10/9/21]: Prototype skeleton build placed on hold, resolving new dependency importing issue before building can commence.
