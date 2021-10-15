@@ -2,6 +2,7 @@
 ### ---Altair -- Minimal Light Client Prototype Build ([Link to Prototype](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
+- [Thursday 10/14/21]: PrototypeBuildingBlocks notes completed (for now), Validator Package classes and interfaces now being built.
 - [Wednesday 10/13/21]: Added Classes and Interfaces to Validator package Clients and BeaconNode within PrototypeBuildingBlocks notes.
 - [Tuesday 10/12/21]: Added more Source Folders, Packages, etc to Prototype.
 - [Monday 10/11/21]: Added Validator Package.
