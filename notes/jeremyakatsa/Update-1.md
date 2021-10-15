@@ -2,6 +2,9 @@
 ### ---Altair -- Minimal Light Client Prototype Build ([Link to Prototype](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
+- [Thursday 10/14/21]: PrototypeBuildingBlocks notes completed (for now), Validator Package classes and interfaces now being built.
+- [Wednesday 10/13/21]: Added Classes and Interfaces to Validator package Clients and BeaconNode within PrototypeBuildingBlocks notes.
+- [Tuesday 10/12/21]: Added more Source Folders, Packages, etc to Prototype.
 - [Monday 10/11/21]: Added Validator Package.
 - [Sunday 10/10/21]: Prototype skeleton build recommenced.
 - [Saturday 10/9/21]: Prototype skeleton build placed on hold, resolving new dependency importing issue before building can commence.
@@ -22,6 +25,3 @@
 - [Tuesday 9/21/21] Had to restart synch in order to open synch issue with Chainsafe (taking much longer than anticipated (24+ hours) to synch), might need another 24hrs+ since synch restarted.
 - [Monday 9/20/21] Connected to Testnet, synching Lodestar Beacon Node with terminal (awaiting sync to complete). Logging errors to open GitHub issue reports through Chainsafe when possible.
 - [Sunday 9/19/21] Installed Yarn and Lodestar on Git terminal, moving onto connecting Mainnet.
-
-
-

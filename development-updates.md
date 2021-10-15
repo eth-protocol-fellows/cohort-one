@@ -14,6 +14,9 @@
 
 - [Keenan](#keenan)
     - [Update #1](#keenan-update-1)
+   
+- [Mihir](#mihir)
+    - [Update #1](#mihir-update-1)
 
 - [Piper](#piper)
     - [Update #1](#piper-update-1)
@@ -55,6 +58,14 @@ Development updates from [`nasdf`](https://github.com/nasdf)
 ### Keenan: Update 1
 
 [Link to update #1](https://hackmd.io/@nasdf/SJ-TiK3VF)
+
+## Mihir
+
+Development updates from [`uink45`](https://github.com/uink45)
+
+### Mihir: Update 1
+
+[Link to update #1](https://hackmd.io/@7s45VWTfS62Y7oet2jJOgQ/HyT36Tk4t)
 
 ## Piper
 
