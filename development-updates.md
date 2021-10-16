@@ -23,6 +23,7 @@
 
 - [sevki yontem](#sevkibaba)
     - [Update #1](#sevkibaba-update-1)
+    - [Update #2](#sevkibaba-update-2)
 
 - [hansmrtn](#hansmrtn)
     - [Update #1](#hansmrtn-update-1)
@@ -82,6 +83,10 @@ Development updates from [`sevkibaba`](https://github.com/sevkibaba/)
 ### sevkibaba: Update 1
 
 [See notes on Stage-1](./notes/sevki/Stage-1-Notes.md)
+
+### sevkibaba: Update 2
+
+[See notes on Stage-1-to-2](./notes/sevki/Stage-1-to-2-Notes.md)
 
 ## hansmrtn 
 
