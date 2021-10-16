@@ -1,24 +1,31 @@
-# Dan Buchholz -- CDAP Notes
+# Dan Buchholz
 
 ## Areas of Interest
+
 - Statelessness & light clients
 - Sharding / Beacon chain & PoS
 - MEV
 - EVM code safety
 - zk & privacy / rollups
 
-## Cohort Goal
+## Cohort Goals
+
 ### Phase 0
-To fully understand the innerworkings of EVM clients (e.g., geth), bolstering my Ethereum knowledge such that I can creatively contribute to the community through EIPs, open issues/bugs, etc.
+
+To better understand the innerworkings of Ethereum clients (e.g., geth), bolstering my Ethereum knowledge such that I can creatively contribute to the community through EIPs, open issues/bugs, etc.
 
 ## Project(s) of Interest
-- _To be determined -- still finalizing thoughts_
+
+- [Trace API analysis](https://github.com/ethereum-cdap/cohort-one/issues/43) -- provides hands-on approach toward better understanding clients (Phase 0 goal); this project has been committed to
+- [Beacon chain light clients](https://github.com/ethereum-cdap/cohort-one/issues/9) -- provides hands-on approach for contributing to specifications and a potential implementation (in only a prototype); this project has been committed to
+- [Low-level Rust tooling for EVM](https://github.com/ethereum-cdap/cohort-one/issues/30) -- provides additional insight into EVM innerworkings (Phase 0 goal, plus, selfishly learning Rust); this has not been committed to but a potential option
 
 ## Notes
-Usage of Notion for note-taking:
-- _(Links to be added; must further organize existing notes for external consumption)_
+
+Notes repository located in the [`danbuchholz`](./danbuchholz) directory.
 
 ### Research Resources / Links
+
 - EVM code safety & validation
   - [Safer control flow for EVM (EIP-3779)](https://eips.ethereum.org/EIPS/eip-3779)
   - [Everything about EVM Object Format ("EOF")](https://notes.ethereum.org/@ipsilon/evm-object-format-overview)
@@ -43,10 +50,18 @@ Usage of Notion for note-taking:
   - [PCS multiproofs (for weak statelessness w/Verkle tries)](https://dankradfeist.de/ethereum/2021/06/18/pcs-multiproofs.html)
   - [Stateless Ethereum roadmap](https://ethresear.ch/t/an-updated-roadmap-for-stateless-ethereum/9046)
   - [State expiry resource list (via Discord channel)](https://github.com/tvanepps/EthereumDiscordGuidebook/blob/main/README.md#state-expiry)
+  - [Stateless Ethereum & the Portal Network](https://www.youtube.com/watch?v=jAX_bgcESoc)
+  - [Light Client Design in Eth2](https://www.youtube.com/watch?v=ysW-Bq05pJQ)
 - Beacon chain, sharding, & the merge:
   - [Why sharding is great](https://vitalik.ca/general/2021/04/07/sharding.html)
   - [Beacon chain explainer](https://ethos.dev/beacon-chain/)
+  - [Vitalik's Annotated Ethereum 2.0 Spec](https://notes.ethereum.org/@vbuterin/SkeyEI3xv)
   - [Ethereum reorgs after the merge](https://www.paradigm.xyz/2021/07/ethereum-reorgs-after-the-merge/)
+  - [Ethereum 2.0 Knowledge Base](https://kb.beaconcha.in/glossary#beacon-chain)
+  - [Ethereum 2.0 Phase 0 -- The Beacon Chain](https://benjaminion.xyz/eth2-annotated-spec/phase0/beacon-chain/)
+  - [Combining GHOST & Casper](https://arxiv.org/pdf/2003.03052.pdf)
+  - [Defining Attestation Inclusion](https://www.attestant.io/posts/defining-attestation-effectiveness/)
+  - [Attestation Inclusion](https://www.youtube.com/watch?v=SPcgevcDqDE)
 - zk
   - [ZK-SNARKs under the hood](https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6)
   - [Exploring elliptic curve pairings](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627)
