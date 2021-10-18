@@ -1,12 +1,5 @@
 # Beacon Chain & Light Clients
 
-Created: October 8, 2021 6:16 PM
-Description: Overview of the Beacon Chain & related features
-Topics: Beacon Chain, Light Client
-Updated: October 17, 2021 4:19 PM
-
-# The Beacon Chain
-
 ## Overview
 
 ### Proof-of-Stake & the Beacon Chain
