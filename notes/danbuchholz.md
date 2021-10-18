@@ -16,7 +16,6 @@ To better understand the innerworkings of Ethereum clients (e.g., geth), bolster
 
 ## Project(s) of Interest
 
-- [Trace API analysis](https://github.com/ethereum-cdap/cohort-one/issues/43) -- provides hands-on approach toward better understanding clients (Phase 0 goal); this project has been committed to
 - [Beacon chain light clients](https://github.com/ethereum-cdap/cohort-one/issues/9) -- provides hands-on approach for contributing to specifications and a potential implementation (in only a prototype); this project has been committed to
 - [Low-level Rust tooling for EVM](https://github.com/ethereum-cdap/cohort-one/issues/30) -- provides additional insight into EVM innerworkings (Phase 0 goal, plus, selfishly learning Rust); this has not been committed to but a potential option
 
