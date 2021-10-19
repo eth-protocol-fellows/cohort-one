@@ -28,6 +28,8 @@
 - [hansmrtn](#hansmrtn)
     - [Update #1](#hansmrtn-update-1)
 
+- [Alex](#alex)
+    - [Update #1](#alex-update-1)
 
 ## Contributing
 
@@ -95,3 +97,11 @@ Development updates from [`hansmrtn`](https://github.com/hansmrtn/)
 ### hansmrtn: Update 1
 
 [Update #1](https://hackmd.io/@hansmrtn/Hyytr4ZVF)
+
+## Alex 
+
+Development updates from [`alexchenzl`](https://github.com/alexchenzl/)
+
+### Alex: Update 1
+
+[Update #1](https://hackmd.io/@alexchenzl/rkXcGporF)
