@@ -13,6 +13,10 @@ The purpose to join this program is to learn both in-depth knowledge of Ethereru
 ### Resource
 
 - [CoinCulture's Guide to the EVM](https://github.com/CoinCulture/evm-tools/blob/master/analysis/guide.md)
+- [Layout of State Variables in Storage](https://docs.soliditylang.org/en/latest/internals/layout_in_storage.html#)
+- [Layout in Memory](https://docs.soliditylang.org/en/latest/internals/layout_in_memory.html)
+- [Layout of Call Data](https://docs.soliditylang.org/en/latest/internals/layout_in_calldata.html)
+- [Understanding Ethereum Smart Contract Storage](https://programtheblockchain.com/posts/2018/03/09/understanding-ethereum-smart-contract-storage/)
 - Diving Into The Ethereum EVM [1](https://blog.qtum.org/diving-into-the-ethereum-vm-6e8d5d2f3c30), [2](https://medium.com/@hayeah/diving-into-the-ethereum-vm-part-2-storage-layout-bc5349cb11b7), [3](https://medium.com/@hayeah/diving-into-the-ethereum-vm-the-hidden-costs-of-arrays-28e119f04a9b), [4](https://medium.com/@hayeah/how-to-decipher-a-smart-contract-method-call-8ee980311603), [5](https://medium.com/@hayeah/diving-into-the-ethereum-vm-part-5-the-smart-contract-creation-process-cb7b6133b855), [6](https://blog.qtum.org/how-solidity-events-are-implemented-diving-into-the-ethereum-vm-part-6-30e07b3037b9)
 - Understand EVM bytecode [1](https://blog.trustlook.com/understand-evm-bytecode-part-1/), [2](https://blog.trustlook.com/understand-evm-bytecode-part-2/), [3](https://blog.trustlook.com/understand-evm-bytecode-part-3/), [4](https://blog.trustlook.com/understand-evm-bytecode-part-4/)
 - Executable specification for the ETH 1.0
@@ -22,9 +26,9 @@ The purpose to join this program is to learn both in-depth knowledge of Ethereru
 - [List of EVM features we would like to remove](https://hackmd.io/@vbuterin/evm_feature_removing)
 - [Static Analysis to predict access list](https://github.com/ethereum-cdap/cohort-one/issues/26)
 - Help to improve [the assembly / disassembly tool etk](https://github.com/quilt/etk)
-- Participate in the development of some EVM projects, such as [evm-rs](https://github.com/rust-blockchain/evm), [evmodin](https://github.com/vorot93/evmodin) and [nanoeth](https://github.com/norswap/nanoeth)
-  
+- Participate in the development of some EVM projects, such as [evm-rs](https://github.com/rust-blockchain/evm), [evmodin](https://github.com/vorot93/evmodin) and [nanoeth](https://github.com/norswap/nanoeth
 
+  
 ## Statelessness & State Expiry
 
 ### Resource
