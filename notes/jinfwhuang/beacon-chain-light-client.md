@@ -58,3 +58,7 @@
 - 2021/06/07 Vitalik gave a short description on the current design of how light clients would perform block header updates. It also described what is missing in the design of light client protocol. https://www.youtube.com/watch?v=iaAEGs1DMgQ&list=LL&index=62&t=2200s
 - 2021/09/01 Alex Stokes talked about eth2 light client. He gave an overview of light client background. https://www.youtube.com/watch?v=ysW-Bq05pJQ
 - 2021/07/21 A very high level background on light client, stateless clients, and lightweight clients by way of portal network https://www.youtube.com/watch?v=jAX_bgcESoc
+
+
+------------
+## 
