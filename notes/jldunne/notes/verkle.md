@@ -19,9 +19,3 @@ Verkle trees are a bandwidth-efficient alternative to Merkle Trees. They use vec
 
 ### 2018
 - [Verkle Trees, John Kuszmaul](https://math.mit.edu/research/highschool/primes/materials/2018/Kuszmaul.pdf)
-
-	
-
-
-
-

@@ -9,8 +9,3 @@ Once I had completed this, I started reading and taking notes. While I took note
 I ended up with potential projects in three areas - witnesses, account abstraction, and formal methods - details of these can be found [here](../../../notes/jldunne/project-ideas). It was hard to choose as I find all these research areas interested for different reasons, but I have decided on the second witness project - [Validate that EIP-3584 is sufficient for witnesses](../../../notes/jldunne/project-ideas/witness.md) - for the first project exploration. This was mainly because I feel that it touches more areas than the others and therefore might be smarter to do for this program. Honestly, I would be interested in working on all of them at some point.
 
 I am currently working on the detailed project description for this project and expect to have it completed by the next development update.
-
-
-
-
-
