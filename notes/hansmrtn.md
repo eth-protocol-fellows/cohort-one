@@ -3,6 +3,7 @@
 ## Updates: 
 - Development: [Update 1](https://hackmd.io/@hansmrtn/Hyytr4ZVF)
 - Project: [Comparing Tracing API outputs across clients](https://github.com/hansmrtn/tracing-apis)
+- Article: [Notes on Ethereum's' Underside](https://hackmd.io/@hansmrtn/BJ7cn8sHY)
 
 ## Areas of Interest
 
