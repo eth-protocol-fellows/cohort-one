@@ -2,7 +2,9 @@
 
 There is a need to calculate how the state expiry updates would affect the gas cost of contracts. We will have a high level analysis here about how the new approach affects the gas cost. Please comment on any aspect if you feel there is missing major parts in the analysis.
 
-We will first present the findings for your convenience, you can continue to read for the foundations.
+We will first present the findings for your convenience, you can continue to read for the foundations. 
+
+You can see one of the outdourced effort on this here: https://www.youtube.com/watch?v=HipI3vCd8_Q
 
 ## Findings
 

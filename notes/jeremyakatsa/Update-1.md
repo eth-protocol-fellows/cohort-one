@@ -1,7 +1,21 @@
 ## Project Dive-in (Update 1):
-### ---Altair -- Minimal Light Client Prototype Build ([Link to Prototype](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
+### Altair - Minimal Light Client Prototype Build ([Link to Prototype](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
+- [Wednesday 10/20/21]: Updated Wireframe design.
+- [Tuesday 10/19/21]: Opened issue about Light Client Demo error (https://github.com/ChainSafe/eth2-light-client-demo/issues/11). Working on wireframe.
+- [Monday 10/18/21]: Tested Lodestar Light Client Demo against Epoch, not working. Opening issue with Chainsafe. Updated Wireframe Guideline.
+- [Sunday 10/17/21]: Built out skeleton for Demo as well as Icons and Wireframe.
+- [Saturday 10/16/21]: Created separate Prototype Demo and Server projects.
+- [Friday 10/15/21]: First batch of Classes and Interfaces laid out, moving onto building the logic and checking the batch against the Teku reference.
+- [Thursday 10/14/21]: PrototypeBuildingBlocks notes completed (for now), Validator Package classes and interfaces now being built.
+- [Wednesday 10/13/21]: Added Classes and Interfaces to Validator package Clients and BeaconNode within PrototypeBuildingBlocks notes.
+- [Tuesday 10/12/21]: Added more Source Folders, Packages, etc to Prototype.
+- [Monday 10/11/21]: Added Validator Package.
+- [Sunday 10/10/21]: Prototype skeleton build recommenced.
+- [Saturday 10/9/21]: Prototype skeleton build placed on hold, resolving new dependency importing issue before building can commence.
+- [Thursday 10/7/21]: Refactoring prototype skeleton based off Gradle specifics (off Teku).
+- [Wednesday 10/6/21]: Teku dependency import issue resolved (mostly) *issue closed*. Skeleton for prototype to be reorganized and built with Eclipse/Gradle diametrics (build reference added to README).
 - [Tuesday 10/5/21]: Downloaded/Installed Gradle and Eclipse, moving onto testing Teku dependency imports.
 - [Monday 10/4/21]: Downloading/installing Gradle and Eclipse to try and resolve issues. *Spring Tool Suite not condusive to building Beacon Chain Client in Java (due to Teku specifics).*
 - [Sunday 10/3/21]: Added node interface to main prototype package, validation packages to source test (source folder) and other base classes. Opened issue ticket with Consensys in regards to Teku reference (https://github.com/ConsenSys/teku/issues/4437).
@@ -17,6 +31,3 @@
 - [Tuesday 9/21/21] Had to restart synch in order to open synch issue with Chainsafe (taking much longer than anticipated (24+ hours) to synch), might need another 24hrs+ since synch restarted.
 - [Monday 9/20/21] Connected to Testnet, synching Lodestar Beacon Node with terminal (awaiting sync to complete). Logging errors to open GitHub issue reports through Chainsafe when possible.
 - [Sunday 9/19/21] Installed Yarn and Lodestar on Git terminal, moving onto connecting Mainnet.
-
-
-

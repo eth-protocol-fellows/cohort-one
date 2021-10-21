@@ -12,15 +12,27 @@
 - [JeremyAkatsa](#jeremyakatsa)
     - [Update #1](#jeremyakatsa-update-1)
 
+- [Jolene](#jolene)
+    - [Update #1](#jolene-update-1)
+
+- [Keenan](#keenan)
+    - [Update #1](#keenan-update-1)
+   
+- [Mihir](#mihir)
+    - [Update #1](#mihir-update-1)
+
 - [Piper](#piper)
     - [Update #1](#piper-update-1)
 
 - [sevki yontem](#sevkibaba)
     - [Update #1](#sevkibaba-update-1)
+    - [Update #2](#sevkibaba-update-2)
 
 - [hansmrtn](#hansmrtn)
     - [Update #1](#hansmrtn-update-1)
 
+- [Alex](#alex)
+    - [Update #1](#alex-update-1)
 
 ## Contributing
 
@@ -52,6 +64,22 @@ Development updates from [`jldunne`](https://github.com/jldunne)
 ### Jolene: Update 1
 [Update #1](./notes/jldunne/development-updates/development-update-1.md)
 
+## Keenan
+
+Development updates from [`nasdf`](https://github.com/nasdf)
+
+### Keenan: Update 1
+
+[Link to update #1](https://hackmd.io/@nasdf/SJ-TiK3VF)
+
+## Mihir
+
+Development updates from [`uink45`](https://github.com/uink45)
+
+### Mihir: Update 1
+
+[Link to update #1](https://hackmd.io/@7s45VWTfS62Y7oet2jJOgQ/HyT36Tk4t)
+
 ## Piper
 
 Development updates from [`pipermerriam`](https://github.com/pipermerriam/)
@@ -68,6 +96,10 @@ Development updates from [`sevkibaba`](https://github.com/sevkibaba/)
 
 [See notes on Stage-1](./notes/sevki/Stage-1-Notes.md)
 
+### sevkibaba: Update 2
+
+[See notes on Stage-1-to-2](./notes/sevki/Stage-1-to-2-Notes.md)
+
 ## hansmrtn 
 
 Development updates from [`hansmrtn`](https://github.com/hansmrtn/)
@@ -75,3 +107,11 @@ Development updates from [`hansmrtn`](https://github.com/hansmrtn/)
 ### hansmrtn: Update 1
 
 [Update #1](https://hackmd.io/@hansmrtn/Hyytr4ZVF)
+
+## Alex 
+
+Development updates from [`alexchenzl`](https://github.com/alexchenzl/)
+
+### Alex: Update 1
+
+[Update #1](https://hackmd.io/@alexchenzl/rkXcGporF)
