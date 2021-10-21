@@ -45,6 +45,13 @@ Development updates from [`jeyakatsa`](https://github.com/jeyakatsa)
 
 [Link to update #1](./notes/jeremyakatsa/Update-1.md)
 
+## Jolene
+
+Development updates from [`jldunne`](https://github.com/jldunne)
+
+### Jolene: Update 1
+[Update #1](./notes/jldunne/development-updates/development-update-1.md)
+
 ## Piper
 
 Development updates from [`pipermerriam`](https://github.com/pipermerriam/)
