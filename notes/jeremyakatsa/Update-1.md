@@ -2,7 +2,8 @@
 ### Altair - Minimal Light Client Prototype Build ([Link to Prototype](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
-- [Wednesday 10/20/21]: Wireframe completed. Moving onto building prototype demo logic (& light client server infastructure).
+- [Thursday 10/21/21]: Wireframe completed. Moving onto building Light Client Demo logic (as well as the server infastructure into Teku).
+- [Wednesday 10/20/21]: Updated Wireframe design.
 - [Tuesday 10/19/21]: Opened issue about Light Client Demo error (https://github.com/ChainSafe/eth2-light-client-demo/issues/11). Working on wireframe.
 - [Monday 10/18/21]: Tested Lodestar Light Client Demo against Epoch, not working. Opening issue with Chainsafe. Updated Wireframe Guideline.
 - [Sunday 10/17/21]: Built out skeleton for Demo as well as Icons and Wireframe.
