@@ -1,31 +1,36 @@
 # Cesar Brazon Notes
 
+## Objectives
+
+- Describe the ethereum architecture
+- Understand what are the benefits of the improvements in Eth 2.0
+- Describe the EVM in depth
+- Detail how accounts works in Ethereum
+- Formalize account migration research
+- Implement a proof of concept of the formalization of AA research
+
+## Areas of Interest
+
+- EVM
+- Sharding
+- Layer two solutions (Roll ups, zkSnarks, Plasma Channels)
+- Account Abstraction
+
 ## Understanding ethereum architecture
 
 As in any complex software, the Ethereum Protocol is divided into different layers. In https://ethereum.org/en/developers/docs/ethereum-stack/ we can see an overview of the different pieces of the stack.
 
 ### EVM
 
-### Consensus
+### Nodes
+
+#### Consensus
 
 - Nodes that wants to be miners needs to be have the entire history of Ethereum stored. Meaning that, when a new block is mined, **all** the nodes are updated with the new information.
-This makes the Proof of Work consensus not the best option if we want Ethereum to be scalable. With Serenity (Eth 2.0) this problem will be solved with Casper
+  This makes the Proof of Work consensus not the best option if we want Ethereum to be scalable. With Serenity (Eth 2.0) this problem will be solved with Casper
 
 - **MEV** (Miner Extractable Value): When a miner gets the nonce to produce a new block into the chain, it has the ability to reorder the transactions.
-This allow the miner to arbitrarily reorder transactions, insert its own transactions before or after other transactions, and delay transactions outright until the next block, and it turns out that there are a lot of ways that one can earn money from this; hence, making it a consensus-layer risk
-
-## Objectives
-
-- Give an overview of the ethereum architecture.
-- Understand what are the benefits of the improvements in Eth2.0
-- Describe the EVM in depth
-
-## Areas of Interest
-
-- EVM
-- Sharding
-- Roll ups
-- zkSnarks
+  This allow the miner to arbitrarily reorder transactions, insert its own transactions before or after other transactions, and delay transactions outright until the next block, and it turns out that there are a lot of ways that one can earn money from this; hence, making it a consensus-layer risk
 
 ### Resources
 
@@ -41,7 +46,7 @@ This allow the miner to arbitrarily reorder transactions, insert its own transac
 - EIP 3074 - https://eips.ethereum.org/EIPS/eip-3074
 - Native meta transactions - https://ethresear.ch/t/native-meta-transaction-proposal-roundup/7525/5
 
-## General notes
+### General notes
 
 - RLP is the main encoding method used to serialize objects in Ethereum
 
@@ -73,7 +78,7 @@ The transaction would consists on two process:
 - EIP 2938 - https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2938.md
 - Spending gas from contract's balance - https://github.com/ethereum/EIPs/issues/61
 
-## Questions
+### Questions
 
 Q: What's the difference between precompiles and opcode?
 A: Precompiles are contracts which are embedded into clients with default addresses. Opcodes are instructions stored in the storage of the EVM, and it's what allow us to interact with the stack of the EVM.
