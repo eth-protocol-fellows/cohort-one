@@ -1,7 +1,10 @@
 ## Project Dive-in (Update 1):
-### Altair - Minimal Light Client Prototype Build ([Link to Prototype](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
+### Altair - Minimal Light Client Prototype Build 
+#### ([Link to Prototype Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
+#### ([Link to Prototype Server](https://github.com/jeyakatsa/teku/tree/master/light-client))
 
 #### Daily Updates:
+- [Friday 10/22/21]: Updated light client server reference. Built light client skeleton server into Teku client.
 - [Thursday 10/21/21]: Wireframe completed. Moving onto building Light Client Demo logic (as well as the server infastructure into Teku).
 - [Wednesday 10/20/21]: Updated Wireframe design.
 - [Tuesday 10/19/21]: Opened issue about Light Client Demo error (https://github.com/ChainSafe/eth2-light-client-demo/issues/11). Working on wireframe.
