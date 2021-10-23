@@ -6,9 +6,10 @@ This page is for organizing all Light-Client Research and Development.
 ## Research:
 
 - Why Light Clients? https://eth.wiki/concepts/light-client-protocol
-- Light Client Specifications: https://ethresear.ch/t/beacon-chain-light-client-classification/11061
-- Light Client Networking: https://ethresear.ch/t/beacon-chain-light-client-networking/11063
-- Light Client Specs: https://light-client-demo.lodestar.casa/
+- Classifications: https://ethresear.ch/t/beacon-chain-light-client-classification/11061
+- Networking: https://ethresear.ch/t/beacon-chain-light-client-networking/11063
+- Demo: https://light-client-demo.lodestar.casa/
+- Specs: https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md//
 
 ## Development
 
