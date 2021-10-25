@@ -66,7 +66,7 @@ In order to implement AA, we require merging EIP 2937 or preserve nonce on self 
   1. Authentication, is the process where the caller can indeed call this contract. This will happen in an isolated environment, throwing if the authentication process try to access memory, or write storage. This process should be a pure function, or only interact with precompiled contracts.
   2. Execution, here, the opcode `PAYGAS` will be triggered at first, and will calculate the gas price and gas limit for the transaction. Note that if the transaction fails, the contract will not be refunded.
 
-#### Resources on AA
+### Resources on AA
 
 - https://blog.ethereum.org/2015/07/05/on-abstraction/
 - EIP 101 - https://github.com/ethereum/EIPs/issues/28
@@ -74,6 +74,9 @@ In order to implement AA, we require merging EIP 2937 or preserve nonce on self 
 - EIP 2938 - https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2938.md
 - Spending gas from contract's balance - https://github.com/ethereum/EIPs/issues/61
 - Account Abstraction: What & Why - https://our.status.im/account-abstraction-eip-2938/
+- Account abstraction with EOF - https://notes.ethereum.org/@axic/account-abstraction-with-eof
+- Tradeoffs in AA - https://ethresear.ch/t/tradeoffs-in-account-abstraction-proposals/263/37
+- Account abstraction from main chain - https://github.com/ethereum/EIPs/issues/859
 
 ### Questions
 
@@ -85,6 +88,20 @@ Q: How does the versionin current works in the EVM?
 A: It's a way to add upgrades to the EVM with backwards compatibility
 
 Q: How can we interact with WASM through roll ups?
+
+A:
+
+Q: How does `JUMPDEST` opcode exactly works? Why is it needed?
+
+A:
+
+Q: How does the verification process would be created? At node level or smart contract level
+
+A:
+
+Q: How does the verification process really works? I would need to use ECDSA until any other signature algorithm is implemented?
+
+A:
 
 ### Resources
 
@@ -110,3 +127,8 @@ Q: How can we interact with WASM through roll ups?
 - Ethereum 2.0: Scaling part 2 (Sharding) - https://medium.com/chainsafe-systems/ethereum-2-0-a-complete-guide-scaling-ethereum-part-two-sharding-902370ac3be
 - Ethereum 2.0: Caster and the Beacon chain - https://medium.com/chainsafe-systems/ethereum-2-0-a-complete-guide-casper-and-the-beacon-chain-be95129fc6c1
 - Ethereum 2.0: Ewasm - https://medium.com/chainsafe-systems/ethereum-2-0-a-complete-guide-ewasm-394cac756baf
+- Account abstraction via alternative mempool - https://notes.ethereum.org/@vbuterin/alt_abstraction
+- Typed Transaction Envelop - https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2718.md
+- Contract code size limit - https://github.com/ethereum/EIPs/blob/master/EIPS/eip-170.md
+- EVM Object Format: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md & https://notes.ethereum.org/@axic/evm-object-format
+
