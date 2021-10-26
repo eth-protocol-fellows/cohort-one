@@ -1,0 +1,239 @@
+Topic,Date Published,Article Name,Author,Link
+Account Abstraction,05/07/2015,On Abstraction,Vitalik Buterin,https://blog.ethereum.org/2015/07/05/on-abstraction/
+Account Abstraction,25/01/2016,Spending gas from contract's balance - proposed optional opcode for a contract,Alex Beregszaszi,https://github.com/ethereum/EIPs/issues/61
+Account Abstraction,21/11/2016,EIP-101 (Serenity): Currency and Crypto Abstraction,Vitalik Buterin,https://github.com/ethereum/EIPs/issues/28
+Account Abstraction,01/11/2017,Tradeoffs in Account Abstraction Proposals,Vitalik Buterin,https://ethresear.ch/t/tradeoffs-in-account-abstraction-proposals/263
+Account Abstraction,01/12/2017,"Account abstraction, miner data and auto-updating witnesses",Justin Drake,https://ethresear.ch/t/account-abstraction-miner-data-and-auto-updating-witnesses/332
+Account Abstraction,01/03/2018,A new account type in abstraction,Vitalik Buterin,https://ethresear.ch/t/a-new-account-type-in-abstraction/1379
+Account Abstraction,01/04/2018,A recap of where we are at on account abstraction,Vitalik Buterin,https://ethresear.ch/t/a-recap-of-where-we-are-at-on-account-abstraction/1721
+Account Abstraction,01/04/2018,Application-layer account abstraction,Justin Drake,https://ethresear.ch/t/application-layer-account-abstraction/1734
+Account Abstraction,01/12/2018,Layer 2 Gas Payment Abstraction,Vitalik Buterin,https://ethresear.ch/t/layer-2-gas-payment-abstraction/4513
+Account Abstraction,01/02/2019,Maximally simple account abstraction without gas refunds,Vitalik Buterin,https://ethresear.ch/t/maximally-simple-account-abstraction-without-gas-refunds/5007
+Account Abstraction,29/05/2019,EIP-86,Alex Beregszaszi,https://github.com/ethereum/EIPs/blob/master/EIPS/eip-86.md
+Account Abstraction,01/02/2020,Implementing Account Abstraction as part of Eth1.x,Vitalik Buterin,https://ethereum-magicians.org/t/implementing-account-abstraction-as-part-of-eth1-x/4020
+Account Abstraction,27/03/2020,Meta Transactions x Account Abstraction,Matt,https://hackmd.io/@matt/S1Jg85588
+Account Abstraction,26/04/2020,"Account Abstraction, Stateless Mining Eth1.x/Eth2 Implementation, Rationale Document",Will Villanueva,https://hackmd.io/y7uhNbeuSziYn1bbSXt4ww?view
+Account Abstraction,24/05/2020,AA Open Questions,Ansgar Dietrichs,https://hackmd.io/@adietrichs/Byd91DvKI
+Account Abstraction,01/09/2020,"DoS Vectors in Account Abstraction (AA) or Validation Generalisation, a Case Study in Geth",Will Villanueva,https://ethresear.ch/t/dos-vectors-in-account-abstraction-aa-or-validation-generalization-a-case-study-in-geth/7937
+Account Abstraction,01/09/2020,EIP-2938: Account Abstraction,Ansgar Dietrichs,https://ethereum-magicians.org/t/eip-2938-account-abstraction/4630
+Account Abstraction,04/09/2020,EIP-2938: Account Abstraction,"Vitalik Buterin, Ansgar Dietrichs, Matt Garnett, Will Villanueva, Sam Wilson",https://eips.ethereum.org/EIPS/eip-2938
+Account Abstraction,26/10/2020,EIP-2938: Account Abstraction Explained,Sam Wilson,https://hackmd.io/@SamWilsn/ryhxoGp4D
+Account Abstraction,26/10/2020,Account Abstraction Beyond EIP-2938,Sam Wilson,https://hackmd.io/@SamWilsn/S1UQDOzBv#Read-write-Calls
+Account Abstraction,19/11/2020,Account Abstraction (EIP-2938): Why and What,Rajeev Gopalkrishna,https://our.status.im/account-abstraction-eip-2938/
+Account Abstraction,01/07/2021,Proposal for account abstraction via alternative mempool,Vitalik Buterin,https://notes.ethereum.org/@vbuterin/alt_abstraction
+Client Development,20/03/2020,Introducing the snap/1 state snapshot protocol,Peter Szilagyi,https://github.com/ethereum/devp2p/pull/145
+Client Development,01/07/2020,ETH1 Architecture Working Group,Alexey Akhunov,https://ethereum-magicians.org/t/eth1-architecture-working-group/4424
+Client Development,01/07/2020,"Simpler Ethereum Sync: Major/Minor Statesnapshots, blockchain files, receipt files",Alexey Akhunov,https://ethresear.ch/t/simpler-ethereum-sync-major-minor-state-snapshots-blockchain-files-receipt-files/7672
+Client Development,10/07/2020,Measuring Ethereum Critical Installations,Alexey Akhunov,https://ethereum-magicians.org/t/measuring-ethereum-critical-installations/4412
+Client Development,15/07/2020,ETH1 Architecture Working Group - First Call,Alexey Akhunov,https://ethereum-magicians.org/t/eth1-architecture-working-group-first-call-for-proposals/4446
+Client Development,20/08/2020,The State of Client Diversity in Ethereum,Pooja Ranjan,https://medium.com/ethereum-cat-herders/the-state-of-client-diversity-in-ethereum-2ca915a3d768
+Client Development,16/09/2020,Reorg Caps and Confirmation Delays: A Primer on Finality Arbitration,Ethereum Classic Labs,https://medium.com/etc-core/reorg-caps-and-confirmation-delays-a-primer-on-finality-arbitration-cc9284ea9727
+Client Development,29/09/2020,ETH Total Supply,Jordan Last,https://github.com/lastmjs/eth-total-supply
+"Client Development, State Expiry",14/04/2021,Ethereum Wire Protocol,Felix Lange,https://github.com/ethereum/devp2p/blob/master/caps/eth.md#block-propagation
+Cryptography,20/09/2012,Faster Batch Forgery Identification,"Daniel J. Bernstein, Jeroen Doumen, Tanja Lange, Jan-Jaap Oosterwijk",https://eprint.iacr.org/2012/549
+Cryptography,09/11/2017,"STARKs, Part I: Proofs with Polynomials",Vitalik Buterin,https://vitalik.ca/general/2017/11/09/starks_part_1.html
+Cryptography,13/04/2019,Fast constant-time gcd computation and modular inversion,Daniel J. Bernstein and Bo-Yin Yang,https://eprint.iacr.org/2019/266
+Cryptography,01/07/2020,A new efficient constant-time hashing to some Barreto-Naehrig curves (including BN256 and BN512),Dimitri Koshelev,https://ethresear.ch/t/a-new-efficient-constant-time-hashing-to-some-barreto-naehrig-curves-including-bn256-and-bn512/7640
+Cryptography,15/07/2020,"Bitcoin: ""safegcd"" field and scalar inversion",Peter Dettman,https://github.com/bitcoin-core/secp256k1/pull/767
+Cryptography,23/08/2020,Optimised Binary GCD for Modular Inversion,Thomas Pornin,https://eprint.iacr.org/2020/972
+Cryptography,31/01/2021,"Surveying Precomputation Methods in Cryptography, Request for Help",Paul D,https://ethresear.ch/t/surveying-precomputation-methods-in-cryptography-request-for-help/8606
+Cryptography,01/02/2021,EVM384 Update 5: First Gas Cost Estimates,"Alex Beregszaszi, Pawel Bylica, Casey Detrio, Paul Dworzanski, Jared Wasinger",https://notes.ethereum.org/@poemm/evm384-update5#Background-on-EVM-Gas-Costs
+Cryptography,01/02/2021,BLS In Ethereum,Micah Zoltu,https://notes.ethereum.org/@GW1ZUbNKR5iRjjKYx6_dJQ/Skxf3tNcg_
+Cryptography,14/02/2021,Constantine: Optimizations,Mamy Ratsimbazafy,https://github.com/mratsim/constantine/blob/master/docs/optimizations.md
+Cryptography,29/03/2021,ERC-3450: Standard for Applying Shamir's to BIP-39 Mnemonics,Daniel Streit,https://ethereum-magicians.org/t/erc-3450-standard-for-applying-shamirs-to-bip-39-mnemonics/5844
+Cryptography,01/05/2021,Benchmarking pairing-friendly elliptic curves libraries,Youssef El Housni,https://hackmd.io/@zkteam/eccbench
+Cryptography,01/08/2021,BLS12-381 For The Rest Of Us,Ben Edgington,https://hackmd.io/@benjaminion/bls12-381#Security-level
+EVM,01/03/2021,EVM Encapsulation Format,Alex Beregszaszi,https://notes.ethereum.org/@axic/evm-object-format
+EVM,15/03/2021,Thoughts on EVM Encapsulation Format,Chris Eth,https://notes.ethereum.org/BgA648JCQ6uVHPUVFrLzkQ?view
+EVM,15/03/2021,EVM Object Format (EOF) Discussion,Alex Beregszaszi,https://notes.ethereum.org/t-1tLFnLSKCtLZpb-Rw0IA?view
+EVM,16/03/2021,EIP-3540: EVM Object Format (EOF) v1,"Alex Beregszaszi, Pawel Bylica, Andrei Maiboroda",https://eips.ethereum.org/EIPS/eip-3540
+EVM,16/03/2021,EIP-3541: Reject new contract code starting with the 0xEF byte,"Alex Beregszaszi, Pawel Bylica, Andrei Maiboroda, Alexey Akhunov, Christian Reitwiessner, Martin Swende",https://eips.ethereum.org/EIPS/eip-3541
+EVM,23/03/2021,EIP-3670: EOF - Code Validation,"Alex Beregszaszi, Pawel Bylica, Andrei Maiboroda",https://eips.ethereum.org/EIPS/eip-3670
+EVM,01/06/2021,Memory Copying in Contracts Deployed on Ethereum,Jared Wasinger,https://notes.ethereum.org/@ipsilon/evm-mcopy-analysis
+EVM,23/06/2021,EIP-3690: EOF - JUMPDEST Table,"Alex Beregszaszi, Pawel Bylica, Andrei Maiboroda",https://eips.ethereum.org/EIPS/eip-3690
+EVM,01/07/2021,Account Abstraction with EVM Object Format,Alex Beregszaszi,https://notes.ethereum.org/@axic/account-abstraction-with-eof
+EVM,05/07/2021,Validation Focused Smart Contract Wallets,Matt,https://ethereum-magicians.org/t/validation-focused-smart-contract-wallets/6603
+EVM,16/07/2021,EIP-4200: Static relative jumps,"Alex Beregszaszi, Pawel Bylica, Andrei Maiboroda",https://eips.ethereum.org/EIPS/eip-4200
+EVM,25/09/2021,Everything about the EVM object format (EOF),Alex Beregszaszi,https://notes.ethereum.org/@ipsilon/evm-object-format-overview
+Fee Market,18/03/2018,EIP 1559 and Fee Structure (Date unknown),Vitalik Buterin,https://vitalik.ca/files/misc_files/EIP_1559_Fee_Structure.pdf
+Fee Market,01/07/2018,First and second-price auctions and improved transaction-fee markets,Vitalik Buterin,https://ethresear.ch/t/first-and-second-price-auctions-and-improved-transaction-fee-markets/2410
+Fee Market,04/03/2019,Fixing the Ethereum Fee Market (EIP-1559),Eric Conner,https://medium.com/@eric.conner/fixing-the-ethereum-fee-market-eip-1559-9109f1c1814b
+Fee Market,15/04/2019,Blockchain Resource Pricing,Vitalik Buterin,https://github.com/ethereum/research/blob/master/papers/pricing/ethpricing.pdf
+Fee Market,24/06/2020,Analysis of EIP-2593 (Escalator),"Hasu, Georgios Konstantopoulos",https://insights.deribit.com/market-research/analysis-of-eip-2593-escalator/
+Fee Market,30/06/2020,A World without (block) limits,Micah Zoltu,https://medium.com/coinmonks/a-world-without-block-limits-f3ecc926cd68
+Fee Market,22/08/2020,EIP-1559 51% Attacks - Should you live in fear?,Micah Zoltu,https://medium.com/coinmonks/eip-1559-51-attacks-should-you-live-in-fear-d817be3759dc
+Fee Market,07/10/2020,EIP-1559 Community Outreach Report,Tim Beiko,https://medium.com/ethereum-cat-herders/eip-1559-community-outreach-report-aa18be0666b5
+Fee Market,01/11/2020,Legacy vs EIP-1559 users in a post EIP-1559 world,Michal Komorowski,https://github.com/NethermindEth/research/blob/main/legacyTransactions.ipynb
+Fee Market,06/11/2020,Can ETH become deflationary? EIP 1559 Explained,Finematics,https://finematics.com/ethereum-eip-1559-explained/
+Fee Market,07/11/2020,A Tale Of Two Pricing Schemes,Micah Zoltu,https://medium.com/coinmonks/a-tale-of-two-pricing-schemes-dc9c8717906
+Fee Market,01/12/2020,Transaction Fee Mechanism Design for the Ethereum Blockchain,Tim Roughgarden,http://timroughgarden.org/papers/eip1559.pdf
+Fee Market,01/01/2021,EIP-1559 Transaction Sorting: Overview,Ansgar Dietrichs,https://hackmd.io/@adietrichs/1559-transaction-sorting
+Fee Market,12/01/2021,The manipulation of the basefee in the context of EIP-1559,Michal Komorowski,https://medium.com/nethermind-eth/the-manipulation-of-the-basefee-in-the-context-of-eip-1559-4b082898271c
+Fee Market,20/01/2021,EIP-1559 Miner FAQ,Micah Zoltu,https://hackmd.io/S6kW1MjvT8-SjmaoZTyaJw
+Fee Market,31/01/2021,What does a Miner revolt look like?,Micah Zoltu,https://medium.com/coinmonks/what-does-a-miner-revolt-look-like-a99216fe270e
+Fee Market,01/02/2021,Why I think EIP 1559 block variance is nothing to worry about,Vitalik Buterin,https://notes.ethereum.org/@vbuterin/eip_1559_spikes
+Fee Market,01/02/2021,EIP-1559: Transition,Barnabe Monnot,https://github.com/ethereum/abm1559/blob/master/notebooks/transition1559.ipynb
+Fee Market,17/02/2021,Congestion Control and EIP-1559,Barnabe Monnot,https://barnabe.substack.com/p/congestion-control-and-eip1559
+Fee Market,22/02/2021,Why Miners will accept EIP-1559,"Hasu, Georgios Konstantopoulos",https://insights.deribit.com/market-research/miners-will-accept-eip-1559-here-is-why/
+Fee Market,26/02/2021,Establishing Bounds for Miner Revenue in EIP-1559,"Hasu, Georgios Konstantopoulos",https://insights.deribit.com/market-research/establishing-bounds-for-miner-revenue-in-eip-1559/
+Fee Market,01/03/2021,EIP-1559 Transaction Sorting Part 2,Ansgar Dietrichs,https://hackmd.io/@adietrichs/1559-transaction-sorting-part2
+Fee Market,16/03/2021,EIP-1559 Outreach Summary,Tim Beiko,https://github.com/ethereum-cat-herders/1559-outreach/blob/main/README.md
+Fee Market,20/05/2021,EIP-1559 Transaction Pool Design Improvement Proposal,Zsolt Felfoldi,https://gist.github.com/zsfelfoldi/9607ad248707a925b701f49787904fd6
+Fee Market,13/06/2021,EIP-1559 - Agent-based Simulations,Barnabe Monnot,https://github.com/ethereum/abm1559/blob/master/notebooks/stationary1559.ipynb
+Fee Market,13/06/2021,EIP-1559: Strategic User,Barnabe Monnot,https://github.com/ethereum/abm1559/blob/master/notebooks/strategicUser.ipynb
+Fee Market,13/06/2021,EIP-1559: Floating Escalator,Barnabe Monnot,https://github.com/ethereum/abm1559/blob/master/notebooks/floatingEscalator.ipynb
+Fee Market,01/08/2021,Why 1559?,Tim Beiko,https://hackmd.io/@timbeiko/why-1559
+Fee Market,01/09/2021,Gas: Analysis of I-Smoothing,Sam Bacha,https://hackmd.io/@8Lo6sisiSrSosbAxVPXKgQ/SyQoEUbzu
+Fee Market,,All you need to know about EIP-1559 and more (Date unknown),Uncommon Core,https://uncommoncore.co/eip-1559/
+Formal Methods,31/08/2021,Act 0.1 Released,David Terry,https://fv.ethereum.org/2021/08/31/act-0.1/#automated-spec-generation
+Formal Methods,31/08/2021,Formal Verification Blog,Various,https://fv.ethereum.org
+General,27/10/2015,EIP-1: EIP Purpose and Guidelines,"Martin Becze, Hudson Jameson",https://eips.ethereum.org/EIPS/eip-1
+General,01/02/2016,Ethereum Block Architecture,atomh33ls,https://ethereum.stackexchange.com/questions/268/ethereum-block-architecture
+General,01/03/2018,Ethereum EVM Illustrated,Takenobu T,https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf
+General,24/06/2018,ERC-1155: The Crypto Item Standard,Witek Radomski,https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226
+General,01/10/2020,Ethereum 2.0 Info,Ben Edgington,https://eth2.info/
+General,06/11/2020,JSON RPC API,Chris Ward,https://eth.wiki/json-rpc/API
+General,06/11/2020,Why Proof of Stake ,Vitalik Buterin,https://vitalik.ca/general/2020/11/06/pos2020.html
+General,01/01/2021,Yellow Paper Cheat Sheet,Ben Edgington,https://github.com/benjaminion/YellowPaper_CheatSheet/blob/master/YPCheatSheet.pdf
+General,23/05/2021,The Limits to Blockchain Scalability,Vitalik Buterin,https://vitalik.ca/general/2021/05/23/scaling.html
+General,29/07/2021,Ethereum Virtual Machine Opcodes,,https://ethervm.io/
+General,29/07/2021,The RLPx Transport Protocol,Jamie Lokier,https://github.com/ethereum/devp2p/blob/master/rlpx.md
+General,19/08/2021,The Merge,ethereum.org,https://ethereum.org/en/eth2/merge/
+General,27/08/2021,Shard Chains,ethereum.org,https://ethereum.org/en/eth2/shard-chains/
+General,12/09/2021,ERC-721: Non-FungibleToken Standard,ethereum.org,https://ethereum.org/en/developers/docs/standards/tokens/erc-721/
+General,15/09/2021,Nodes and Clients,Ray Jasson,https://ethereum.org/en/developers/docs/nodes-and-clients/#clients
+General,29/09/2021,Proof-Of-Stake,ethereum.org,https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/
+General,04/10/2021,Ethereum Yellow Paper (Istanbul Version),Dr Gavin Wood,https://ethereum.github.io/yellowpaper/paper.pdf
+General,,Non-fungible Tokens,ethereum.org,https://ethereum.org/en/nft/
+General,,Ethereum Improvement Proposals,,https://eips.ethereum.org/
+Meta-Transactions,24/02/2020,Rich Transaction Precompile,Nick Johnson,https://github.com/Arachnid/EIPs/blob/richtx/EIPS/EIP-draft-rich-transactions.md
+Meta-Transactions,01/05/2020,"Meta transactions, Oil, and Karma megathread",Piper Merriam,https://ethresear.ch/t/meta-transactions-oil-and-karma-megathread/7472
+Meta-Transactions,01/06/2020,EIP-2711: Separate gas payer from msg.sender,Micah Zoltu,https://ethereum-magicians.org/t/eip-2711-separate-gas-payer-from-msg-sender/4353
+Meta-Transactions,11/06/2020,"EIP-2711: Sponsored, expiring, and batch transactions",Micah Zoltu,https://eips.ethereum.org/EIPS/eip-2711
+Meta-Transactions,16/06/2020,Transaction Package,Matt Garnett,https://github.com/lightclient/EIPs/blob/transaction-package/EIPS/eip-2733.md
+Meta-Transactions,12/09/2020,EIP-2972: Wrapped Legacy Transactions,Micah Zoltu,https://eips.ethereum.org/EIPS/eip-2972
+Meta-Transactions,01/10/2020,Meta-Transactions Link Tree,Matt Garnett,https://hackmd.io/ILfWEywjROCa5Cpi_khhIg?view
+"Meta-Transactions, Typed Transactions",19/05/2021,EIP-3074 Impact Study,DeDaub,https://docs.google.com/document/d/1itvPn7BhZ9N8h27d1Ig5C86_FZpyG5_cdpsuPJYmb-o/edit
+"Meta-Transactions, Typed Transactions",15/06/2021,A Case for a Simpler Alternative to EIP-3074,Yoav Weiss,https://ethereum-magicians.org/t/a-case-for-a-simpler-alternative-to-eip-3074/6493
+Networking,10/12/2020,Gossipsub v1.1: Security extensions to improve on attack resilience and bootstrapping,Raul K,https://github.com/libp2p/specs/blob/master/pubsub/gossipsub/gossipsub-v1.1.md
+Networking,19/08/2021,Phase 0 -- Networking,Hsiao-Wei Wang,https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/p2p-interface.md
+Polynomial Commitments,22/09/2019,Understanding PLONK,Vitalik Buterin,https://vitalik.ca/general/2019/09/22/plonk.html
+Polynomial Commitments,01/12/2019,An alternative low-degreeness proof using polynomial commitment schemes,Dankrad Feist,https://ethresear.ch/t/an-alternative-low-degreeness-proof-using-polynomial-commitment-schemes/6649
+Polynomial Commitments,09/03/2020,Fast amortized Kate proofs,Dankrad Feist and Dmitry Khovratovich,https://github.com/khovratovich/Kate/blob/master/Kate_amortized.pdf
+Polynomial Commitments,01/06/2020,Updating and generating Kate witnesses in amortized sqrt(n) time,Vitalik Buterin,https://ethresear.ch/t/updating-and-generating-kate-witnesses-in-amortized-sqrt-n-time/7520
+Polynomial Commitments,16/06/2020,KZG Polynomial Commitments,Dankrad Feist,https://dankradfeist.de/ethereum/cryptography/2020/06/16/kate-polynomial-commitments.html
+Polynomial Commitments,01/07/2020,A minimum-viable KZG polynomial commitment scheme implementation,Koh Wei Jie,https://ethresear.ch/t/a-minimum-viable-kzg-polynomial-commitment-scheme-implementation/7675
+Polynomial Commitments,01/10/2020,2D Data Availability with Kate Commitments,Vitalik Buterin,https://ethresear.ch/t/2d-data-availability-with-kate-commitments/8081
+Polynomial Commitments,01/10/2020,Should ETH 1.x commit to contract code using Kate commitments,Brian Cloutier,https://ethresear.ch/t/should-eth-1-x-commit-to-contract-code-using-kate-commitments/8143
+Polynomial Commitments,07/06/2021,KVaC (Key-Value Commitments) for Stateless Validation,Srinivasan Raghuraman,https://ethresear.ch/t/kvac-key-value-commitments-for-stateless-validation/9769
+"Polynomial Commitments, State Expiry",18/06/2021,PCS Multiproofs Using Random Evaluation,Dankrad Feist,https://dankradfeist.de/ethereum/cryptography/2021/06/18/pcs-multiproofs.html
+"Polynomial Commitments, State Expiry, General",25/05/2021,Kate Commitments in Eth,G11Tech,https://hackmd.io/yqfI6OPlRZizv9yPaD-8IQ?view
+Portal Network,01/01/2004,Reliable Peer-to-peer End System Multicasting through Replication,"Jianjun Zhang,Ling Liu, Calton Pu, Mostafa Ammar",https://www.cc.gatech.edu/projects/disl/GeoGrid/files/reliable-peer-to-peer.pdf
+Portal Network,01/02/2020,Some cold storage numbers,Brian Cloutier,https://notes.ethereum.org/@lithp/HymFXB8gu
+Portal Network,30/01/2021,The Eth1x Glossary,Piper Merriam,https://github.com/ethereum/portal-network-specs/wiki/Glossary
+Portal Network,24/02/2021,Bridge Node JSON-RPC Interface,Brian Cloutier,https://notes.ethereum.org/@lithp/r1NB6M4Gu
+Portal Network,01/03/2021,Gossip for DHT State Network,Piper Merriam,https://notes.ethereum.org/Fhh0MKOCRgyDdNcw6a9h6w
+Portal Network,18/03/2021,Scalable Gossip for state network,Piper Merriam,https://ethresear.ch/t/scalable-gossip-for-state-network/8958
+Portal Network,24/03/2021,State Network DHT - Development Update #2,Piper Merriam,https://ethresear.ch/t/state-network-dht-development-update-2/9005
+Portal Network,31/03/2021,"Beam Sync in 80 Seconds, Using Meta-Witnesses",Jason Carver,https://snakecharmers.ethereum.org/beam-sync-in-80-seconds-using-meta-witnesses/
+Portal Network,01/05/2021,Ethereum Consensus Upgrade (Execution-layer perspective),Mikhail Kalinin,https://hackmd.io/@n0ble/ethereum_consensus_upgrade_mainnet_perspective
+Portal Network,01/07/2021,Notes on Header Accumulation and the Portal Network,Piper Merriam,https://notes.ethereum.org/KaMqlqxiQLCWyDoXCUCC4Q
+Portal Network,01/07/2021,Extensible Discover V5 Sub-Protocol Architecture,Piper Merriam,https://notes.ethereum.org/tPzmxQD_S3S3uvtpUSA0-g
+Portal Network,01/08/2021,Chain History Storage Network,Jacob Kaufmann,https://hackmd.io/ctTNH9xsSu2ci9DeGidUsQ?view
+Portal Network,01/10/2021,Portal Network Specs,Various,https://github.com/ethereum/portal-network-specs
+"Portal Network, Light Clients",11/03/2021,Minimal Light Client,Hsiao-Wei Wang,https://github.com/ethereum/consensus-specs/blob/a465f21deb5df945ff629b87d3b1de229cbceb3f/specs/altair/sync-protocol.md
+"Portal Network, Light Clients",22/06/2021,Introducing Fluffy - an ultra-light client for Ethereum,Sacha From Status,https://our.status.im/nimbus-fluffly/
+PoS Consensus,01/07/2018,Beacon Chain Casper Mini-Spec,Vitalik Buterin,https://ethresear.ch/t/beacon-chain-casper-mini-spec/2760
+PoS Consensus,06/03/2019,EIP-1829: Precompile for Elliptic Curve Linear Combinations,Remco Bloemen,https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1829.md
+PoS Consensus,22/04/2019,EIP-1962: EC Arithmetic and Pairings with runtime definitions,Alex Vlasov,https://eips.ethereum.org/EIPS/eip-1962
+PoS Consensus,06/08/2019,Two Point Oh: Series,Bruno Skvorc,https://our.status.im/tag/two-point-oh/
+PoS Consensus,22/08/2019,Basic Beacon API,Paul Hauner,https://github.com/ethereum/beacon-APIs/pull/3
+PoS Consensus,26/06/2021,An ica age in PoS - merits and potential implementation,Yorick Downe,https://ethereum-magicians.org/t/an-ice-age-in-pos-merits-and-potential-implementation/6557
+PoS Consensus,27/07/2021,Fork Identifier for chain compatibility checks,Peter Szilagyi and Felix Lange,https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2124.md
+PoS Consensus,05/08/2021,A model for cumulative committee-based finality,Vitalik Buterin,https://ethresear.ch/t/a-model-for-cumulative-committee-based-finality/10259
+PoS Consensus,25/08/2021,Finalized no. 28 - The Ethereum Consensus Layer,Danny Ryan,https://blog.ethereum.org/2021/08/25/finalized-no-28/
+PoS Consensus,01/09/2021,Ethereum 2.0 Knowledge Base,Unknown,https://kb.beaconcha.in/glossary
+PoS Consensus,24/09/2021,What's New in Eth2,Ben Edgington,https://hackmd.io/@benjaminion/eth2_news/https%3A%2F%2Fhackmd.io%2F%40benjaminion%2Fwnie2_210924
+PoS Consensus,01/10/2021,Ethereum Pos Consensus Spec Tests,Danny Ryan and Diederik Loerakker,https://github.com/ethereum/consensus-spec-tests
+PoS Consensus,01/10/2021,Consensus Specs,Various,https://github.com/ethereum/consensus-specs
+Secret Shared Validators,01/03/2020,Trustless staking pools with a consensus layer and slashed pool participant replacement,Alon Muroch,https://ethresear.ch/t/trustless-staking-pools-with-a-consensus-layer-and-slashed-pool-participant-replacement/7198
+Secret Shared Validators,01/10/2020,Preventing ETH2 Validator Failure,"Aditya Asgaonkar, Carl Beekhuizen",https://notes.ethereum.org/@adiasg/preventing-eth2-validator-failure
+Secret Shared Validators,22/12/2020,Decentralised and Trustless ETH2 staking pools,Alon Muroch,https://github.com/bloxapp/eth2-staking-pools-research
+Secret Shared Validators,06/05/2021,Secret Shared Validator (SSV) - Phase 1 Testing Summary,Alon Muroch,https://medium.com/bloxstaking/secret-shared-validator-ssv-phase-1-testing-summary-5e3f5ab06083
+Sharding,14/01/2017,Exploring Elliptic Curve Pairings,Vitalik Buterin,https://vitalik.ca/general/2017/01/14/exploring_ecp.html
+Sharding,01/06/2018,1-bit aggregation-friendly custody bonds,Justin Drake,https://ethresear.ch/t/1-bit-aggregation-friendly-custody-bonds/2236
+Sharding,25/05/2019,Fraud and Data Availability Proofs: Maximising Light Client Security and Scaling Blockchains with Dishonest Majorities,"Mustafa Al-Bassam, Alberto Sonnino, Vitalik Buterin",https://arxiv.org/abs/1809.09044
+Sharding,08/06/2019,LazyLedger: A Distributed Data Availability Ledger with Client-Side Smart Contracts,Mustafa Al-Bassam,https://arxiv.org/abs/1905.09274
+Sharding,01/10/2019,ETH2 Shard Chain Simplification Proposal,Vitalik Buterin,https://notes.ethereum.org/@vbuterin/HkiULaluS
+Sharding,01/10/2019,The Eth1 -> Eth2 Transition,Vitalik Buterin,https://ethresear.ch/t/the-eth1-eth2-transition/6265
+Sharding,01/12/2019,Alternative proposal for early eth1 <-> eth2 merge ,Vitalik Buterin,https://ethresear.ch/t/alternative-proposal-for-early-eth1-eth2-merge/6666
+Sharding,01/01/2020,State Provider Models in Ethereum 2.0,Ansgar Dietrichs,https://ethresear.ch/t/state-provider-models-in-ethereum-2-0/6750
+Sharding,01/05/2020,A 0.001 bit proof of custody,Dankrad Feist,https://ethresear.ch/t/a-0-001-bit-proof-of-custody/7409
+Sharding,01/10/2020,A rollup-centric Ethereum roadmap,Vitalik Buterin,https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698
+Sharding,01/10/2020,A fee market contract for eth2 shards in eth1,Vitalik Buterin,https://ethresear.ch/t/a-fee-market-contract-for-eth2-shards-in-eth1/8124
+Sharding,01/01/2021,Sharding FAQs,Various,https://eth.wiki/sharding/Sharding-FAQs
+Sharding,01/02/2021,An explanation of the sharding + DAS proposal,Vitalik Buterin,https://hackmd.io/@vbuterin/sharding_proposal
+Sharding,01/03/2021,Quick merge via fork choice change,Vitalik Buterin,https://notes.ethereum.org/m9IX3OkkTveXCCOSzGkUiw
+Sharding,31/08/2021,Ethereum Annotated Spec,Vitalik Buterin,https://github.com/ethereum/annotated-spec
+Sharding,01/09/2021,Data Availability Sampling Phase 1 Proposal,Vitalik Buterin,https://hackmd.io/G-Iy5jqyT7CXWEz8Ssos8g
+Sharding,15/09/2021,Consensus Specs: Sharding,Anton Nashatyrev,https://github.com/ethereum/consensus-specs/tree/dev/specs/sharding
+"Sharding, General",07/04/2021,Why sharding is great: demystifying the technical properties,Vitalik Buterin,https://vitalik.ca/general/2021/04/07/sharding.html
+State Expiry,25/11/2015,EIP-103: Blockchain Rent,Vitalik Buterin,https://github.com/ethereum/EIPs/issues/35
+State Expiry,01/10/2017,The Stateless Client Concept,Vitalik Buterin,https://ethresear.ch/t/the-stateless-client-concept/172
+State Expiry,24/09/2019,Intro To Beam Sync,Jason Carver,https://medium.com/@jason.carver/intro-to-beam-sync-a0fd168be14a
+State Expiry,10/12/2019,The 1.x Files: A Fast Sync,Griffin Ichiba Hotchkiss,https://blog.ethereum.org/2019/12/10/eth1x-files-fast-sync/
+State Expiry,01/02/2020,The Data Availability Problem under Stateless Ethereum,Piper Merriam,https://ethresear.ch/t/the-data-availability-problem-under-stateless-ethereum/6973
+State Expiry,01/06/2020,ReGenesis - Resetting Ethereum to reduce the burden of large blockchain and state,Alexey Akhunov,https://ethresear.ch/t/regenesis-resetting-ethereum-to-reduce-the-burden-of-large-blockchain-and-state/7582
+State Expiry,28/06/2020,ReGenesis Explained,Igor Mandrigin,https://medium.com/@mandrigin/regenesis-explained-97540f457807
+State Expiry,28/01/2021,"Complete revamp of the ""Stateless Ethereum"" roadmap",Piper Merriam,https://ethresear.ch/t/complete-revamp-of-the-stateless-ethereum-roadmap/8592
+State Expiry,01/02/2021,Doing Stateless Ethereum Right,Piper Merriam,https://notes.ethereum.org/mSOAdx_XT02MEqrt0f2CPA#
+State Expiry,12/02/2021,A Theory of Ethereum State Size Management,Vitalik Buterin,https://hackmd.io/@vbuterin/state_size_management
+State Expiry,14/02/2021,Why it's so important to go stateless,Dankrad Feist,https://dankradfeist.de/ethereum/2021/02/14/why-stateless.html
+State Expiry,22/02/2021,"Resurrection-conflict-minimized state bounding, take 2",Vitalik Buterin,https://ethresear.ch/t/resurrection-conflict-minimized-state-bounding-take-2/8739
+State Expiry,01/03/2021,A few paths to statelessness and state expiry,Vitalik Buterin,https://hackmd.io/@vbuterin/state_expiry_paths
+State Expiry,06/03/2021,Increasing address size from 20 to 32 bytes,Vitalik Buterin,https://ethereum-magicians.org/t/increasing-address-size-from-20-to-32-bytes/5485
+State Expiry,30/03/2021,An updated roadmap for Stateless Ethereum,Piper Merriam,https://ethresear.ch/t/an-updated-roadmap-for-stateless-ethereum/9046
+State Expiry,09/04/2021,Light Ethereum Subprotocol,Felix Lange,https://github.com/ethereum/devp2p/blob/master/caps/les.md
+State Expiry,01/06/2021,A state expiry and statelessness roadmap,Piper Merriam,https://notes.ethereum.org/@vbuterin/verkle_and_state_expiry_proposal
+State Expiry,01/06/2021,Simple Summary,Vitalik Buterin,https://notes.ethereum.org/@vbuterin/state_expiry_eip
+State Expiry,29/06/2021,State Expiry and Statelessness in Review,Nicolas Laurent,https://github.com/tvanepps/EthereumDiscordGuidebook/blob/main/state-expiry/README.md
+State Expiry,01/07/2021,ASE (Address Space Extension) with Translation Map,Alex Beregszaszi,https://notes.ethereum.org/@ipsilon/address-space-extension-exploration
+"State Expiry, General",30/12/2019,The 1.x Files: The State of Stateless Ethereum,Griffin Ichiba Hotchkiss,https://blog.ethereum.org/2019/12/30/eth1x-files-state-of-stateless-ethereum/
+"State Expiry, Portal Network",12/01/2021,The winding road to functional light clients - part 1,Piper Merriam,https://snakecharmers.ethereum.org/the-winding-road-to-functional-light-clients/
+"State Expiry, Portal Network",14/01/2021,The winding road to functional light clients - part 2,Piper Merriam,https://snakecharmers.ethereum.org/the-winding-road-to-functional-light-clients-part-2/
+"State Expiry, Portal Network",15/01/2021,The winding road to functional light clients - part 3,Piper Merriam,https://snakecharmers.ethereum.org/the-winding-road-to-functional-light-clients-part-3/
+"State Expiry, Portal Network",30/01/2021,Alternative bounded-state-friendly address scheme,Vitalik Buterin,https://ethresear.ch/t/alternative-bounded-state-friendly-address-scheme/8602
+"State Expiry, Verkle Trie Migration",01/01/2018,Verkle Trees,John Kuszmaul,https://math.mit.edu/research/highschool/primes/materials/2018/Kuszmaul.pdf
+"State Expiry, Verkle Trie Migration",25/03/2021,Proposed Verkle tree scheme for Ethereum State,Vitalik Buterin,https://ethereum-magicians.org/t/proposed-verkle-tree-scheme-for-ethereum-state/5805
+"State Expiry, Verkle Trie Migration",18/06/2021,Verkle trie for Eth1 state,Dankrad Feist,https://dankradfeist.de/ethereum/cryptography/2021/06/18/verkle-trie-for-eth1.html
+"State Expiry, Verkle Trie Migration",18/06/2021,Verkle Trees,Vitalik Buterin,https://vitalik.ca/general/2021/06/18/verkle.html
+"State Expiry, Witness",18/02/2021,Ethereum Witness Protocol,Felix Lange,https://github.com/ethereum/devp2p/blob/master/caps/wit.md
+Sync,03/03/2021,Geth v1.10.1,Peter Szilagyi,https://blog.ethereum.org/2021/03/03/geth-v1-10-0/
+Typed Transactions,13/09/2020,EIP-2976: Typed Transactions over Gossip,Micah Zoltu,https://eips.ethereum.org/EIPS/eip-2976
+Typed Transactions,01/01/2021,SSZ & Typed Transactions,Piper Merriam,https://notes.ethereum.org/71-fSPtGRi-ab-npDf2oIA
+Typed Transactions,01/01/2021,The Path to 2929,Micah Zoltu,https://notes.ethereum.org/kvDtI9BsS6qFdsLDY_YwpQ
+Typed Transactions,01/01/2021,Typed Transactions,Micah Zoltu,https://notes.ethereum.org/Ck-KDLVaQgCHBMfeIhZTcQ
+Typed Transactions,14/04/2021,Specify encoding of all consensus objects,Felix Lange,https://github.com/ethereum/devp2p/pull/177/files
+Typed Transactions,07/07/2021,Add Transaction Type List,Tim Beiko,https://github.com/ethereum/execution-specs/pull/220/files
+"Typed Transactions, Meta-Transactions",13/06/2020,EIP-2718: Typed Transaction Envelope,Micah Zoltu,https://eips.ethereum.org/EIPS/eip-2718
+"Typed Transactions, Meta-Transactions",15/10/2020,AUTH and AUTHCALL Opcodes,"Sam Wilson, Ansgar Dietrichs, Matt Garnett, Micah Zoltu",https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3074.md
+Verkle Trie Migration,01/03/2020,Using polynomial commitments to replace state roots,Vitalik Buterin,https://ethresear.ch/t/using-polynomial-commitments-to-replace-state-roots/7095
+Verkle Trie Migration,01/05/2020,Open problem: ideal vector commitment,Vitalik Buterin,https://ethresear.ch/t/open-problem-ideal-vector-commitment/7421
+Verkle Trie Migration,01/06/2021,Witness Gas Cost Reform for Verkle Trees,Vitalik Buterin,https://notes.ethereum.org/@vbuterin/witness_gas_cost_2
+Verkle Trie Migration,01/06/2021,Gas Costs for code chunk access (outdated),Vitalik Buterin,https://notes.ethereum.org/@vbuterin/code_chunk_gas_cost
+Verkle Trie Migration,15/09/2021,Verkle Tree EIP,Vitalik Buterin,https://notes.ethereum.org/@vbuterin/verkle_tree_eip#Verkle-tree-definition
+Withdrawal Methods,01/11/2020,Dirt Simple Withdrawal Contract,Jeff Coleman,https://ethresear.ch/t/dirt-simple-withdrawal-contract/8218
+Withdrawal Methods,01/11/2020,Simple ETH1 Withdrawals (Beacon chain centric),Danny Ryan,https://ethresear.ch/t/simple-eth1-withdrawals-beacon-chain-centric/8256
+Withdrawal Methods,01/11/2020,Simple Transfers of Excess Balance,Jim McDonald,https://ethresear.ch/t/simple-transfers-of-excess-balance/8263
+Withdrawal Methods,01/12/2020,Make Validator Withdrawals Great,Zilm,https://ethresear.ch/t/make-validator-withdrawals-great/8334
+Withdrawal Methods,16/02/2021,ETH1 Withdrawal Credentials,Danny Ryan,https://github.com/ethereum/consensus-specs/pull/2149
+Withdrawal Methods,21/02/2021,Withdrawal credential rotation from BLS to ETH1,Vasiliy Shapovalov,https://ethresear.ch/t/withdrawal-credential-rotation-from-bls-to-eth1/8722
+Witness,01/12/2019,Protocol Changes to Bound Witness Size,Vitalik Buterin,https://ethereum-magicians.org/t/protocol-changes-to-bound-witness-size/3885
+Witness,01/04/2020,The curious case of BLOCKHASH and Stateless Ethereum,Alex Beregszaszi,https://ethresear.ch/t/the-curious-case-of-blockhash-and-stateless-ethereum/7304
+Witness,30/04/2020,Block Witness Formal Specification,Igor Mandrigin,https://github.com/ethereum/portal-network-specs/blob/change-goals-structure/witness.md
+Witness,14/07/2020,KV-Witness,Igor Mandrigin,https://medium.com/@mandrigin/kv-witness-8985168537f9
+Witness,03/08/2020,Eth Witness Experiments,Paul D,https://github.com/poemm/eth_witness_experiments
+Witness,01/10/2020,Ethereum block witness format (outdated),Paul D,https://notes.ethereum.org/dfeV_C-pSI2h378AadR9DQ?view
+Witness,01/10/2020,The Formal Witness Spec: An Illustrated Primer,Griffin Ichiba Hotchkiss,https://notes.ethereum.org/bjRBM5IxQQOgqp7bez15xQ
+Witness,01/10/2020,Adapting Pointproofs for Witness Compression,Raghavendra,https://hackmd.io/jYZoAiK2THq50EvI6lGhMw?view
+Witness,01/12/2020,Splitting Witnesses into Two Parts,Viktor Kirilov,https://ethresear.ch/t/splitting-witnesses-into-2-parts/8357
