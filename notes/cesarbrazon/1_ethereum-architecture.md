@@ -8,6 +8,10 @@ As in any complex software, the Ethereum Protocol is divided into different laye
 - Smart Contracts
 - EVM
 
+<p float="center">
+  <img src="./assets/ethereum-architecture-poc.png" />
+</p>
+
 ## dApps
 
 Decentralized Applications are the User Interface of Ethereum. You can see it as the way to interact with it in a friendly way.
