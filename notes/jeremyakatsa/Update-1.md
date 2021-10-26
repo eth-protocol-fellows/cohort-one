@@ -4,6 +4,7 @@
 #### ([Link to Prototype Server](https://github.com/jeyakatsa/teku/tree/master/light-client))
 
 #### Daily Updates:
+- [Sunday 10/24/21]: Light client store, light client snapshot and Sync committee logic started within types class. 
 - [Saturday 10/23/21]: Light client packages and classes created into Teku. [Light-Client R&D aggregator](https://github.com/ethereum-cdap/cohort-one/blob/master/notes/Light-Clients-R&D.md) launched. 
 - [Friday 10/22/21]: Updated light client server reference. Built light client skeleton server into Teku client.
 - [Thursday 10/21/21]: Wireframe completed. Moving onto building Light Client Demo logic (as well as the server infastructure into Teku).
