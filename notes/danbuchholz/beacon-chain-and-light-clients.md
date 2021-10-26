@@ -90,6 +90,13 @@ There are a number of steps involved during the Beacon Chain's state transition 
    2. Related — [`PendingAttestation`](https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/beacon-chain.md#pendingattestation) was part of Phase 0 and would be created during block processing but not processed until the end of an epoch, thus, _all_ pending attestations were processed at the same time. In Altair, this was removed due to inefficiencies and instead replaced with [`ParticipationFlags`](https://github.com/ethereum/annotated-spec/blob/master/altair/beacon-chain.md#custom-types)
       1. [`ParticipationFlags`](https://github.com/ethereum/annotated-spec/blob/master/altair/beacon-chain.md#custom-types) is a byte array that tracks a validator's attestation duties for each epoch as boolean flags — the first 3 bits are LMD GHOST head vote, FFG target, and FFG source (respectively); the remaining bits are currently unreserved. This is updated immediately (once the duty is fulfilled) instead of waiting to be processed at the end of an epoch
       2. Note that non-attestation duties are not described in this array but include submitting a sync committee signature and block proposal duties
+   3. Namely, the aggregating validator will use [`AggregateAndProof`](https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/validator.md#aggregateandproof) and [`SignedAggregateAndProof`](https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/validator.md#signedaggregateandproof) in order to [broadcast this to the network on the proper subnet](https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/validator.md#broadcast-attestation)
+      ```python
+      class AggregateAndProof(Container):
+          aggregator_index: ValidatorIndex
+          aggregate: Attestation
+          selection_proof: BLSSignature
+      ```
 
 4. A selected block producer creates a [`BeaconBlock`](https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/beacon-chain.md#beaconblock) that uses the attestations aggregate within its containerized [`BeaconBlockBody`](https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/beacon-chain.md#beaconblockbody) and then signs it — resulting in [`SignedBeaconBlock`](https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/beacon-chain.md#signedbeaconblock), consisting of a message (aka the [`BeaconBlock`](https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/beacon-chain.md#beaconblock) and signature)
 
@@ -124,7 +131,7 @@ There are a number of steps involved during the Beacon Chain's state transition 
           sync_committee_signature: BLSSignature
       ```
 
-   4. Note that [`Eth1Data`](https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/beacon-chain.md#eth1data) is used to track the validators depositing into the deposit contract its associated Eth1 block hash (with a
+   4. Note that [`Eth1Data`](https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/beacon-chain.md#eth1data) is used to track the validators depositing into the deposit contract its associated Eth1 block hash
 
 5. The [`state_transition`](https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/beacon-chain.md#beacon-chain-state-transition-function) function is called with each block and takes the signed beacon block, verifies it, and then processes the slots, blocks, and (potentially, depending on current slot) epoch
 
@@ -211,7 +218,7 @@ In relation to [minimal light clients & the Sync Protocol](https://github.com/et
 
 1. Use a Merkle branch to verify the `next_sync_committee` from an existing block that has been downloaded (aka the next period's sync committee that is set to sign block headers)
 
-   1. [`LightClientSnapshot`](https://github.com/ethereum/annotated-spec/blob/master/altair/sync-protocol.md#lightclientsnapshot) stores its view of the most recent beacon block header and both the current & [`SyncCommittee`](https://github.com/ethereum/annotated-spec/blob/master/altair/beacon-chain.md#synccommittee)
+   1. [`LightClientSnapshot`](https://github.com/ethereum/annotated-spec/blob/master/altair/sync-protocol.md#lightclientsnapshot) stores its view of the most recent beacon block header and both the current & next [`SyncCommittee`](https://github.com/ethereum/annotated-spec/blob/master/altair/beacon-chain.md#synccommittee)
 
       ```python
       class LightClientSnapshot(Container):
@@ -232,6 +239,8 @@ In relation to [minimal light clients & the Sync Protocol](https://github.com/et
 
       - note that if there is no finality header proof for the block, then the header itself is what should be verified; however, if one is provided, its corresponding `finality_branch` is grabbed from state's `finalized_checkpoint` as a [generalized index](https://github.com/ethereum/consensus-specs/blob/dev/ssz/merkle-proofs.md#generalized-merkle-tree-index), which defines a node's position (index) in its Merkle trie's linear representation (e.g., to get from a leaf to the root of a tree)
 
+   2. Signatures are then aggregated with [`SyncAggregate`](https://github.com/ethereum/annotated-spec/blob/master/altair/beacon-chain.md#syncaggregate)
+
       ```python
       class LightClientUpdate(Container):
           # Update beacon block header
@@ -247,6 +256,10 @@ In relation to [minimal light clients & the Sync Protocol](https://github.com/et
           sync_committee_signature: BLSSignature
           # Fork version for the aggregate signature
           fork_version: Version
+
+       class SyncAggregate(Container):
+        sync_committee_bits: Bitvector[SYNC_COMMITTEE_SIZE]
+        sync_committee_signature: BLSSignature
       ```
 
 3. Add together the public keys of the subset of the sync committee that participated in the aggregate signature (sync committee aggregate contains a bitfield map of those signing)
@@ -323,7 +336,7 @@ And in relation to light clients, this also provides a clear workflow on the dat
 
 ![light-client-dataflow.png](./assets/light-client-dataflow.png)
 
-Source: [ChainSafe Lode Architecture](https://chainsafe.github.io/lodestar/design/architecture/)
+Source: [ChainSafe Lodestar Architecture](https://chainsafe.github.io/lodestar/design/architecture/)
 
 ---
 

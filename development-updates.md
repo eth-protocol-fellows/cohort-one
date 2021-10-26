@@ -12,8 +12,12 @@
 - [JeremyAkatsa](#jeremyakatsa)
     - [Update #1](#jeremyakatsa-update-1)
 
+- [Jolene](#jolene)
+    - [Update #1](#jolene-update-1)
+
 - [Keenan](#keenan)
     - [Update #1](#keenan-update-1)
+    - [Update #2](#keenan-update-2)
    
 - [Mihir](#mihir)
     - [Update #1](#mihir-update-1)
@@ -54,6 +58,13 @@ Development updates from [`jeyakatsa`](https://github.com/jeyakatsa)
 
 [Link to update #1](./notes/jeremyakatsa/Update-1.md)
 
+## Jolene
+
+Development updates from [`jldunne`](https://github.com/jldunne)
+
+### Jolene: Update 1
+[Update #1](./notes/jldunne/development-updates/development-update-1.md)
+
 ## Keenan
 
 Development updates from [`nasdf`](https://github.com/nasdf)
@@ -61,6 +72,10 @@ Development updates from [`nasdf`](https://github.com/nasdf)
 ### Keenan: Update 1
 
 [Link to update #1](https://hackmd.io/@nasdf/SJ-TiK3VF)
+
+### Keenan: Update 2
+
+[Link to update #2](https://hackmd.io/@nasdf/rJq_p5lUt)
 
 ## Mihir
 
