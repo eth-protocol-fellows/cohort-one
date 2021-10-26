@@ -2,11 +2,11 @@
 
 ## Objectives
 
-- Describe the Ethereum architecture
+- [Describe the Ethereum architecture]('./1_ethereum-architecture.md)
 - Understand what are the benefits of the improvements in Eth 2.0
 - Describe the EVM in depth
 - Detail how accounts works in Ethereum
-- Formalize account migration research
+- [Formalize account migration research]('./5_aa.md')
 - Implement a proof of concept of the formalization of AA research
 
 ## Areas of Interest
