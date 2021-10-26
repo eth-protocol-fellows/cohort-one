@@ -45,7 +45,7 @@ This allow the miner to arbitrarily reorder transactions, insert its own transac
 
 ## Smart Contracts (SC)
 
-Script or a program that is written in a high level programming languages that allows the implementation of complex logic that can be runned agaisnt the EVM - You can see it as open source libraries that lives forever in Ethereum, giving the capacity to interact with that code once the SC has been deployed. The compilers (from `solidity` or `vyper`) converts the high level language into `bytecode` and then it is stored in the Global State.
+Script or a program that is written in a high level programming languages that allows the implementation of complex logic that can be executed agaisnt the EVM - You can see it as open source libraries that lives forever in Ethereum, giving the capacity to interact with that code once the SC has been deployed. The compilers (from `solidity` or `vyper`) converts the high level language into `bytecode` and then it is stored in the Global State.
 
 Smart contracts are stored in the global state with four parameters:
 - Nonce
