@@ -1,4 +1,4 @@
-# AA
+# Account Abstraction
 
 With this EIP we want to add multiple improvements to the entire Ethereum stack, which I think the two more importants are:
 
@@ -27,10 +27,11 @@ In order to implement AA, we require merging EIP 2937 or preserve nonce on self 
 
 - https://blog.ethereum.org/2015/07/05/on-abstraction/
 - EIP 101 - https://github.com/ethereum/EIPs/issues/28
-- Implementing AA on Eth1.X https://ethereum-magicians.org/t/implementing-account-abstraction-as-part-of-eth1-x/4020/8
+- Implementing AA on Eth1.X https://ethereum-magicians.org/t/implementing-account-abstraction-as-part-of-eth1-x/4020
 - EIP 2938 - https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2938.md
 - Spending gas from contract's balance - https://github.com/ethereum/EIPs/issues/61
 - Account Abstraction: What & Why - https://our.status.im/account-abstraction-eip-2938/
-- Account abstraction with EOF - https://notes.ethereum.org/@axic/account-abstraction-with-eof
+- Account Abstraction with EOF - https://notes.ethereum.org/@axic/account-abstraction-with-eof
 - Tradeoffs in AA - https://ethresear.ch/t/tradeoffs-in-account-abstraction-proposals/263/37
-- Account abstraction from main chain - https://github.com/ethereum/EIPs/issues/859
+- Account Abstraction from main chain - https://github.com/ethereum/EIPs/issues/859
+- Account Abstraction rationale - https://hackmd.io/y7uhNbeuSziYn1bbSXt4ww?view
