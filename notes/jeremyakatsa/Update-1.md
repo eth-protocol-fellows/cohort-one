@@ -4,7 +4,7 @@
 #### ([Link to Prototype Server](https://github.com/jeyakatsa/teku/tree/master/light-client))
 
 #### Daily Updates:
-- [Tuesday 10/26/21]: Opened pull request for Light Client logic for Teku. Continuing light client build.
+- [Tuesday 10/26/21]: Opened pull request for Light Client logic for Teku (https://github.com/ConsenSys/teku/pull/4532). Continuing light client build.
 - [Monday 10/25/21]: Started work on Beacon Block Header and SyncCommittee.
 - [Sunday 10/24/21]: Light client store, light client snapshot and Sync committee logic started within types class. 
 - [Saturday 10/23/21]: Light client packages and classes created into Teku. [Light-Client R&D aggregator](https://github.com/ethereum-cdap/cohort-one/blob/master/notes/Light-Clients-R&D.md) launched. 
