@@ -12,6 +12,9 @@
 - [JeremyAkatsa](#jeremyakatsa)
     - [Update #1](#jeremyakatsa-update-1)
 
+- [Jolene](#jolene)
+    - [Update #1](#jolene-update-1)
+
 - [Keenan](#keenan)
     - [Update #1](#keenan-update-1)
     - [Update #2](#keenan-update-2)
@@ -54,6 +57,13 @@ Development updates from [`jeyakatsa`](https://github.com/jeyakatsa)
 ### JeremyAkatsa: Update 1
 
 [Link to update #1](./notes/jeremyakatsa/Update-1.md)
+
+## Jolene
+
+Development updates from [`jldunne`](https://github.com/jldunne)
+
+### Jolene: Update 1
+[Update #1](./notes/jldunne/development-updates/development-update-1.md)
 
 ## Keenan
 
