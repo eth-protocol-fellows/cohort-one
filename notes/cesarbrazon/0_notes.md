@@ -6,7 +6,7 @@
 - Understand what are the benefits of the improvements in Eth 2.0
 - Describe the EVM in depth
 - Detail how accounts works in Ethereum
-- [Formalize account migration research](./5_aa.md)
+- [Formalize Account Migration research](./5_aa.md)
 - Implement a proof of concept of the formalization of AA research
 
 ## Areas of Interest
@@ -14,6 +14,7 @@
 - EVM
 - Sharding
 - Layer two solutions (Roll ups, zkSnarks, Plasma Channels)
+- Accounts Experience (AX)
 - Account Abstraction
 - Meta transactions
 
@@ -29,7 +30,7 @@
 
 Q: What's the difference between precompiles and opcode?
 
-A: Precompiles are contracts which are embedded into clients with default addresses. Opcodes are instructions stored in the storage of the EVM, and it's what allow us to interact with the stack of the EVM.
+A: Precompiles are contracts which are embedded into clients with default addresses. Opcodes are instructions+ stored in the storage of the EVM, and it's what allow us to interact with the stack of the EVM.
 We can say that precompiles are predefined bytecode, which allow us to create more complex logic (like `ecrecover`) and opcodes are native functions that allow us to interact directly with the EVM
 
 Q: How does the versionin current works in the EVM?

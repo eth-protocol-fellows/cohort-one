@@ -1,11 +1,22 @@
-# Account Abstraction
+# Account Migration
+
+## EIP 3074
+
+- Alternative to AA which is improving the UX of EOA
+- We need to find a way to authenticate as an EOA in the execution.
+- Allows you to pass the `msg.sender` through different jumps (or calls).
+- Further downs the two type accounts
+- With [Rich Transactions](https://ethereum-magicians.org/t/rich-transactions-via-evm-bytecode-execution-from-externally-owned-accounts/4025/) we can make EOA batch multiple transactions into one
+
+## Account Abstraction
+
+- Reduces client complexity - Account abstraction removes EOA. Authorization logic will be moved to Smart Contract execution layer
+- If a new user wants to create a new wallet, he needs to pay for the deployment of the AA contract
 
 With this EIP we want to add multiple improvements to the entire Ethereum stack, which I think the two more importants are:
 
-- Native meta transactions, allowing the user to batch multiple send transactions at the protocol level (instead of using something like multisend for example)
-- The capacity of a contract to pay for gas, instead of having the EOA to pay for it every time
-
-Also, with the introduction of this EIP, we can add signature verification other than ECSDA which allows to make Ethereum post-quantum resistant
+- The capacity of a contract to pay for gas (natively), instead of having the EOA to pay for it every time
+- We can add signature verification other than ECSDA which allows to make Ethereum post-quantum resistant
 
 In order to implement AA, we require merging EIP 2937 or preserve nonce on self destruct
 
@@ -35,3 +46,8 @@ In order to implement AA, we require merging EIP 2937 or preserve nonce on self 
 - Tradeoffs in AA - https://ethresear.ch/t/tradeoffs-in-account-abstraction-proposals/263/37
 - Account Abstraction from main chain - https://github.com/ethereum/EIPs/issues/859
 - Account Abstraction rationale - https://hackmd.io/y7uhNbeuSziYn1bbSXt4ww?view
+
+## TODO:
+
+- Why do we want to migrate away from EOAs? The first argument on post-quantum
+- Read about State transition functions (EVM)
