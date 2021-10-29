@@ -4,6 +4,7 @@
 #### ([Link to Prototype Server](https://github.com/jeyakatsa/teku/tree/master/light-client))
 
 #### Daily Updates:
+- [Thursday 10/28/21]: Currently debugging Gradle connection/configuration issue.
 - [Wednesday 10/27/21]: Resolving Gradle connection/configuration issues (referenced within pull request on Tuesday 10/26/21).
 - [Tuesday 10/26/21]: Opened pull request for Light Client logic for Teku (https://github.com/ConsenSys/teku/pull/4532). Continuing light client build.
 - [Monday 10/25/21]: Started work on Beacon Block Header and SyncCommittee.
