@@ -187,12 +187,12 @@ In creating a Lighthouse minimal light client, it's helpful to note how [ChainSa
 - [`client`](https://github.com/ChainSafe/lodestar/tree/master/packages/light-client/src/client) ⇒ implementation of a light client — instantiation, API calls to beacon nodes, & processing sync updates where persistance is handled by the `server`
 
   - [`events.ts`](https://github.com/ChainSafe/lodestar/blob/master/packages/light-client/src/client/events.ts) ⇒ emits events as a `LightclientEvent` for new block headers ([`BeaconBlockHeader`](https://github.com/ChainSafe/lodestar/blob/7bd7467b34f3b1bc6c541a901405b6711feb4205/packages/types/src/phase0/types.ts#L21)) and when a new sync period has begun & the sync committee has transitioned
-    - N are defined in and imported from [@lodestar/types](https://github.com/ChainSafe/lodestar/tree/master/packages/types)
+    - Note -- existing types are defined in and imported from [@lodestar/types](https://github.com/ChainSafe/lodestar/tree/master/packages/types)
   - [`types.ts`](https://github.com/ChainSafe/lodestar/blob/master/packages/light-client/src/client/types.ts) ⇒ defines `LightClientStoreFast`, `LightClientSnapshotFast`, and `SyncCommitteeFast`; imports types defined in beacon chain [phase 0](https://github.com/ChainSafe/lodestar/tree/master/packages/types/src/phase0) and [Altair](https://github.com/ChainSafe/lodestar/tree/master/packages/types/src/altair)
     - `LightClientStoreFast` ⇒ contains a light client's latest snapshot and potential/"best" updates
     - `LightClientSnapshotFast` ⇒ contains the beacon chain header snapshot as well as current & next sync committee
     - `SyncCommitteeFast` ⇒ contains the pubkeys and aggregated pubkeys of the sync committee
-  - [`update.ts`](https://github.com/ChainSafe/lodestar/blob/master/packages/light-client/src/client/update.ts) ⇒ defines the syncing process (and has some very descriptive documentation, included below)
+  - [`update.ts`](https://github.com/ChainSafe/lodestar/blob/master/packages/light-client/src/client/update.ts) ⇒ defines the syncing process & updates the store (and has some very descriptive documentation, included below)
 
     - At a minimum, nodes should keep the latest header at a specific period or even just the latest period (if very light)
     - Sync types:
@@ -245,19 +245,57 @@ In creating a Lighthouse minimal light client, it's helpful to note how [ChainSa
   - `index.ts` ⇒ simply exports siblings
 - [`utils`](https://github.com/ChainSafe/lodestar/tree/master/packages/light-client/src/utils)
   - [`syncPeriod.ts`](https://github.com/ChainSafe/lodestar/blob/master/packages/light-client/src/utils/syncPeriod.ts) ⇒ functions to return the epoch number at a given slot or sync committee period at a given slot/epoch
-  - [`utils.ts`](https://github.com/ChainSafe/lodestar/blob/master/packages/light-client/src/utils/utils.ts) ⇒ potentially useful utils in case Lodestar does not implement similar items
+  - [`utils.ts`](https://github.com/ChainSafe/lodestar/blob/master/packages/light-client/src/utils/utils.ts) ⇒ potentially useful utils in case Lighthouse does not implement similar items
   - [`verifyMerkleBranch.ts`](https://github.com/ChainSafe/lodestar/blob/master/packages/light-client/src/utils/verifyMerkleBranch.ts) ⇒ obviously, verifies a Merkle branch (taking leaf, proof, depth, index, and root) and imports ChainSafe's [persistent Merkle tree](https://github.com/ChainSafe/persistent-merkle-tree)
 - [`test`](https://github.com/ChainSafe/lodestar/tree/master/packages/light-client/test) ⇒ additional directory with test cases
   - [`lightclientMockServer.ts`](https://github.com/ChainSafe/lodestar/blob/master/packages/light-client/test/lightclientMockServer.ts) ⇒ could be helpful to reference
 
+Additionally, under [`@lodestar/api`](https://github.com/ChainSafe/lodestar/tree/master/packages/api/src), relevant light client endpoints are established (and notes on general serialization process [here](https://github.com/ChainSafe/lodestar/blob/aafc5d71f4623c56186d90b0b2004ce6866c02ad/packages/api/src/routes/index.ts#L13), also defined below)
+
+```python
+├── client
+├── routes
+├── server
+├── utils
+├── index.ts
+└── interface.ts
+```
+
+- [`client/lightclient.ts`](https://github.com/ChainSafe/lodestar/blob/master/packages/api/src/client/lightclient.ts) ⇒ establishes REST HTTP client for light client routes
+  - `getClient` ⇒ returns JSON or binary as an `Api` object (defined below):
+    - `getStateRoot` & `getInitProof` are uniquely defined here as they don't return JSON but binary, so need custom logic
+- [`server/lightclient.ts`](https://github.com/ChainSafe/lodestar/blob/master/packages/api/src/server/lightclient.ts) ⇒ handles requests from the client
+  - `getStateRoot` & `getInitProof` ⇒ return data as serialized binary (`Content-Type: application/octet-stream`) instead of JSON, hence, why uniquely defined
+- [`routes/lightclient.ts`](https://github.com/ChainSafe/lodestar/blob/master/packages/api/src/routes/lightclient.ts) ⇒ endpoints abiding to [Beacon Node HTTP API specs](https://ethereum.github.io/beacon-APIs/) & used in [`client/lightclient.ts`](https://github.com/ChainSafe/lodestar/blob/master/packages/api/src/client/lightclient.ts)
+  - `Api` ⇒ establishes the following methods:
+    - `getStateRoot` (taking the `stateId` & `paths`) ⇒ returns deserialized state proof (Merkle tree)
+    - `getInitProof` (taking the desired block root) ⇒ returns deserialized proof
+    - `getBestUpdates` (takes from & to `SyncPeriod`) ⇒ returns array of `LightClientUpdate`
+    - `getLatestUpdateFinalized` ⇒ returns a `LightClientUpdate`
+    - `getLatestUpdateNonFinalized` ⇒ returns a `LightClientUpdate`
+  - routes (which use `ssz` accordingly)
+    - `getStateRoot` ⇒ `/eth/v1/lightclient/proof/:stateId` (POST)
+    - `getInitProof` ⇒ `/eth/v1/lightclient/init_proof/:blockRoot` (GET)
+    - `getBestUpdates` ⇒ `/eth/v1/lightclient/best_updates` (GET)
+    - `getLatestUpdateFinalized` ⇒ `/eth/v1/lightclient/latest_update_finalized` (GET)
+    - `getLatestUpdateNonFinalized` ⇒ `/eth/v1/lightclient/latest_update_nonfinalized` (GET)
+- In terms of serialization, Lodestar using the following design in handling an HTTP request to the Lodestar BeaconNode API:
+  1. Serialize request: api args => req params
+     (--- wire)
+  2. Deserialize request: req params => api args
+     (--- exec api)
+  3. Serialize api _return_ => res body
+     (--- wire)
+  4. Deserialize res body => api _return_
+
 ## Lighthouse Minimal Light Client Implementation
 
-Lighthouse project is forked where development will take place in the following repo: [here](https://github.com/buchhlz2/lighthouse) (WIP, only local & nothing yet)
+The Lighthouse project is forked where development will take place in the following repo: [here](https://github.com/buchhlz2/lighthouse) (WIP, only local & nothing yet)
 
 ### Project Setup
 
 1. Fork [Lighthouse](https://github.com/sigp/lighthouse) into personal repo & clone locally
-2. Create `beacon_chain_light_client` crate: `cargo new light_client`
+2. Create `beacon_chain_light_client` crate: `cargo new beacon_chain_light_client`
 3. Add the `beacon_chain_light_client` (and subsequent libraries/crates created in the directory) to the overall workspace
    1. Under root's `Cargo.toml`, insert `beacon_chain_light_client` into the _[workspace]_ `members` array
    2. Ensures successful compilation by avoiding _invalid workspace configuration_ error
@@ -280,16 +318,47 @@ Lighthouse project is forked where development will take place in the following 
             1. `BeaconBlockHeader`
             2. `SyncCommittee`
          3. `LightClientUpdate`
-            1. `BeaconBlockHeader`
-            2. `SyncCommittee`
-            3. TODO: Finality & next sync committee branches — specs define as `Bytes32`; figure out what Lighthouse uses
-            4. TODO: need BLS for sync committee signature or see if it exists in consensus; likely from `crypto` crate
-            5. `Fork`
+            1. `BeaconBlockHeader` (for primary header & finality header)
+            2. `SyncCommittee` (for defining next sync committee)
+            3. `FixedVector` (for finality & next sync committee branches) ⇒ specifically, `FixedVector<Hash256, T::SIZE_OF_VECTOR>`
+            4. `BitVector` (for sync committee aggregate signature) ⇒ specifically, `BitVector<T::COMMITTEE_SIZE>`
+            5. `AggregateSignature` (for sync committee signature) ⇒ from `crypto/bls`
+            6. `Fork` (versioning)
          4. `LightClientStore`
             1. `LightClientSnapshot`
             2. `LightClientUpdate`
-   3. TO DO: `light_client_update.rs`
-   4. TO DO: continue spec-ing
+   3. `light_client_update.rs`
+      1. Create function to process light client updates upon receiving a `LightClientUpdate` and then overwrite store accordingly
+         1. `process_light_client_update.rs`
+            1. Uses `validate_light_client_update.rs` sibling crate to check valid light client update
+            2. Uses `apply_light_client_update.rs` & updates the store accordingly
+         2. Params/type dependencies
+            1. `LightClientStore`
+            2. `LightClientUpdate`
+            3. `Slot`
+            4. `Root` ⇒ just a `Hash256`
+               1. Note: `common/eth2` defines the `genesis_validators_root` as part of `GenesisData` struct
+      2. Create function to update the latest snapshot
+         1. `apply_light_client_update.rs`
+         2. Params/type dependencies
+            1. `LightClientSnapshot`
+            2. `LightClientUpdate`
+      3. Optional — create helper function for comparing two updates for which is "better"
+         1. `is_better_update.rs` ⇒ returns boolean
+         2. Params/type dependencies
+            1. `LightClientUpdate`
+   4. `validate_light_client_update.rs`
+      1. Create validation function for a `LightClientUpdate`
+         1. `validate_light_client_update.rs`
+         2. Params/type dependencies
+            1. `LightClientSnapshot`
+            2. `LightClientUpdate`
+            3. `Root` ⇒ `Hash256` (the genesis validator's root)
+   5. TO DO: `lib.rs`
+      1. Makes API calls to a beacon node to then run through the light client accordingly
+      2. Import siblings: `light_client_types.rs`, `events.rs`, `light_client_update.rs`, `validate_light_client_updates.rs`
+      3. Create `LightClient` container
+         1. TO DO: continue spec-ing
 
 ---
 
