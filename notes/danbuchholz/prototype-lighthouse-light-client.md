@@ -1,6 +1,6 @@
 # Prototype -- Lighthouse Beacon Chain Light Client
 
-The goal of this project is to create a very basic beacon chain light client prototype using [Sigma Prime's Lighthouse](https://github.com/sigp/lighthouse) implementation.
+The goal of this project is to create a very basic beacon chain light client prototype using [Sigma Prime's Lighthouse](https://github.com/sigp/lighthouse) implementation. Client-side logic can be found under the following repo/directory, which has been forked from Lighthouse as a standalone project: [here](https://github.com/buchhlz2/lighthouse/tree/light_client/beacon_chain_light_client)
 
 ## Lighthouse Serenity Client
 
@@ -329,9 +329,9 @@ The Lighthouse project is forked where development will take place in the follow
             2. `LightClientUpdate`
    3. `light_client_update.rs`
       1. Create function to process light client updates upon receiving a `LightClientUpdate` and then overwrite store accordingly
-         1. `process_light_client_update.rs`
+         1. `process_light_client_update`
             1. Uses `validate_light_client_update.rs` sibling crate to check valid light client update
-            2. Uses `apply_light_client_update.rs` & updates the store accordingly
+            2. Uses `apply_light_client_update` & updates the store accordingly
          2. Params/type dependencies
             1. `LightClientStore`
             2. `LightClientUpdate`
@@ -339,24 +339,24 @@ The Lighthouse project is forked where development will take place in the follow
             4. `Root` ⇒ just a `Hash256`
                1. Note: `common/eth2` defines the `genesis_validators_root` as part of `GenesisData` struct
       2. Create function to update the latest snapshot
-         1. `apply_light_client_update.rs`
+         1. `apply_light_client_update`
          2. Params/type dependencies
             1. `LightClientSnapshot`
             2. `LightClientUpdate`
       3. Optional — create helper function for comparing two updates for which is "better"
-         1. `is_better_update.rs` ⇒ returns boolean
+         1. `is_better_update` ⇒ returns boolean
          2. Params/type dependencies
             1. `LightClientUpdate`
    4. `validate_light_client_update.rs`
       1. Create validation function for a `LightClientUpdate`
-         1. `validate_light_client_update.rs`
+         1. `validate_light_client_update`
          2. Params/type dependencies
             1. `LightClientSnapshot`
             2. `LightClientUpdate`
             3. `Root` ⇒ `Hash256` (the genesis validator's root)
    5. TO DO: `lib.rs`
-      1. Makes API calls to a beacon node to then run through the light client accordingly
-      2. Import siblings: `light_client_types.rs`, `events.rs`, `light_client_update.rs`, `validate_light_client_updates.rs`
+      1. Makes API calls to a beacon node to then run through the light client logic accordingly
+      2. Import siblings: `light_client_types.rs`, `events.rs`, `light_client_update.rs`, `validate_light_client_update.rs`
       3. Create `LightClient` container
          1. TO DO: continue spec-ing
 
