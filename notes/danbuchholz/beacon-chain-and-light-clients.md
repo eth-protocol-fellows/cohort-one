@@ -328,15 +328,15 @@ class BeaconState(Container):
 
 The following provides a visualizations of what's happening with state in the Beacon Chain, post-attestation:
 
-![eth2-state-transition.png](./assets/eth2-state-transition.png)
-
-Source: [Eth 2.0 State Transition](https://sgryphon.wordpress.com/2020/03/17/eth-2-0-state-transition/)
+|                    ![eth2-state-transition.png](./assets/eth2-state-transition.png)                     |
+| :-----------------------------------------------------------------------------------------------------: |
+| Source: [Eth 2.0 State Transition](https://sgryphon.wordpress.com/2020/03/17/eth-2-0-state-transition/) |
 
 And in relation to light clients, this also provides a clear workflow on the data flow (at least how Lodestar has designed their light client):
 
-![light-client-dataflow.png](./assets/light-client-dataflow.png)
-
-Source: [ChainSafe Lodestar Architecture](https://chainsafe.github.io/lodestar/design/architecture/)
+|                   ![light-client-dataflow.png](./assets/light-client-dataflow.png)                   |
+| :--------------------------------------------------------------------------------------------------: |
+| Source: [ChainSafe Lodestar Architecture](https://chainsafe.github.io/lodestar/design/architecture/) |
 
 ---
 
