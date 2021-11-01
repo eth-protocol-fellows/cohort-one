@@ -4,6 +4,7 @@
 #### ([Link to Prototype Server](https://github.com/jeyakatsa/teku/tree/master/light-client))
 
 #### Daily Updates:
+- [Sunday 10/31/21]: Gradle connection/configuration issue resolved!
 - [Friday 10/29/21]: Still resolving Gradle connection/configuration issue.
 - [Thursday 10/28/21]: Currently debugging Gradle connection/configuration issue.
 - [Wednesday 10/27/21]: Resolving Gradle connection/configuration issues (referenced within pull request on Tuesday 10/26/21).
