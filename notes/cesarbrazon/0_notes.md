@@ -84,6 +84,7 @@ A:
 - Typed Transaction Envelop - https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2718.md
 - Contract code size limit - https://github.com/ethereum/EIPs/blob/master/EIPS/eip-170.md
 - EVM Object Format: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md & https://notes.ethereum.org/@axic/evm-object-format
+- How accounts works? - https://twitter.com/iam_preethi/status/1454455451739906055
 
 
 ## Idea for PoC
