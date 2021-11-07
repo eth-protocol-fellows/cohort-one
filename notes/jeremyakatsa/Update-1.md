@@ -1,7 +1,7 @@
 ## Project Dive-in (Update 1):
 ### Altair - Minimal Light Client Prototype Build 
-#### ([Link to Prototype Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 #### ([Link to Prototype Server](https://github.com/jeyakatsa/teku/tree/master/light-client))
+#### ([Link to Prototype Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
 - [Saturday 11/6/21]: Gradle build successfully completed, public key getters and setters built, tested and pull requested.
