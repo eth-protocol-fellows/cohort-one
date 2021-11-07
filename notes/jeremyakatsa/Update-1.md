@@ -4,7 +4,7 @@
 #### ([Link to Prototype Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
-- [Saturday 11/6/21]: Gradle build successfully completed, SyncCommittee built, tested and pull requested.
+- [Saturday 11/6/21]: Gradle build successfully completed, SyncCommittee built, tested and pull requested (https://github.com/ConsenSys/teku/pull/4579).
 - [Friday 11/5/21]: Still working to resolve compilation issues: https://github.com/ConsenSys/teku/pull/4532.
 - [Thursday 11/4/21]: Compilation issues being resolved _continued_.
 - [Wednesday 11/3/21]: Compilation issues being resolved (noted within link below).
