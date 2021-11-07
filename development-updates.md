@@ -18,6 +18,7 @@
 - [Keenan](#keenan)
     - [Update #1](#keenan-update-1)
     - [Update #2](#keenan-update-2)
+    - [Update #3](#keenan-update-3)
    
 - [Mihir](#mihir)
     - [Update #1](#mihir-update-1)
@@ -77,6 +78,10 @@ Development updates from [`nasdf`](https://github.com/nasdf)
 ### Keenan: Update 2
 
 [Link to update #2](https://hackmd.io/@nasdf/rJq_p5lUt)
+
+### Keenan: Update 3
+
+[Link to update #3](https://hackmd.io/@nasdf/HypqsYHwF)
 
 ## Mihir
 
