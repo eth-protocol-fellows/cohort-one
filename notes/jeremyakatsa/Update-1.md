@@ -4,6 +4,7 @@
 #### ([Link to Prototype Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
+- [Monday 11/8/21]: Started work on thinly veiled Rest API.
 - [Sunday 11/7/21]: LightClientSnapshot build commenced, SyncCommittee class separated.
 - [Saturday 11/6/21]: Gradle build successfully completed, SyncCommittee built, tested and pull requested (https://github.com/ConsenSys/teku/pull/4579).
 - [Friday 11/5/21]: Still working to resolve compilation issues: https://github.com/ConsenSys/teku/pull/4532.
