@@ -4,7 +4,7 @@
 #### ([Link to Prototype Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
-- [Wednesday 11/10/21]: LightClientSnapshot completed.
+- [Wednesday 11/10/21]: LightClientSnapshot completed (https://github.com/jeyakatsa/teku/commit/d4924fb474db31757d152bda50ccea38663b4768).
 - [Tuesday 11/9/21]: Server build process created (for Light Client API) (https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Server-Build-Process.txt)
 - [Monday 11/8/21]: Started work on thinly veiled Rest API.
 - [Sunday 11/7/21]: LightClientSnapshot build commenced, SyncCommittee class separated.
