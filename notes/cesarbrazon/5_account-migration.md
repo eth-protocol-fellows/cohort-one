@@ -6,9 +6,13 @@
 - We need to find a way to authenticate as an EOA in the execution.
 - Allows you to pass the `msg.sender` through different jumps (or calls).
 - Further downs the two type accounts
-- With [Rich Transactions](https://ethereum-magicians.org/t/rich-transactions-via-evm-bytecode-execution-from-externally-owned-accounts/4025/) we can make EOA batch multiple transactions into one
+- You can batch transactions. The invoker would need to make multiple authcalls using the same commit
+- Two new opcodes will be introduced (`AUTH` and `AUTHCALL`) which is less intrusive than creating a new transaction type (this is the EIP-2938)
 
-## Account Abstraction
+**Changes proposed**
+
+
+## EIP 2938
 
 - Reduces client complexity - Account abstraction removes EOA. Authorization logic will be moved to Smart Contract execution layer
 - If a new user wants to create a new wallet, he needs to pay for the deployment of the AA contract
@@ -23,7 +27,7 @@ In order to implement AA, we require merging EIP 2937 or preserve nonce on self 
 - Two categories: Single-tenant and Multi-tenants.
   Single-tenant are for wallet and basically an account per user case. Multi-tenants will aim in account for many users, like tornado cash or uniswap. AA support for multi-tenant applications requires more research and is proposed as future work; so first, single-tenant is the ony that's going to be developed
 
-**Changes proposed for AA implementation**
+**Changes proposed**
 
 - `NONCE` and `PAYGAS` opcodes will be introduced with this EIP
 - Changes to mempool rules
