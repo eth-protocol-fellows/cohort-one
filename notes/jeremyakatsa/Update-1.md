@@ -4,6 +4,7 @@
 #### ([Link to Prototype Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
+- [Thursday 11/11/21]: LightClientSnapshot separated out of Types, LightClientStore created (https://github.com/jeyakatsa/teku/tree/master/light-client/src/main/java/tech/pegasys/teku/lightclient/client). 
 - [Wednesday 11/10/21]: LightClientSnapshot completed (https://github.com/jeyakatsa/teku/commit/d4924fb474db31757d152bda50ccea38663b4768).
 - [Tuesday 11/9/21]: Server build process created (for Light Client API) (https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Server-Build-Process.txt)
 - [Monday 11/8/21]: Started work on thinly veiled Rest API.
