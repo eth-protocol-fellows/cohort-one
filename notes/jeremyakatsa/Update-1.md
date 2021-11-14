@@ -4,6 +4,7 @@
 #### ([Link to Prototype Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
+- [Saturday 11/13/21]: Lodestar-Light-Client-Build-Reference added in order to search refered files for build (https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Lodestar-Light-Client-Build-Reference.txt). Searching for Number65UintType() within Chainsafe branch.
 - [Friday 11/12/21]: Minor notes added within LightClientStore.
 - [Thursday 11/11/21]: LightClientSnapshot separated out of Types, LightClientStore created (https://github.com/jeyakatsa/teku/tree/master/light-client/src/main/java/tech/pegasys/teku/lightclient/client). 
 - [Wednesday 11/10/21]: LightClientSnapshot completed (https://github.com/jeyakatsa/teku/commit/d4924fb474db31757d152bda50ccea38663b4768).
