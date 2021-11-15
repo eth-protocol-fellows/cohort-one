@@ -3,10 +3,10 @@
 This work should cover 12-14ish weeks of effort.
 
 ### Stage 1 (~ 2 weeks)
-- [] Run local development version of `py-evm`
-- [] Capture extra data from transaction-level lists
-- [] Collate transaction-level access lists to a block list
-- [] Ensure that block-level access lists that match the EIP are being published by the experimental fork
+- [x] Run local development version of `py-evm`
+- [x] Capture extra data from transaction-level lists
+- [x] Collate transaction-level access lists to a block list
+- [x] Ensure that block-level access lists that match the EIP are being published by the experimental fork
 
 ### Stage 2 (~1 week)
 - [] Capture extra witness metadata so that `AccessRootList` can be constructed from witness
