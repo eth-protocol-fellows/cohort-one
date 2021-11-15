@@ -34,10 +34,8 @@ I'm working on this part-time and would be very open to collaborating with other
 ## Outstanding questions
 
 - What is the status of the various python implementations? They seem out of vogue - Python just too slow? More secure to use a static typed language?
-- devp2p vs libp2p?
 - rust vs go vs js for new light client? Rust feels good atm...!
 - still haven't really identified and understood the the p2p networking code/control flow in existing clients - geth, lodestar...
-- what exacty is the relationship between rlp and libp2p? I think rlp is the encoding used by ethereum and libp2p sends rlp encoded data between nodes but need to dive deeper into details.
 - what are whisper and swarm? Are they fundamental to ethereum? Will they be persisted in Beacon clients?
 
 ## Useful Links
@@ -63,3 +61,4 @@ I'm working on this part-time and would be very open to collaborating with other
 - Ethereum client architecture video https://www.youtube.com/watch?v=VH0obZ2A0Yg&list=PLNLh1EyDzSGP-lkNCBhCptoJ-NMu_BYfS&index=2
 - Ethereum networking video https://www.youtube.com/watch?v=hnw59hmk6rk&list=PLNLh1EyDzSGP-lkNCBhCptoJ-NMu_BYfS&index=3
 - Kademlia to Discv5 in Eth2 https://vac.dev/kademlia-to-discv5
+- Piper's light client presentation https://www.youtube.com/watch?v=MZxqRs_tLNs

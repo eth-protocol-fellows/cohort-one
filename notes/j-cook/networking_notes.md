@@ -132,11 +132,7 @@ On a successful ping-pong exchange, functions from v4wire or v5wire start an rlp
 
 ## light clients
 
-Light clients are implementatons of the client software that use minimal resources. The exisiting DevP2P LES network is designed using a client/server architecture – with light-clients as the clients, and full nodes as the servers (today, the term light-client is usually used to refer to a client of the existing DevP2P LES network).
-
-Since this architecture puts all the load on full nodes, and full nodes are already heavy to run, most node runners don’t activate this option.
-
-So while the current network design serves it’s original purpose well, it is severely lacking from a light-client perspective.
+Light clients are implementatons of the client software that use minimal resources. The exisiting DevP2P LES network is designed using a client/server architecture – with light-clients as the clients, and full nodes as the servers (today, the term light-client is usually used to refer to a client of the existing DevP2P LES network). Since this architecture puts all the load on full nodes, and full nodes are already heavy to run, most node runners don’t activate this option. So while the current network design serves it’s original purpose well, it is severely lacking from a light-client perspective, primarily because few nodes activate light client support.
 
 
 ## Ethereum networking beyond the merge
@@ -192,13 +188,6 @@ The gossip domain includes all information that has to spread rapidly throughout
 Beacon blocks and aggregation/proofs are considered primary global topics to be propagated to every node on the network. 
 
 
-- content of beacon blocks
-- more about the gossip mechanism
-- content of beacon agreegate and proof
-
-Attestation subnets are used to gossip individual attestations between clients included in a beacon committee. These committee nodes then aggregate the attestations and gossip them to the wider network to be included in future blocks.
-
-
 
 
 ## Why does the consensus client prefer SSZ to RLP?
@@ -252,6 +241,4 @@ does a beacon portal network necessarily need to also be/interface with an execu
 
 
 
-## Portal network
-muTP transport layer (microTorrent) as implemented in bit-torrent
-p2p layer will need to pass a bespoke routing table
+
