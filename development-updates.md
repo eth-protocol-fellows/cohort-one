@@ -68,6 +68,9 @@ Development updates from [`jldunne`](https://github.com/jldunne)
 ### Jolene: Update 1
 [Update #1](./notes/jldunne/development-updates/development-update-1.md)
 
+### Jolene: Update 2
+[Update #2](./notes/jldunne/development-updates/development-update-2.md)
+
 ## Keenan
 
 Development updates from [`nasdf`](https://github.com/nasdf)
