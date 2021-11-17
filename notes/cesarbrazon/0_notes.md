@@ -3,7 +3,7 @@
 ## Objectives
 
 - [Describe the Ethereum architecture](./1_ethereum-architecture.md)
-- Understand what are the benefits of the improvements in Eth 2.0
+- [Understand what are the benefits of the improvements in Eth 2.0](./2_benefits-ethereum-2.md)
 - Describe the EVM in depth
 - Detail how accounts works in Ethereum
 - [Formalize Account Migration research](./5_aa.md)
@@ -24,6 +24,7 @@
 - Everytime a new transaction is triggered, the first opcode that runs is `JUMPDEST`
 - Some positions in the code are marked valid to `JUMPDEST`, but there are some restrictions - you need to know the valid destinations before caling the `JUMPDEST`, otherwise it will revert
 - The payload of a normal transaction is `RLP([nonce, gas_price, gas_limit, to, value, data, v, r, s])`
+- Mempool: Is where transactions go before they are included on chain
 
 
 ## Questions
@@ -84,6 +85,7 @@ A:
 - Typed Transaction Envelop - https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2718.md
 - Contract code size limit - https://github.com/ethereum/EIPs/blob/master/EIPS/eip-170.md
 - EVM Object Format: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md & https://notes.ethereum.org/@axic/evm-object-format
+- How accounts works? - https://twitter.com/iam_preethi/status/1454455451739906055
 
 
 ## Idea for PoC

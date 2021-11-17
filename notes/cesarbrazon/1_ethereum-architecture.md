@@ -1,4 +1,4 @@
-# Understanding Ethereum architecture
+# Ethereum architecture
 
 As in any complex software, the Ethereum Protocol is divided into different layers. In the Ethereum [documentation](https://ethereum.org/en/developers/docs/ethereum-stack/) we can see an overview of the different pieces of the stack.
 
