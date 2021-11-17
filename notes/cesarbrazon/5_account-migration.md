@@ -2,7 +2,6 @@
 
 ## EIP 3074
 
-
 **Cool use cases**
 
 - Paying for gas with tokens: Using non-eth assets to pay for gas
@@ -30,8 +29,6 @@ Contracts
 - Trust an invoker means that the EOA will need to make sure that it works properly, for example, the invoker should be able to correctly handle replay protection, and the EOA will need to check that this invoker indeed does that
 - People normally does not check this things, this is a double edge word - The main difference is that here you are giving here totally control of your account
 - It can be dangerous if its not used in the correct way, but it allows a lot of flexibility, if we want to achieve mass adoption of Ethereum we will want this kind new Account experience (AC)
-
-
 - Alternative to AA which is improving the UX of EOA
 - We need to find a way to authenticate as an EOA in the execution.
 - Allows you to pass the `msg.sender` through different jumps (or calls).
@@ -59,7 +56,6 @@ Contracts
 ### Notes
 
 Allows a contract to be the top-level account that pays fees and start transaction execution
-
 - Reduces client complexity - Account abstraction removes EOA. Authorization logic will be moved to Smart Contract execution layer
 - If a new user wants to create a new wallet, he needs to pay for the deployment of the AA contract
 
@@ -68,8 +64,8 @@ With this EIP we want to add multiple improvements, being the most important tha
 In order to implement AA, we require merging EIP 2937 or preserve nonce on self destruct
 
 - Two categories: Single-tenant and Multi-tenants.
-  Single-tenant are for wallet and basically an account per user case. Multi-tenants will aim in account for many users, like tornado cash or uniswap. AA support for multi-tenant applications requires more research and is proposed as future work; so first, single-tenant is the ony that's going to be developed
-
+    - Single-tenant are for wallet and basically an account per user case. 
+    - Multi-tenants will aim in account for many users, like tornado cash or uniswap. AA support for multi-tenant applications requires more research and is proposed as future work; so first, single-tenant is the ony that's going to be developed
 - Remove the necessity of relayers, you would just need to relay on the clients, since the contract takes care of paying for the gas
 - This EIP adds extensive changes to the protocol, it's a must that new mempool rules are added, every client implements it exactly the same way and they need to make sure that every one behaves exactly the same
 
@@ -83,7 +79,6 @@ In order to implement AA, we require merging EIP 2937 or preserve nonce on self 
 
   1. Authentication, is the process where the caller can indeed call this contract. This will happen in an isolated environment, throwing if the authentication process try to access memory, or write storage. This process should be a pure function, or only interact with precompiled contracts.
   2. Execution, here, the opcode `PAYGAS` will be triggered at first, and will calculate the gas price and gas limit for the transaction. Note that if the transaction fails, the contract will not be refunded.
-
 
 
 ## Differences
@@ -106,5 +101,5 @@ In order to implement AA, we require merging EIP 2937 or preserve nonce on self 
 
 ## TODO:
 
-- Why do we want to migrate away from EOAs? The first argument on post-quantum
+- Why do we want to migrate away from EOAs? The first argument is post-quantum
 - Read about State transition functions (EVM)

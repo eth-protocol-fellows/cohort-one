@@ -1,9 +1,25 @@
 ## Project Dive-in (Update 1):
 ### Altair - Minimal Light Client Prototype Build 
-#### ([Link to Prototype Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 #### ([Link to Prototype Server](https://github.com/jeyakatsa/teku/tree/master/light-client))
+#### ([Link to Prototype Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
+- [Tuesday 11/16/21] Double check completed (function not found), seeking help through Chainsafe #light-client Discord.
+- [Monday 11/15/21]: Search for Number64UintType() function completed (function not found), double checking links for function within Lodestar-Light-Client-Build-Reference.
+- [Sunday 11/14/21]: Search for Number65UintType() function continues as more links added within Lodestar-Light-Client-Build-Reference.
+- [Saturday 11/13/21]: Lodestar-Light-Client-Build-Reference added in order to search referred files for build (https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Lodestar-Light-Client-Build-Reference.txt). Searching for Number65UintType() within Chainsafe branch.
+- [Friday 11/12/21]: Minor notes added within LightClientStore.
+- [Thursday 11/11/21]: LightClientSnapshot separated out of Types, LightClientStore created (https://github.com/jeyakatsa/teku/tree/master/light-client/src/main/java/tech/pegasys/teku/lightclient/client). 
+- [Wednesday 11/10/21]: LightClientSnapshot completed (https://github.com/jeyakatsa/teku/commit/d4924fb474db31757d152bda50ccea38663b4768).
+- [Tuesday 11/9/21]: Server build process created (for Light Client API) (https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Server-Build-Process.txt)
+- [Monday 11/8/21]: Started work on thinly veiled Rest API.
+- [Sunday 11/7/21]: LightClientSnapshot build commenced, SyncCommittee class separated.
+- [Saturday 11/6/21]: Gradle build successfully completed, SyncCommittee built, tested and pull requested (https://github.com/ConsenSys/teku/pull/4579).
+- [Friday 11/5/21]: Still working to resolve compilation issues: https://github.com/ConsenSys/teku/pull/4532.
+- [Thursday 11/4/21]: Compilation issues being resolved _continued_.
+- [Wednesday 11/3/21]: Compilation issues being resolved (noted within link below).
+- [Tuesday 11/2/21]: Gradle build 99% completed: https://github.com/ConsenSys/teku/pull/4532
+- [Monday 11/1/21]: Started building Light Client API infastructure, more Gradle dependency issues being resolved concurrently.
 - [Sunday 10/31/21]: Gradle connection/configuration issue resolved!
 - [Friday 10/29/21]: Still resolving Gradle connection/configuration issue.
 - [Thursday 10/28/21]: Currently debugging Gradle connection/configuration issue.
