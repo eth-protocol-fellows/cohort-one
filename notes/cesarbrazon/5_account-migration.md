@@ -36,7 +36,8 @@ Contracts
 - We need to find a way to authenticate as an EOA in the execution.
 - Allows you to pass the `msg.sender` through different jumps (or calls).
 - Further downs the two type accounts
-- With [Rich Transactions](https://ethereum-magicians.org/t/rich-transactions-via-evm-bytecode-execution-from-externally-owned-accounts/4025/) we can make EOA batch multiple transactions into one
+- You can batch transactions. The invoker would need to make multiple authcalls using the same commit
+- Two new opcodes will be introduced (`AUTH` and `AUTHCALL`) which is less intrusive than creating a new transaction type (this is the EIP-2938)
 
 ### Implementation details
 
