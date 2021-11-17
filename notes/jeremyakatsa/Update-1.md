@@ -4,6 +4,7 @@
 #### ([Link to Prototype Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
+- [Tuesday 11/16/21] Double check completed (function not found), seeking help through Chainsafe #light-client Discord.
 - [Monday 11/15/21]: Search for Number64UintType() function completed (function not found), double checking links for function within Lodestar-Light-Client-Build-Reference.
 - [Sunday 11/14/21]: Search for Number65UintType() function continues as more links added within Lodestar-Light-Client-Build-Reference.
 - [Saturday 11/13/21]: Lodestar-Light-Client-Build-Reference added in order to search referred files for build (https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Lodestar-Light-Client-Build-Reference.txt). Searching for Number65UintType() within Chainsafe branch.
