@@ -4,14 +4,13 @@
 
 - With EOAs users do not needs to pay for gas when onboarding in Ethereum, if we would move to "Smart Wallets", which are Smart Contracts with EOA capabilities, the user will need to deploy this SC to create his account
 
-- With EIP-3074 we can have a relationship of one to many. This means that an EOA account can have `authorized` on many contracts 
+- With EIP-3074, one EOA can be authorized on many contracts simultaneously. 
 
 - With EIP-3074 two new opcodes will be introduced (`AUTH` and `AUTHCALL`) which is less intrusive than creating a new transaction type (this is the EIP-2938)
 
-- Currently, Ethereum uses ECDSA to verify the authentication of signers in transactions, this leaves Ethereum Technology vulnerable to Post Quantum computers (because ECDSA was not meant to be post quantum), to mitigate this, a change in Ethereum needs to happen - The most viable path of action is Account Abstraction, this is because it introduces a new Transaction Type which not depends on ECDSA, instead, contracts implements their own authentication logic meaning that they can expect a signature using a different algorithm (which can be post quantum resistant)
+- Currently, Ethereum uses ECDSA to verify the authentication of signers in transactions, this leaves Ethereum technology vulnerable to post quantum computers (because ECDSA was not meant to be post quantum), to mitigate this, a change in Ethereum needs to happen - The most viable path of action is Account Abstraction, this is because it introduces a new Transaction Type which not depends on ECDSA, instead, contracts implements their own authentication logic meaning that they can expect a signature using a different algorithm (which can be post quantum resistant)
 
 - 
-
 
 ### Resources
 

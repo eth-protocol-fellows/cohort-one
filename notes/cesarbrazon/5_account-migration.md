@@ -24,7 +24,6 @@ Contracts
 - Invoker: Uses the `AUTH` & `AUTHCALL` instruction
 - Callee: Contract to interact with from the invoker
 
-
 ### Notes
 - If you want to send ether in EIP3074 it needs to be from the *invoker*
 - Chain ID is important because the invoker should check it to make sure it matches correctly
@@ -49,6 +48,17 @@ Contracts
 
 ## EIP 2938
 
+**Cool uses cases**
+
+- Smart Contract Wallet: On-chain contract that providers additional features
+- Mixer: Anonymizes funds by pooling many deposits into a pool, today, relayer pays for gas & is reimbursed, with eip 2938, the fees are deducted directly from withdrawal
+- In-App tokens: dApp has its own token which entitles users to pay for gas 
+
+
+### Notes
+
+Allows a contract to be the top-level account that pays fees and start transaction execution
+
 - Reduces client complexity - Account abstraction removes EOA. Authorization logic will be moved to Smart Contract execution layer
 - If a new user wants to create a new wallet, he needs to pay for the deployment of the AA contract
 
@@ -58,6 +68,9 @@ In order to implement AA, we require merging EIP 2937 or preserve nonce on self 
 
 - Two categories: Single-tenant and Multi-tenants.
   Single-tenant are for wallet and basically an account per user case. Multi-tenants will aim in account for many users, like tornado cash or uniswap. AA support for multi-tenant applications requires more research and is proposed as future work; so first, single-tenant is the ony that's going to be developed
+
+- Remove the necessity of relayers, you would just need to relay on the clients, since the contract takes care of paying for the gas
+- This EIP adds extensive changes to the protocol, it's a must that new mempool rules are added, every client implements it exactly the same way and they need to make sure that every one behaves exactly the same
 
 ### Implementation details
 
@@ -72,10 +85,7 @@ In order to implement AA, we require merging EIP 2937 or preserve nonce on self 
 
 
 
-
-
-
-  ## Differences
+## Differences
   - Introducing a new transaction type means new mem pools rules need to be implemented, we need to be careful with this because it can cause service vector or additional proccesing
   - Introducing a new opcode is more easier and less intrusive
 
