@@ -24,6 +24,7 @@
 - Everytime a new transaction is triggered, the first opcode that runs is `JUMPDEST`
 - Some positions in the code are marked valid to `JUMPDEST`, but there are some restrictions - you need to know the valid destinations before caling the `JUMPDEST`, otherwise it will revert
 - The payload of a normal transaction is `RLP([nonce, gas_price, gas_limit, to, value, data, v, r, s])`
+- Mempool: Is where transactions go before they are included on chain
 
 
 ## Questions
