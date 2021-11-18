@@ -63,6 +63,7 @@ Implement [portal network](https://github.com/ethereum/portal-network-specs/tree
   - https://hackmd.io/hsCz1G3BTyiwwJtjT4pe2Q
   - https://github.com/ethereum/consensus-specs/issues/2429
   - https://medium.com/chainsafe-systems/lodestar-releases-light-client-prototype-40f300361c65
+  - https://github.com/ChainSafe/lodestar/tree/mpetrunic/lightclient-sync-protocol
 
 - Alex Stoke's writeup
   - https://notes.ethereum.org/@ralexstokes/S1RSe1JlF
