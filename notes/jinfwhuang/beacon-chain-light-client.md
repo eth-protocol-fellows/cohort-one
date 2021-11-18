@@ -57,7 +57,6 @@ Design and implement a peer discovery mechanism
 Implement [portal network](https://github.com/ethereum/portal-network-specs/tree/master/beacon-chain) as the networking layer
 
 
-
 ## Related Links:
 - Lodestar
   - Lodestar has done the most in producing a POC
