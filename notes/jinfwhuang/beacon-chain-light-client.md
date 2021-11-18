@@ -3,28 +3,28 @@
 ## Writings
 
 - How to think about the beacon chain light client landscape
-  1. [Light client classifications](https://ethresear.ch/t/beacon-chain-light-client-classification/11061)
-  1. [Light client networking](https://ethresear.ch/t/beacon-chain-light-client-networking/11063)
+  - [Light client classifications](https://ethresear.ch/t/beacon-chain-light-client-classification/11061)
+  - [Light client networking](https://ethresear.ch/t/beacon-chain-light-client-networking/11063)
 
 - Bootstrapping the beacon chain sub-networks using the portal network core designs
-  1. [Initial beacon chain spec]https://github.com/ethereum/portal-network-specs/pull/99
-  1. [Skip sync and initial sync]https://github.com/ethereum/portal-network-specs/pull/102
+  - [Initial beacon chain spec]https://github.com/ethereum/portal-network-specs/pull/99
+  - [Skip sync and initial sync]https://github.com/ethereum/portal-network-specs/pull/102
 
 - Proposals
-1. [Light client proposal post in ethresear](https://ethresear.ch/t/a-beacon-chain-light-client-proposal/11064)
-1. [A work in progress proposal](https://www.notion.so/prysmaticlabs/Prysm-Light-Client-v1-9720501820da412d8cb12ffe54eba235)
+  - [Light client proposal post in ethresear](https://ethresear.ch/t/a-beacon-chain-light-client-proposal/11064)
+  - [A work in progress proposal](https://www.notion.so/prysmaticlabs/Prysm-Light-Client-v1-9720501820da412d8cb12ffe54eba235)
 
 ## POC
 I am building light client on the Prysm codebase. 
 Work in progress: https://github.com/jinfwhuang/prysm/pull/5/files
 
-#### Goal
+### Goal
 I want to build a light client that:
 - Has a trustless setup
 - Be able to answer API queries about beacon state
 - Have a working networking layer for the light client to acquire input data. This could be as a simple RPC, or something similar to LES. But I would probably want the node discovery to be p2p.
 
-#### Steps
+### Plan
 ###### Step 1
 Be able to run the server and get back some new data types; both grpc and http json ; This is more or less duplicating what you guys are working on. I am using slightly different message types and different API endpoints than those proposed by lodestar.
 ```
@@ -59,7 +59,6 @@ Implement [portal network](https://github.com/ethereum/portal-network-specs/tree
 
 
 ## Related Links:
-
 - Lodestar
   - Lodestar has done the most in producing a POC
   - https://hackmd.io/hsCz1G3BTyiwwJtjT4pe2Q
