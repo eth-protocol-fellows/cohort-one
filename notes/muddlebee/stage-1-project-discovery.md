@@ -58,7 +58,7 @@ The idea that communication directly from those who first discovered an idea is 
 
 I was trying to wrap my head around the Ethereum block architecture. Had difficult times connecting the dots and here is the best visual diagram I found. https://ethereum.stackexchange.com/a/6413 Still believe we can do better with more useful block diagrams and mind maps to help [connect the dots](https://news.stanford.edu/2005/06/14/jobs-061505/) better.
 
-With tools like mind maps/good documentation/tutorial, we will be able to bridge the gap of better context to pave way for meaningful contributions to Portal Network or any other project in Ethereum ecosystem.
+With tools like mind maps/good documentation/tutorial, we will be able to bridge the gap of better context to pave way for meaningful contributions to Portal Network or any other project in the Ethereum ecosystem.
 
  
    **2. Author an EIP and corresponding POC implementation for creating a transparent system to contextualise and rank ideas.** 
@@ -111,7 +111,7 @@ Potential Use Case:
 ### 3. Expand Your Knowledge
 
 - Deep dive into existing Ethereum client protocols and how Portal Network is doing it better?
-- Study the existing authoring EIP process and implementation at client side.
+- Study the existing authoring EIP process and implementation at the client side.
   
 
 ### 4. Externally Beneficial
