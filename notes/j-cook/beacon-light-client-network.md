@@ -1,5 +1,7 @@
 # Beacon Chain Light Clients
 
+<b>WIP: contributions/corrections welcome!</b>
+
 ## What is the purpose of a Beacon Chain light client?
 
 Currently, there are only two options for accessing Ethereum: through a centralised service or by running a full Ethereum node. The former is vulnerable to failure, manipulation or censorship of the centralised provider, while the latter requires significant technical know-how and non-negligible computing resources. A light-client sits between these two end-members. It is fully decentralised and the user verifies their own data and syncs the blockchain first-hand, eliminating the need to trust a third party and expends minimal computational resource perhaps to the extent that the application could run invisibly on a normal laptop or on a mobile phone. However, the trade-off is that in order to stay light, the client has to request access to state data from the network rather than querying its own storage. The aim of this document is to explore two sources of this state data to direct the development of new light clients.
@@ -36,6 +38,17 @@ Likely next steps for lodestar
 - implement fork choice rule so that light client can reorg and sync to true head of chain
 - serve execution layer data to light clients on Amphora devnet
 - spec out how execution data will be served to light clients on post-merge mainnet
+
+
+## libp2p
+
+It seems sensible to gossip the light client updates rather than rely on a req/resp model. This seems like an ideal task for libP2P's pubsub, because:
+
+- pubsub's interaction model is M:N where M << N. M can be Beacon nodes, N can be light clients
+- pubsub expects consumers to subscribe to specific topics. These can be light client updates
+- pubsub is an overlay network - it could overlie the existing consensus layer libp2p network
+- pubsub is altruism-free, meaning only nodes subscribing to a topic participate in the subnet - this could be the sync committee and light clients
+-  
 
 
 ## Outlook for developers

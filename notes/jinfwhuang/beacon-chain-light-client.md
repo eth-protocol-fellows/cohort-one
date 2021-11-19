@@ -1,60 +1,78 @@
 # Beacon Chain Light Client
 
-## My current understanding
+## Writings, Discussions, Issues, and Specs PRs
+- How to think about the beacon chain light client landscape
+  - [Light client classifications](https://ethresear.ch/t/beacon-chain-light-client-classification/11061)
+  - [Light client networking](https://ethresear.ch/t/beacon-chain-light-client-networking/11063)
 
-#### Protocol specs
+- Bootstrapping the beacon chain sub-networks using the portal network core designs
+  - [Initial beacon chain spec](https://github.com/ethereum/portal-network-specs/pull/99)
+  - [Skip sync and initial sync](https://github.com/ethereum/portal-network-specs/pull/102)
 
-1. Consensus protocol and execution
+- Proposals
+  - [Light client proposal post in ethresear](https://ethresear.ch/t/a-beacon-chain-light-client-proposal/11064)
+  - [A work in progress proposal](https://www.notion.so/prysmaticlabs/Prysm-Light-Client-v1-9720501820da412d8cb12ffe54eba235)
 
-- The consensus protocol as of Altair already supports light client state updates. See [sync-protocol](https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md) and [beacon-chain](https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/beacon-chain.md)
-- There are some discussions on how light clients use state root and merkle proofs to create transactions, but they are not in the specs.
 
-2. Network protocol
+## Light Client POC
+I am building light client on the Prysm codebase. 
+Work in progress: https://github.com/jinfwhuang/prysm/pull/5/files
 
-- It doesn't look like that there is any design decisions made on how light client fetch block headers, committee signatures, and merkle proofs (witnesses).
-- Two basic approaches: talk to full notes, talk to a p2p light client subnet
-- There seems to be an overlap with **portal network** on how to allow light weight clients to get the data that they need.
+### Goal
+I want to build a light client that:
+- Has a trustless setup
+- Be able to answer API queries about the latest beacon state
+- Have a working networking layer for the light client to acquire input data, i.e. light-client-updates, skip-sync-updates, and merkle proofs of beacon state. 
+- The initial networking layer will be json rpc and grpc. 
+- It is not yet decided if I will pursue in developing the spec that is similar to LES, using discv5 + libp2p.
+- I will definitely pursue implementing the portal networks specific to the beacon chain light client.
 
-#### Client Implementations
+### Implementation Plan
+###### Step 1
+Be able to run the server and get back some new data types; both grpc and http json. I am deviating slightly from what the [Lodestar team has done](https://github.com/ChainSafe/lodestar/tree/mpetrunic/lightclient-sync-protocol). I had discussions with those developers through writing the spec in the portal network. We are going to pursue using data types that could be better adopted in a peer to peer networking environment. See [discussion](https://github.com/ethereum/portal-network-specs/pull/102).
 
-- Most Beacon chain implementations have not implemented the "state update" logic.
+The key endpoints are:
+```
+GET /eth/light-client/v1/skip-sync-update?key=<content-key>
+GET /eth/light-client/v1/updates
+```
 
-- A note on some implementation details on the Lodestar Beacon Chain: https://hackmd.io/hsCz1G3BTyiwwJtjT4pe2Q
+###### Step 2
+- Implement client logic to use new data type to advance its head
+- The light client serve some basic APIs, e.g.
+```
+GET /eth/v1/beacon/headers
+```
 
-- The v2 release of Prysm, which is compatible with Altair hard fork, only implements sync committee logic that is required by the consensus protocol. It has not implemented any state update logic. This could be a good POC project to work on.
+###### Step 3
+Use the proof mechanism to ask and interpret beacon-state-proof
+```
+Server: 
+    - GET /eth/light-client/v1/beacon-state-proof?key=<content-key>
+Light-Client: Be able to serve these APIs
+    - GET /eth/v1/beacon/states/{state_id}/validators
+    - GET /eth/v1/beacon/states/{state_id}/finality_checkpoints
+    - ...
+```
 
-## My next steps
+###### Step 4
+- Design and implement a peer discovery mechanism
+  - Similar to LES
+  - Use discv5 + libp2p
+- This step might be skipped to favor the implementation of step 5 instead. This will be determined later.
 
-- Find a couple of people who is actively thinking about this topic. I want to have a chat with them with respect to the following questions.
-  - Is there a plan to motivate client implementations to have a light client option? What is the timing of that plan?
-  - With regard to Beacon Chain light clients, what is the "spec plan" and "implementation plan"?
-  - What is the relationship between portal network and light client? Should light client be participating on the portal network? Is light client equivalent to stateless client? Will they co-exist or there going to be only one of them?
-  - People:
-    - Alex Stoke
-    - Piper Merriam
-- Understand how the portal network will impact Beacon Chain light clients
-- Understand what is missing on the existing light client spec
-- Implement light client "sync logic" in Prysm beacon-chain
+###### Step 5
+Implement [portal network](https://github.com/ethereum/portal-network-specs/tree/master/beacon-chain) as the networking layer.
 
-## Open questions and comments
 
-- More light client readings:
+## Related Links:
+- Lodestar
+  - Lodestar has done the most in producing a POC
+  - https://hackmd.io/hsCz1G3BTyiwwJtjT4pe2Q
+  - https://github.com/ethereum/consensus-specs/issues/2429
+  - https://medium.com/chainsafe-systems/lodestar-releases-light-client-prototype-40f300361c65
+  - https://github.com/ChainSafe/lodestar/tree/mpetrunic/lightclient-sync-protocol
 
-  - Light client reorg mechanism https://github.com/ethereum/consensus-specs/issues/2182
-  - Light client specs checklist https://github.com/ethereum/consensus-specs/issues/2315
-  - Light-client feedback https://github.com/ethereum/consensus-specs/issues/2429
-
-- celo "ultralight client" design: https://diyhpl.us/wiki/transcripts/stanford-blockchain-conference/2020/celo-ultralight-client/
-
-- portal network
-
-  - https://ethresear.ch/t/scalable-transaction-gossip/8660
-  - https://ethresear.ch/t/scalable-gossip-for-state-network/8958
-
-- https://github.com/ethereum/devp2p
-
-## Links that give overviews of Beacon Chain light client
-
-- 2021/06/07 Vitalik gave a short description on the current design of how light clients would perform block header updates. It also described what is missing in the design of light client protocol. https://www.youtube.com/watch?v=iaAEGs1DMgQ&list=LL&index=62&t=2200s
-- 2021/09/01 Alex Stokes talked about eth2 light client. He gave an overview of light client background. https://www.youtube.com/watch?v=ysW-Bq05pJQ
-- 2021/07/21 A very high level background on light client, stateless clients, and lightweight clients by way of portal network https://www.youtube.com/watch?v=jAX_bgcESoc
+- Alex Stoke's writeup
+  - https://notes.ethereum.org/@ralexstokes/S1RSe1JlF
+  - https://notes.ethereum.org/@ralexstokes/HJxDMi8vY
