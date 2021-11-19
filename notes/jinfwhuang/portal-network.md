@@ -1,16 +1,19 @@
 # Core Portal network 
 
-## Research and Discussions
-  - Core Portal Network
-    - [Reliable Transaction Gossip to Full Radius Nodes](https://github.com/ethereum/portal-network-specs/issues/89)
-    - [The distance metric is of ring geometry instead of XOR](https://github.com/ethereum/portal-network-specs/issues/90)
-    - [FindContent message might not reach large radius node](https://github.com/ethereum/portal-network-specs/issues/91)
-    - [Truthful revelation of radius value](https://github.com/ethereum/portal-network-specs/issues/92)
-    - [Secondary routing table](https://github.com/ethereum/portal-network-specs/pull/105)
-  - Beacon Chain Portal Network
-    - [Spec out what are the sub-DHT and gossip topics needed for beacon-chain](https://github.com/ethereum/portal-network-specs/issues/93)
-    - [Light client classifications](https://ethresear.ch/t/beacon-chain-light-client-classification/11061)
-    - [Light client networking](https://ethresear.ch/t/beacon-chain-light-client-networking/11063)
+## Writings, Discussions, Issues, and Specs PRs
+- Core Portal Network
+  - [Reliable Transaction Gossip to Full Radius Nodes](https://github.com/ethereum/portal-network-specs/issues/89)
+  - [The distance metric is of ring geometry instead of XOR](https://github.com/ethereum/portal-network-specs/issues/90)
+  - [FindContent message might not reach large radius node](https://github.com/ethereum/portal-network-specs/issues/91)
+  - [Truthful revelation of radius value](https://github.com/ethereum/portal-network-specs/issues/92)
+  - [Secondary routing table](https://github.com/ethereum/portal-network-specs/pull/105)
+
+- Beacon Chain Portal Network
+  - [Spec out what are the sub-DHT and gossip topics needed for beacon-chain](https://github.com/ethereum/portal-network-specs/issues/93)
+  - [Initial beacon chain spec](https://github.com/ethereum/portal-network-specs/pull/99)
+  - [Skip sync and initial sync](https://github.com/ethereum/portal-network-specs/pull/102)
+  - [Light client classifications](https://ethresear.ch/t/beacon-chain-light-client-classification/11061)
+  - [Light client networking](https://ethresear.ch/t/beacon-chain-light-client-networking/11063)
 
 
 ## Planning
@@ -24,8 +27,7 @@ I am spearheading the effort to jump start the necessary beacon chain sub-networ
 ## Execution
 
 #### Design
-- [Initial beacon chain spec](https://github.com/ethereum/portal-network-specs/pull/99)
-- [Skip sync and initial sync](https://github.com/ethereum/portal-network-specs/pull/102)
+The [specs](https://github.com/ethereum/portal-network-specs/tree/master/beacon-chain) that is a work in progress.
 
 #### Implementation
 - I am starting with the implementation of beacon chain light client without the networking layer. See [light-client](./beacon-chain-light-client.md)
