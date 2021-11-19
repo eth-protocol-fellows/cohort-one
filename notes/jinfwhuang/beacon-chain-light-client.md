@@ -1,6 +1,6 @@
 # Beacon Chain Light Client
 
-## Writings, Research, Discussions
+## Writings, Discussions, Issues, and Specs PRs
 - How to think about the beacon chain light client landscape
   - [Light client classifications](https://ethresear.ch/t/beacon-chain-light-client-classification/11061)
   - [Light client networking](https://ethresear.ch/t/beacon-chain-light-client-networking/11063)
@@ -14,7 +14,7 @@
   - [A work in progress proposal](https://www.notion.so/prysmaticlabs/Prysm-Light-Client-v1-9720501820da412d8cb12ffe54eba235)
 
 
-## POC
+## Light Client POC
 I am building light client on the Prysm codebase. 
 Work in progress: https://github.com/jinfwhuang/prysm/pull/5/files
 
