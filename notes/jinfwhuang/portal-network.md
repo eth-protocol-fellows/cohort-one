@@ -16,7 +16,7 @@
 ## Planning
 I am spearheading the effort to jump start the necessary beacon chain sub-networks on the portal network.
 
-1. Spec out the the [beacon chain sub-networks](https://github.com/ethereum/portal-network-specs/tree/master/beacon-chain) to the point where it could be implemented as a POC.
+1. Working out the specs for [beacon chain sub-networks](https://github.com/ethereum/portal-network-specs/tree/master/beacon-chain) to the point where it could be implemented as a POC
 1. Build the core networking layer in the Prysm codebase
 1. Implement the appropriate sub-networks
 1. Incorporate this networking layer in the beacon chain light client.
@@ -24,13 +24,14 @@ I am spearheading the effort to jump start the necessary beacon chain sub-networ
 ## Execution
 
 #### Design
-- [Initial beacon chain spec]https://github.com/ethereum/portal-network-specs/pull/99
-- [Skip sync and initial sync]https://github.com/ethereum/portal-network-specs/pull/102
+- [Initial beacon chain spec](https://github.com/ethereum/portal-network-specs/pull/99)
+- [Skip sync and initial sync](https://github.com/ethereum/portal-network-specs/pull/102)
 
 #### Implementation
-This is not started yet. I start with the implementation of client side logic of a beacon chain light client. See [light-client](./beacon-chain-light-client.md)
+- I am starting with the implementation of beacon chain light client without the networking layer. See [light-client](./beacon-chain-light-client.md)
+- The work on the beacon chain portal networks has not yet starsted.
 
 
-## Background
+## Unsorted notes on the topic
 - See [notes](unsorted-notes/portal-network.md)
 
