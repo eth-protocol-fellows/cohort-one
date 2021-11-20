@@ -10,6 +10,8 @@ This page is for organizing all Light-Client Research and Development.
 - Networking: https://ethresear.ch/t/beacon-chain-light-client-networking/11063
 - Demo: https://light-client-demo.lodestar.casa/
 - Specs: https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md//
+- "Semi Light-Client" Functions Reference 1: https://github.com/ChainSafe/lodestar/blob/master/packages/types/src/altair/types.ts
+- "Semi Light-Client" Functions Reference 2: https://github.com/ChainSafe/lodestar/blob/master/packages/types/src/altair/sszTypes.ts
 
 ## Development
 
