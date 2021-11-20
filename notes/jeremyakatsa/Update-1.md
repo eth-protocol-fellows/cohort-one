@@ -4,16 +4,16 @@
 #### ([Link to Prototype Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
-- [Friday 11/19/21] Started work on a Light-Client-Build-Process Blog Post (for future Cohort that would like to follow/build along the process) https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view.
-- [Thursday 11/18/21] All functions found and recorded within Lodestar-Light-Client-Build-Reference (https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Lodestar-Light-Client-Build-Reference.txt). Added more server reference reviews (https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/README.md). In conversation on Discord with the Teku team at Consensys to find a more efficient proposal for the build.
+- [Friday 11/19/21] Started work on a Step-By-Step Build Process Techincal Post (for future Cohort that would like to follow/build along the process) https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view.
+- [Thursday 11/18/21] All functions found and recorded within Lodestar-Light-Client-Build-Reference (*Condensed into Step-By-Step process (https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view)*). Added more server reference reviews (https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/README.md). In conversation on Discord with the Teku team at Consensys to find a more efficient proposal for the build.
 - [Tuesday 11/16/21] Double check completed (function not found), seeking help through Chainsafe #light-client Discord.
 - [Monday 11/15/21]: Search for Number64UintType() function completed (function not found), double checking links for function within Lodestar-Light-Client-Build-Reference.
 - [Sunday 11/14/21]: Search for Number65UintType() function continues as more links added within Lodestar-Light-Client-Build-Reference.
-- [Saturday 11/13/21]: Lodestar-Light-Client-Build-Reference added in order to search referred files for build (https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Lodestar-Light-Client-Build-Reference.txt). Searching for Number65UintType() within Chainsafe branch.
+- [Saturday 11/13/21]: Lodestar-Light-Client-Build-Reference added in order to search referred files for build (*Condensed into Step-By-Step process (https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view)*). Searching for Number65UintType() within Chainsafe branch.
 - [Friday 11/12/21]: Minor notes added within LightClientStore.
 - [Thursday 11/11/21]: LightClientSnapshot separated out of Types, LightClientStore created (https://github.com/jeyakatsa/teku/tree/master/light-client/src/main/java/tech/pegasys/teku/lightclient/client). 
 - [Wednesday 11/10/21]: LightClientSnapshot completed (https://github.com/jeyakatsa/teku/commit/d4924fb474db31757d152bda50ccea38663b4768).
-- [Tuesday 11/9/21]: Server build process created (for Light Client API) (https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Server-Build-Process.txt)
+- [Tuesday 11/9/21]: Server build process created (for Light Client API) (*Condensed into Step-By-Step process (https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view)*)
 - [Monday 11/8/21]: Started work on thinly veiled Rest API.
 - [Sunday 11/7/21]: LightClientSnapshot build commenced, SyncCommittee class separated.
 - [Saturday 11/6/21]: Gradle build successfully completed, SyncCommittee built, tested and pull requested (https://github.com/ConsenSys/teku/pull/4579).
