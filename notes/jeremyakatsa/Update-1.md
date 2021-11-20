@@ -1,7 +1,6 @@
 ## Project Dive-in (Update 1):
 ### Altair - Minimal Light Client Prototype Build 
-#### ([Link to Prototype Server](https://github.com/jeyakatsa/teku/tree/master/light-client))
-#### ([Link to Prototype Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
+#### ([Link to Prototype Server & Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
 - [Friday 11/19/21] Started work on a Step-By-Step Build Process Techincal Post (for future Cohort that would like to follow/build along the process) https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view.
