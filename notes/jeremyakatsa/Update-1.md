@@ -4,6 +4,7 @@
 #### ([Link to Prototype Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
+- [Friday 11/19/21] Started work on a Light-Client-Build-Process Blog Post (for future Cohort that would like to follow/build along the process) https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view.
 - [Thursday 11/18/21] All functions found and recorded within Lodestar-Light-Client-Build-Reference (https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Lodestar-Light-Client-Build-Reference.txt). Added more server reference reviews (https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/README.md). In conversation on Discord with the Teku team at Consensys to find a more efficient proposal for the build.
 - [Tuesday 11/16/21] Double check completed (function not found), seeking help through Chainsafe #light-client Discord.
 - [Monday 11/15/21]: Search for Number64UintType() function completed (function not found), double checking links for function within Lodestar-Light-Client-Build-Reference.
