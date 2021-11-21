@@ -3,9 +3,10 @@
 #### ([Link to Prototype Server & Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
-- [Saturday 11/20/21] Started work on Utilities (https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/server/Utilities.java).
-LightClientStore completed (https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/client/LightClientStore.java).
-LightClientUpdate completed (https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/client/LightClientUpdate.java). SyncCommittee fully completed (https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/client/SyncCommittee.java).
+- [Saturday 11/20/21] Created [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md) to help speed up problem solving issues while building the server.
+Started work on [Utilities](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/server/Utilities.java).
+Completed [LightClientStore](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/client/LightClientStore.java).
+Completed [LightClientUpdate](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/client/LightClientUpdate.java). Fully completed [SyncCommittee](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/client/SyncCommittee.java).
 - [Friday 11/19/21] Started work on a Step-By-Step Build Process Techincal Post (for future Cohort that would like to follow/build along the process) https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view.
 - [Thursday 11/18/21] All functions found and recorded within Lodestar-Light-Client-Build-Reference (*Condensed into Step-By-Step process (https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view)*). Added more server reference reviews (https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/README.md). In conversation on Discord with the Teku team at Consensys to find a more efficient proposal for the build.
 - [Tuesday 11/16/21] Double check completed (function not found), seeking help through Chainsafe #light-client Discord.
