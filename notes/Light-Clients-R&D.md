@@ -21,8 +21,8 @@ This page is for organizing all Light-Client Research and Development.
 
 ### Needed Light-Clients:
 
-- **Go Light Client**(for Prysm) <~ assigned to Jin (open for collaboration)
-- **Rust Light Client**(for Lighthouse) <~ assigned to Joseph (open for collaboration)
+- **Go Light Client**(for Prysm) <~ assigned to Jin (link to-be-assigned) (open for collaboration)
+- **Rust Light Client**(for Lighthouse) <~ assigned to [Joseph](https://github.com/jmcook1186/beacon-light-client) (open for collaboration)
 - **Java Light Client**(for Teku) <~ assigned to [Jeremy](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype) (open for collaboration)
 - **Nim Light Client**(for Nimbus) <~ vacant
 - **C# Light Client**(for Cortex) <~ vacant
