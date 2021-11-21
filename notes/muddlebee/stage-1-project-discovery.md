@@ -35,7 +35,7 @@ On one fortunate day I stumbled upon a talk by [Piper Merriam, Angela Lu : State
 [Exploring Public Goods Funding](./sources/public-goods-funding.md)
 
 
-## Project Proposal
+### 1. Project Proposal
 
 
   **1. Make Documentation Great Again ( MDGA )**
