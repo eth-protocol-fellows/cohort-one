@@ -38,7 +38,7 @@ On one fortunate day I stumbled upon a talk by [Piper Merriam, Angela Lu : State
 ### 1. Project Proposal
 
 
-  **1. Make Documentation Great Again ( MDGA )**
+####  Make Documentation Great Again ( MDGA )
 
 
  
@@ -61,7 +61,7 @@ I was trying to wrap my head around the Ethereum block architecture. Had difficu
 With tools like mind maps/good documentation/tutorial, we will be able to bridge the gap of better context to pave way for meaningful contributions to Portal Network or any other project in the Ethereum ecosystem.
 
  
-   **2. Author an EIP and corresponding POC implementation for creating a transparent system to contextualise and rank ideas.** 
+####  Author an EIP and corresponding POC implementation for creating a transparent system to contextualise and rank ideas.
 
 Create a ranking mechanism to value ideas and contexts a share of any profits that arise from them.
 
