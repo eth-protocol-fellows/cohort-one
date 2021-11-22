@@ -65,13 +65,15 @@ With tools like mind maps/good documentation/tutorial, we will be able to bridge
 
 Create a ranking mechanism to value ideas and contexts a share of any profits that arise from them.
 
-The main objective is to accelerate the revelation and realisation of valuable ideas.
+The main objective is to accelerate the revelation and realisation of valuable ideas and create a idea-value tree
 
-[Idea Value Tree](./sources/idea-tree.png)
-
+![Idea Value Tree](./sources/idea-tree.png)
 
 Potential features:
--  That every new idea creates a potential context in which to rank other ideas. A tree-like structure of linked contexts is formed and used to visualise ideas in a sequence of ranked lists. This is called the idea-value-tree.
+-  That every new idea creates a potential context in which to rank other ideas. A tree-like structure of linked contexts is formed and used to visualise ideas in a sequence of ranked lists. This is called the idea-value tree.
+
+    - Example. Ethereum --> Distributed Ledger --> Blockchain --> CryptoGraphy -->  Computer science --> Maths. You can go all the way to the end to find its root. And that's the root of Idea Value Tree( check the image above). 
+
 
 -  The ability to claim ownership of a new idea or context, and to transfer those claims to others. This offers the potential for a market for ideas and contexts using the trade of verifiable idea ownership claims.
 
