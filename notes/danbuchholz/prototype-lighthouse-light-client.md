@@ -1,6 +1,6 @@
 # Prototype -- Lighthouse Beacon Chain Light Client
 
-The goal of this project is to create a very basic beacon chain light client prototype using [Sigma Prime's Lighthouse](https://github.com/sigp/lighthouse) implementation. Client-side logic can be found under the following repo/directory, which has been forked from Lighthouse as a standalone project: [here](https://github.com/buchhlz2/lighthouse/tree/light_client/beacon_chain_light_client)
+The goal of this project is to create a very basic beacon chain light client prototype using [Sigma Prime's Lighthouse](https://github.com/sigp/lighthouse) implementation. Client-side logic can be found under the following repo/directory, which has been forked from Lighthouse as a standalone project: [here](https://github.com/buchhlz2/beacon-light-client)
 
 ## Lighthouse Serenity Client
 
@@ -300,7 +300,7 @@ The Lighthouse project is forked where development will take place in the follow
    1. Under root's `Cargo.toml`, insert `beacon_chain_light_client` into the _[workspace]_ `members` array
    2. Ensures successful compilation by avoiding _invalid workspace configuration_ error
 
-### Design Steps (WIP)
+### Potential Design Steps
 
 1. Add dependencies to `beacon_chain_light_client`'s `Cargo.toml`
    1. Cross-reference what other packages (e.g., `lighthouse`, `validator_client`, etc.) are dependent on
@@ -354,11 +354,10 @@ The Lighthouse project is forked where development will take place in the follow
             1. `LightClientSnapshot`
             2. `LightClientUpdate`
             3. `Root` ⇒ `Hash256` (the genesis validator's root)
-   5. TO DO: `lib.rs`
+   5. `lib.rs`
       1. Makes API calls to a beacon node to then run through the light client logic accordingly
       2. Import siblings: `light_client_types.rs`, `events.rs`, `light_client_update.rs`, `validate_light_client_update.rs`
       3. Create `LightClient` container
-         1. TO DO: continue spec-ing
 
 ---
 
