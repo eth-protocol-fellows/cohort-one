@@ -37,7 +37,8 @@
 
 - [Alex](#alex)
     - [Update #1](#alex-update-1)
-
+    - [Update #2](#alex-update-2)
+  
 ## Contributing
 
 If you are participating in the program, you should be posting or aggregating
@@ -136,3 +137,7 @@ Development updates from [`alexchenzl`](https://github.com/alexchenzl/)
 ### Alex: Update 1
 
 [Update #1](https://hackmd.io/@alexchenzl/rkXcGporF)
+
+### Alex: Update 2
+
+[Update #2](https://hackmd.io/@alexchenzl/rkkBdK_OY)
