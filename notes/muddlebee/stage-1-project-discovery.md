@@ -83,7 +83,7 @@ Potential Use Case:
 ### 2. Explore New Territory
 
   
- Deep dive into Portal Network
+#### Deep dive into Portal Network
     
 - Use Rust-Lang docs for documentation of Portal Network 
     -    Cargo documentation: https://github.com/rust-lang/cargo/tree/master/src/doc
@@ -102,13 +102,20 @@ Potential Use Case:
     -  Small exercises to get you used to reading and writing Rust code: https://github.com/rust-lang/rustlings
     -  Writing an OS in Rust: https://os.phil-opp.com/ 
 
-   
-  Meaningful contributions to Trin project, once the fundamentals are good enough.
+-  Meaningful contributions to Trin project, once the fundamentals are good enough.
  
+
+#### Gather context for my POC on creating a transparent system to contextualise and rank ideas.
  - Understand the EIP authoring process in-depth and explore a few ERCs/EIPs
      -   ERC-721 Non-Fungible Token Standard:  https://ethereum.org/en/developers/docs/standards/tokens/erc-721/
-     -    ERC-1155 The Crypto Item Standard:  https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226
-     
+     -   ERC-1155 The Crypto Item Standard:  https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226
+     -   Contribute to https://www.nftstandards.wtf/ by Anett Rolikova (founder of Ethereum Magicians) to gain in-depth understanding on NFTs
+
+ - Understand the relationship between ideas and patents  
+     - [Wikipedia Link](https://www.wikiwand.com/en/Idea#/Relationship_of_ideas_to_modern_legal_time-_and_scope-limited_monopolies)  
+
+
+ 
 
 ### 3. Expand Your Knowledge
 
