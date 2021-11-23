@@ -3,6 +3,7 @@
 #### ([Link to Prototype Server & Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
+- [Monday 11/22/21] Search for "ArrayLike" function continues within Teku client, results recorded here: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md).
 - [Sunday 11/21/21] Continuing search for "ArrayLike" function within Teku client recorded here: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md). Conversating with the Teku team on Discord to expediate the process.
 - [Saturday 11/20/21] Created [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md) to help speed up problem solving issues while building the server.
 Started work on [Utilities](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/server/Utilities.java).
