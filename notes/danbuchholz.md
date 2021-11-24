@@ -2,22 +2,23 @@
 
 ## Areas of Interest
 
-- Statelessness & light clients
-- Sharding / Beacon chain & PoS
-- MEV
-- EVM code safety
-- zk & privacy / rollups
+- Light clients, Beacon chain, & PoS
+- The Merge, execution layer, statelessness
+- Sharding; zk & rollups
+- MEV (within the scope of the roadmap)
 
 ## Cohort Goals
 
-### Phase 0
+- To understand how low-level Ethereum client implementations are built, allowing me to better understand protocol-level interactions and creatively contribute to the Ethereum protocol's R&D through EIPs / specifications
+- Protoype new functionality (defined in Ethereum specifications but yet to be implemented) using an existing client's codebase
 
-To better understand the innerworkings of Ethereum clients (e.g., geth), bolstering my Ethereum knowledge such that I can creatively contribute to the community through EIPs, open issues/bugs, etc.
+## Project
 
-## Project(s) of Interest
-
-- [Beacon chain light clients](https://github.com/ethereum-cdap/cohort-one/issues/9) -- provides hands-on approach for contributing to specifications and a potential implementation (in only a prototype); this project has been committed to
-- [Low-level Rust tooling for EVM](https://github.com/ethereum-cdap/cohort-one/issues/30) -- provides additional insight into EVM innerworkings (Phase 0 goal, plus, selfishly learning Rust); this has not been committed to but a potential option
+- _Based on the project idea [Beacon chain light clients](https://github.com/ethereum-cdap/cohort-one/issues/9)_
+- The goal is to create a very basic client/server of a light client, defined by the [Sync Protocol](https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md)
+- It is similar to what ChainSafe's Lodestar [has already created](https://github.com/ChainSafe/lodestar/blob/master/packages/light-client) and uses Sigma Prime's [Lighthouse codebase](https://github.com/sigp/lighthouse)
+- The general design uses a server that makes HTTP GET requests (adhering to [Beacon APIs](https://ethereum.github.io/beacon-APIs)) to a node at every slot for the tip of the chain, allowing the server to create `LightClientUpdate`s and serve them to a requesting client (which then locally tracks/saves the latest block headers)
+- Additional context can be found in [Development Update #2](https://hackmd.io/@dtb/By94YjF_F) and exists in the following repo: [here](https://github.com/buchhlz2/beacon-light-client)
 
 ## Notes
 
@@ -25,6 +26,9 @@ Notes repository located in the [`danbuchholz`](./danbuchholz) directory.
 
 ### Research Resources / Links
 
+- Light clients
+  - [Consensus Specifications (Beacon Chain, Sync Protocol, etc.)](https://github.com/ethereum/consensus-specs)
+  - [ChainSafe's Consensus Light Client Server Implementation Notes](https://hackmd.io/hsCz1G3BTyiwwJtjT4pe2Q)
 - EVM code safety & validation
   - [Safer control flow for EVM (EIP-3779)](https://eips.ethereum.org/EIPS/eip-3779)
   - [Everything about EVM Object Format ("EOF")](https://notes.ethereum.org/@ipsilon/evm-object-format-overview)
