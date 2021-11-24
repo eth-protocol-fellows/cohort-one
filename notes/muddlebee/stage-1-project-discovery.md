@@ -79,6 +79,8 @@ Potential features:
 
 Potential Use Case:
 - Incentivize the EIP authoring process
+- Ideas and Patents
+- Ideas and Copyrights
 
 ### 2. Explore New Territory
 
