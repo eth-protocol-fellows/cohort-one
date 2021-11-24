@@ -1,7 +1,7 @@
 
-**Ethereum philosophy & core values**
+### Ethereum philosophy & core values
 
-Also in its [White Paper Ethereum](https://ethereum.org/en/whitepaper/)  highlighted its core principles, that will serve as the guidelines for the future development of the protocol:
+[White Paper Ethereum](https://ethereum.org/en/whitepaper/) highlighted its core principles, that will serve as the guidelines for the future development of the protocol:
 
 -  Simplicity: the Ethereum protocol should be as simple as possible, even at the cost of some data storage or time inefficiency (this is in line with the democratizing aspect of the Ethereum ecosystem, where also average programmers need to be able to code on top of it).
 
@@ -15,7 +15,7 @@ Also in its [White Paper Ethereum](https://ethereum.org/en/whitepaper/)  highlig
 can run on the blockchain).
 
 
-**Ethereum’s value propositions**
+### Ethereum’s value propositions
 
 As a business platform enabling entire ecosystems to form on top of it. Therefore, it has a multi-faceted value proposition, that can be reconducted to a few key points (in part connected with its core values and use cases):
 
@@ -28,7 +28,7 @@ As a business platform enabling entire ecosystems to form on top of it. Therefor
 -  Scaling: if you build a very large application on top of Ethereum is possible.
 
 
-**TODO**
+### TODO
 
  - [ ] Distribution Model
  - [ ] Economic Model: Supply Side, Incentives/Disincentives, & Commercial Applications
