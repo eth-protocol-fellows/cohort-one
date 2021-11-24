@@ -49,6 +49,10 @@
   - [Update #1](#alex-update-1)
   - [Update #2](#alex-update-2)
 
+- [muddlebee](#muddlebee)
+    - [Update #1](#muddlebee-update-1)
+    - [Update #2](#muddlebee-update-2)
+
 ## Contributing
 
 If you are participating in the program, you should be posting or aggregating
@@ -165,3 +169,11 @@ Development updates from [`alexchenzl`](https://github.com/alexchenzl/)
 ### Alex: Update 2
 
 [Update #2](https://hackmd.io/@alexchenzl/rkkBdK_OY)
+
+### muddlebee-update-1
+
+[Update #1](./notes/muddlebee/stage-0-getting-started.md)
+
+### muddlebee-update-2
+
+[Update #2](./notes/muddlebee/stage-1-project-discovery.md)
