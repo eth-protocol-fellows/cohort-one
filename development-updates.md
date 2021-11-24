@@ -20,9 +20,12 @@
   - [Update #1](#jolene-update-1)
 
 - [Keenan](#keenan)
+
   - [Update #1](#keenan-update-1)
   - [Update #2](#keenan-update-2)
   - [Update #3](#keenan-update-3)
+  - [Update #4](#keenan-update-4)
+
 - [Mihir](#mihir)
 
   - [Update #1](#mihir-update-1)
@@ -102,6 +105,10 @@ Development updates from [`nasdf`](https://github.com/nasdf)
 ### Keenan: Update 3
 
 [Link to update #3](https://hackmd.io/@nasdf/HypqsYHwF)
+
+### Keenan: Update 4
+
+[Link to update #4](https://hackmd.io/@nasdf/B1GdtxsOF)
 
 ## Mihir
 
