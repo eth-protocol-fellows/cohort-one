@@ -218,7 +218,7 @@ block_roots                       |   vec<vec<u8>>  |     variable       |
 current_epoch_participation       |   vec<bool>     |     fixed          |  
 current_justified_checkpoint      |   Checkpoint    |     fixed          |  
     epoch                         |   u32           |     fixed          |  
-    root                          |   vec<u8>       |     fixed          |  
+    root                          |   vec<u8>       |     fixed          |  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
 current_sync_committee            |   SyncCommittee |     fixed          |     
     pubkeys                       |   vec<u8>       |     fixed          |  
     aggregate_pubkey              |   vec<u8>       |     fixed          |  

@@ -2,9 +2,9 @@
 
 ## Purpose
 
-The idea of a light client is to enable access to Ethereum by resource constrained devices, such as a wallet on a mobile phone or a very small daemon that could run with negligible resource capture on a normal laptop. The client should be able to participate in maintaining the chain:
+The idea of a light client is to enable access to Ethereum by resource constrained devices, such as a wallet on a mobile phone or a very small daemon that could run with negligible resource capture on a normal laptop. Currently, running a full node is expensive in terms of disk space and computation beacuse it 
 
-- Does the light client participate in attestation? no only a validator does
+- Does the light client participate in attestation? only if linked to a validator
 - Does the light client participate in fork choice? not yet, constraining the light client to the last finalized block not the true head
 - Can a light client be a validator (presumably not)?
 - So why would someone run a beacon chain light client? Access to self-verified up to date chain info
