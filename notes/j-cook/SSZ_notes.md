@@ -200,6 +200,27 @@ The hash of (8,9) should equal hash (4), which hashes with 5 to produce 2, which
 
 For the light client server, we do not need to conduct any actual proofs, but we do need to serialize the `state` object and determine the generalized indices for the `next_sync_committee` and `finalized_root` fields, so that the multiproofs can be achieved by the light client after receiving the update object from the light server. [ssz_rs](https://github.com/ralexstokes/ssz_rs) appears to have the required functionality to SSZ serialize the `state` object. Below I have listed each of the keys in the `state` object and their types.
 
+This is all required to populate the `finality branch` and `next_sync_comittee_branch` fields in the `LightClientUpdate` struct served by the light server to the light client. These fields take as vectors of 32Byte values, with the vector length being equal to floor(log2(generalized_index)). This length is the number of nodes required to validate the content of `finalized_root` or `next_sync_comittee_index` in the Merkle-tree representation of the `beacon_state`. The hash of each of the nodes along the branch joining these leaves to the state root are the contents of the vector contained in `light_client_update`. There are several packages available in Rust for serializing the beacon_state obejct usign SSZ: ssz_rs, ethereum_consensus and Lighthouse's ssz. The former is the simplest and the code is relatively easy to understand, but it has an unresolvable dependency conflict with Lighthouse (`funty`). ethereum-consensus does not yet allow multiproofs, but will soon. This leaves Lighthouse's SSZ code as the primary option, with the only drawback being that it is quite opaque and hard to understand.
+
+
+```Rust
+
+pub struct LightClientUpdate{
+    
+    header: BeaconBlockHeader  // comes from header struct
+    // Next sync committee corresponding to the header
+    next_sync_committee: SyncCommittee  //full syncCommittee struct
+    next_sync_committee_branch: Vector[Bytes32, floorlog2(NEXT_SYNC_COMMITTEE_INDEX)] // vector of bytes32 with length equal to floorlog2(generalizedindex)
+    // # Finality proof for the update header
+    finality_header: BeaconBlockHeader  // comes from header struct
+    finality_branch: Vector[Bytes32, floorlog2(FINALIZED_ROOT_INDEX)]    // vector of bytes32 with length equal to floorlog2(generalizedindex)
+    // Sync committee aggregate signature
+    sync_committee_bits: Bitvector[SYNC_COMMITTEE_SIZE]   // comes from syncAggregate struct
+    sync_committee_signature: BLSSignature  // comes from syncAggregate struct
+    // Fork version for the aggregate signature
+    fork_version: Version
+}
+```
 
 <br>
 <br>
@@ -218,7 +239,7 @@ block_roots                       |   vec<vec<u8>>  |     variable       |
 current_epoch_participation       |   vec<bool>     |     fixed          |  
 current_justified_checkpoint      |   Checkpoint    |     fixed          |  
     epoch                         |   u32           |     fixed          |  
-    root                          |   vec<u8>       |     fixed          |  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
+    root                          |   vec<u8>       |     fixed          |  
 current_sync_committee            |   SyncCommittee |     fixed          |     
     pubkeys                       |   vec<u8>       |     fixed          |  
     aggregate_pubkey              |   vec<u8>       |     fixed          |  
@@ -262,6 +283,3 @@ validators                        |   vec<u64>      |     fixed          |
 ```
 <br>
 <br>
-
-## Outstanding Questions:
-
