@@ -1,42 +1,35 @@
-# Ethereum Capacity Improvents:
+# Development Update 1
 
-## Interests
+## September-October 2021
 
-The following topics have particularly piqued my interest:
-- PoS
-- Beacon light client development
-- Beacon fuzzing/testing
+## Intro/Background
 
-I'm pretty convinced Beacon-chain light-client development is my top choice of topic and this is where I intend to focus my attention initially.
-  
-## Background
+I'm working on this part-time and would be very open to collaborating with others on Beacon chain light client development. I am especially interested in this because light-clients are fundamental to Ethereum being widely decentralised and minimizing reliance on centralised operators such as Infura. On a personal level this feels like a gap where I might be able to make some tangible contributions and a good way to develop a really deep understanding of PoS consensus in advance of the merge. Strategically, this seems like a potentally good foothold into core development on post-merge Ethereum. I am arriving with diverse software development experience including dapps and pretty good conceptual knowledge of Ethereum, PoS, Beacon etc, but no hands-on experience with the p2p networking layer.
 
-I'm working on this part-time and would be very open to collaborating with others on Beacon chain light client development. I am especially interested in this because light-clients are fundamental to Ethereum being widely decentralised and minimizing reliance on centralised operators such as Infura. On a personal level this feels like a gap where I might be able to make some tangible contributions and a good way to develop a really deep understanding of PoS consensus in advance of the merge. Strategically, this seems like a potentally good foothold into core development on post-merge Ethereum. I am arriving with diverse software development experience including dapps and pretty good conceptual knowledge of Ethereum, PoS, Beacon etc, but no hands-on experience at all with p2p or client building.
+## Progress Updates
 
-## Current progress
-
+[September 2021]
 - Deep dive into PoS, merge and rollup-centric roadmap
 - Deep dive into Altair incl reading EIP and specs, listening to core dev calls, reading EF blog posts
 - Examination of geth and lodestar source code
-- Initial examination of beacon-fuzz code
 - Reading existing literature on client development (most useful linked below)
 - Spin up Geth node and interact using json RPC on testnet
+- Spin up Lighthouse node and validator on testnet
+- 
+[October 2021]  
 - PR on ethereum.org contributing PoS explainer page (https://github.com/ethereum/ethereum-org-website/pull/3873)
 - Deep dive into libp2p and build basic p2p project in Rust
+- Start light client study group
+- Organize across light client study group to divide energy across clients (Prysm, Teku, Lighthouse)
+- Use Rust to parse some responses from beacon API endpoints as json - get a feel for the contents of the various objects
+- Contact Alex Stokes and form breakout Rust light client group with Dan B.
+- Deep dive and discussion with light client group regarding light client networking. I wil focus on server/client model.
+- Organize Rust light client development plan: I will initially focus on the light server briding beacon node to light client.
 
-## Next steps
-
-- Continue to explore light client development, migrating from exploration to defining specific objectives
-- Reach out to potential collaborators/mentors - ralexstokes has created very interesting issue on cohort-one repo
-- Spin up beacon node (likely Lodestar) - if I get time and unbrick spare laptop.
-- Continue exploring client architectures, specs - probably focus on Rust implementations but also explore GO/js
-  
-## Outstanding questions
-
-- What is the status of the various python implementations? They seem out of vogue - Python just too slow? More secure to use a static typed language?
-- rust vs go vs js for new light client? Rust feels good atm...!
-- still haven't really identified and understood the the p2p networking code/control flow in existing clients - geth, lodestar...
-- what are whisper and swarm? Are they fundamental to ethereum? Will they be persisted in Beacon clients?
+## Next Steps
+- Deep dive into SSZ serialization and Lighhouse's Merkle tree implementation
+- Skeleton lgiht server. Initially just make relevant http requests to BN and parse around as json.
+- Update light server to use spec types.
 
 ## Useful Links
 - What is a light client and why should you care? https://www.parity.io/blog/what-is-a-light-client/

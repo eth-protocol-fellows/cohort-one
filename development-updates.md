@@ -15,6 +15,11 @@
 
   - [Update #1](#jeremyakatsa-update-1)
 
+- [j-cook](#j-cook)
+  - [Update #1](#j-cook-update-1)
+  - [Update #2](#j-cook-update-2)
+  - [Link to Github](https://github.com/jmcook1186/beacon-light-client)
+
 - [Jolene](#jolene)
 
   - [Update #1](#jolene-update-1)
@@ -81,6 +86,15 @@ Development updates from [`jeyakatsa`](https://github.com/jeyakatsa)
 ### JeremyAkatsa: Update 1
 
 [Link to update #1](./notes/jeremyakatsa/Update-1.md)
+
+## j-cook
+
+### j-cook: Update 1
+
+[Link to update notes](./notes/j-cook/update-1.md)
+
+### j-cook: Update 2
+[Link to update notes](./notes/j-cook/update-2.md)
 
 ## Jolene
 
