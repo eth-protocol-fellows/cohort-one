@@ -3,6 +3,7 @@
 #### ([Link to Prototype Server & Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
+- [Friday 11/26/21] "Generic Arrays" not supported within Java, "ArrayLike" solution refactored, results recorded: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md), ArrayLike class deleted. Downloaded/Installed new IDE (IntelliJ) to match with Teku team specifics, mentioned [here](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/README.md).
 - [Thursday 11/25/21] "ArrayLike" function problem solved, results recorded here: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md). Moving onto refactoring [ArrayLike class](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/server/ArrayLike.java) for Utilities class.
 - [Wednesday 11/24/21] All possible classes tested (within SSZ), results recorded here: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md).
 - [Tuesday 11/23/21] Search completed for "ArrayLike" function within Ssz packages, results recorded here: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md).
