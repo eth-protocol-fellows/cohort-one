@@ -34,6 +34,7 @@
 
 - [hansmrtn](#hansmrtn)
     - [Update #1](#hansmrtn-update-1)
+    - [Update #2](#hansmrtn-update-2)
 
 - [Alex](#alex)
     - [Update #1](#alex-update-1)
@@ -128,6 +129,8 @@ Development updates from [`hansmrtn`](https://github.com/hansmrtn/)
 ### hansmrtn: Update 1
 
 [Update #1](https://hackmd.io/@hansmrtn/Hyytr4ZVF)
+
+[Update #2](https://hackmd.io/@hansmrtn/ry5dKuREt)
 
 ## Alex 
 
