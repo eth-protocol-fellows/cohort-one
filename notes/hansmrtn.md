@@ -1,12 +1,16 @@
-# hansmrtn Notes
+# hansmrtn
 
-## Updates: 
-- Development: [Update 1](https://hackmd.io/@hansmrtn/Hyytr4ZVF)
+## Updates
+- Development: [Update 2](https://hackmd.io/@hansmrtn/ry5dKuREt)
 - Project: [Comparing Tracing API outputs across clients](https://github.com/hansmrtn/tracing-apis)
+- Mini-Project: [Building a toy-chain](https://hackmd.io/kmNOic89QoiqpWrnw9lj6g), Repo: [here](https://github.com/hansmrtn/toy-chain)
+- Development: [Update 1](https://hackmd.io/@hansmrtn/Hyytr4ZVF)
 - Article: [Notes on Ethereum's' Underside](https://hackmd.io/@hansmrtn/BJ7cn8sHY)
 
 ## Areas of Interest
-
+- ethereumjs 
+- nimbus
+- prysm 
 - go-ethereum project
 - py-evm project
 - portal-network 
