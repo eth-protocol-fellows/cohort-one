@@ -47,8 +47,8 @@
   - [Update #2](#sevkibaba-update-2)
 
 - [hansmrtn](#hansmrtn)
-
   - [Update #1](#hansmrtn-update-1)
+  - [Update #2](#hansmrtn-update-2)
 
 - [Alex](#alex)
   - [Update #1](#alex-update-1)
@@ -172,7 +172,11 @@ Development updates from [`hansmrtn`](https://github.com/hansmrtn/)
 
 [Update #1](https://hackmd.io/@hansmrtn/Hyytr4ZVF)
 
-## Alex
+### hansmrtn: Update 2
+
+[Update #2](https://hackmd.io/@hansmrtn/ry5dKuREt)
+
+## Alex 
 
 Development updates from [`alexchenzl`](https://github.com/alexchenzl/)
 
