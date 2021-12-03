@@ -58,6 +58,9 @@
     - [Update #1](#muddlebee-update-1)
     - [Update #2](#muddlebee-update-2)
 
+-[Taylor](#taylor)
+    - [Update #1](#taylor-update-1)
+
 ## Contributing
 
 If you are participating in the program, you should be posting or aggregating
@@ -197,3 +200,11 @@ Development updates from [`alexchenzl`](https://github.com/alexchenzl/)
 ### muddlebee-update-2
 
 [Update #2](./notes/muddlebee/stage-1-project-discovery.md)
+
+## Taylor
+
+Development updates from [`taylorjordanNC`](https://github.com/taylorjordanNC/)
+
+### Taylor: Update 1
+
+[Update #1](https://hackmd.io/@vanitas/stage0-1)
