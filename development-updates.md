@@ -58,7 +58,7 @@
     - [Update #1](#muddlebee-update-1)
     - [Update #2](#muddlebee-update-2)
 
--[Taylor](#taylor)
+- [Taylor](#taylor)
     - [Update #1](#taylor-update-1)
 
 ## Contributing
