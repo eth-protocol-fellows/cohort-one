@@ -3,6 +3,7 @@
 #### ([Link to Prototype Server & Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
 
 #### Daily Updates:
+- [Friday 12/2/21]: New trial & error approach being implemented to resolve compilation issues, results recorded: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md).
 - [Thursday 12/2/21]: Continuing diagnosis of IntelliJ issue.
 - [Wednesday 12/1/21] Working on redirecting Gradle specified location, progress & discovery recorded here: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md).
 - [Tuesday 11/30/21] Tried implementing `.gradle` into variable to resolve IntelliJ compilation issue, results recorded: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md).
