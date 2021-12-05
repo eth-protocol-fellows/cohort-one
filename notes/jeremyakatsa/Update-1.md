@@ -1,6 +1,10 @@
 ## Project Dive-in (Update 1):
-### Altair - Minimal Light Client Prototype Build 
-#### ([Link to Prototype Server & Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
+### Altair - Minimal Light Client Prototype
+
+#### The Research & Development process: [Step-By-Step Guide](https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view)
+#### The Work: [Prototype Server & Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype)
+
+_________________________________________________________________________ 
 
 #### Daily Updates (October 2021 - December 2021):
 - [Saturday 12/3/21]: Started work on ZeroHash function within [Utilities](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/Utilities.java) class. Eclipse removed as coding tool from [Readme](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/README.md) & [Step-By-Step Guide](https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view) (as was the primary arbiter of compilation issues for IntelliJ). [Light-Client Server "Module"](https://github.com/jeyakatsa/teku/tree/master/light-client) refactored from Eclipse for IntelliJ and all import issues resolved via [gradle.build](https://github.com/jeyakatsa/teku/blob/master/light-client/build.gradle). IntelliJ compilation issue resolved, solution recorded: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md).
