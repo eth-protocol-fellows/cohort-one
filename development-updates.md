@@ -14,6 +14,7 @@
 - [JeremyAkatsa](#jeremyakatsa)
 
   - [Update #1](#jeremyakatsa-update-1)
+  - [Update #2](#jeremyakatsa-update-2)
 
 - [j-cook](#j-cook)
   - [Update #1](#j-cook-update-1)
@@ -89,6 +90,10 @@ Development updates from [`jeyakatsa`](https://github.com/jeyakatsa)
 ### JeremyAkatsa: Update 1
 
 [Link to update #1](./notes/jeremyakatsa/Update-1.md)
+
+### JeremyAkatsa: Update 2
+
+[Link to update #2](./notes/jeremyakatsa/Update-2.md)
 
 ## j-cook
 
