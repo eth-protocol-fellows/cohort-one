@@ -9,11 +9,12 @@ This work should cover 12-14ish weeks of effort.
 - [x] Ensure that block-level access lists that match the EIP are being published by the experimental fork
 
 ### Stage 2 (~1 week)
-- [] Capture extra witness metadata so that `AccessRootList` can be constructed from witness
+- [x] _Document current state of witnesses and publish_
+- [x] Capture extra witness metadata so that `AccessRootList` can be constructed from witness
 
 ### Stage 3 (~2 weeks)
-- [] Write a reference implementation that
-	- [] given a block number
+- [x] Write a reference implementation that
+	- [x] given a block number
 	- [] accesses the witness via API
 	- [] construct `AccessRootList` from this witness
 	- [] verify that it is the same as what is in the block header
