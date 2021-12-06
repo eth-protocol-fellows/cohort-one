@@ -54,6 +54,7 @@
 - [Alex](#alex)
   - [Update #1](#alex-update-1)
   - [Update #2](#alex-update-2)
+  - [Update #3](#alex-update-3)
 
 - [muddlebee](#muddlebee)
     - [Update #1](#muddlebee-update-1)
@@ -195,6 +196,10 @@ Development updates from [`alexchenzl`](https://github.com/alexchenzl/)
 ### Alex: Update 2
 
 [Update #2](https://hackmd.io/@alexchenzl/rkkBdK_OY)
+
+### Alex: Update 3
+
+[Update #3](https://hackmd.io/@alexchenzl/H1-IBgiYY)
 
 ## muddlebee 
 
