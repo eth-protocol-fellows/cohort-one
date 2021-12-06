@@ -24,6 +24,8 @@
 - [Jolene](#jolene)
 
   - [Update #1](#jolene-update-1)
+  - [Update #2](#jolene-update-2)
+  - [Update #3](#jolene-update-3)
 
 - [Keenan](#keenan)
 
@@ -116,6 +118,11 @@ Development updates from [`jldunne`](https://github.com/jldunne)
 ### Jolene: Update 2
 
 [Update #2](./notes/jldunne/development-updates/development-update-2.md)
+
+### Jolene: Update 3
+
+[Update #3](./notes/jldunne/development-updates/development-update-3.md)
+
 
 ## Keenan
 
