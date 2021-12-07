@@ -1,5 +1,7 @@
-## Project Dive-in (Update 1):
-### Altair - Minimal Light Client Prototype
+# Project Dive-in (Update 1):
+## Altair - Minimal Light Client Prototype Build 
+
+### [Light-Client Custom Token Creation Proposal](https://ethresear.ch/t/light-client-custom-token-creation-proposal/11433)
 
 #### The Research & Development process: [Step-By-Step Guide](https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view)
 #### The Work: [Prototype Server & Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype)
