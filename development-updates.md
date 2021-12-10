@@ -6,6 +6,11 @@
 
 - [Contributing](#contributing)
 
+- [Chao](#chao)
+  
+  - [Update #1](#chao-update-1)
+  - [Update #2](#chao-update-2)
+
 - [Dan](#dan)
 
   - [Update #1](#dan-update-1)
@@ -66,6 +71,7 @@
     - [Update #1](#taylor-update-1)
     - [Update #2](#taylor-update-2)
 
+
 ## Contributing
 
 If you are participating in the program, you should be posting or aggregating
@@ -74,6 +80,18 @@ your development updates in this document.
 - Create a new H2 heading section with your name.
 - Add it to the [Table of Contents](#table-of-contents)
 - Keep the overall list of people sorted alphabetically.
+
+## Chao
+
+Development updates from [`chaosma`](https://github.com/chaosma/)
+
+### Chao: Update 1
+
+[Update #1](https://hackmd.io/@TTvN7fKGSjCtpmxVXx1RWw/ByQb3rZHt)
+
+### Chao: Update 2
+
+[Update #2](https://github.com/appliedzkp/maci/pull/327)
 
 ## Dan
 
