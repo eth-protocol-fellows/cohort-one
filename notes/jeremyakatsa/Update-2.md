@@ -9,7 +9,8 @@
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
-- [Thursday 12/9/21]: More test cases added to problem solving research, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
+- [Friday 12/10/21]: `isZeroHash()` function problem resolved within [Utilities](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/Utilities.java) class, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
+- [Thursday 1/2/9/21]: More test cases added to problem solving research, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
 - [Wednesday 12/8/21]: Trial and error problem solving approach to solve `Bytes32` issue continues, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
 - [Tuesday 12/7/21]: Added getters and setters to root function in ordinance of trial and error problem solving approach within [Utilities](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/Utilities.java) class, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
 - [Monday 12/6/21]: Continuing the process of finding a solution to the `Bytes32` loop error, test cases & findings recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
