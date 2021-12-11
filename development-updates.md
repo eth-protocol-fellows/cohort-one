@@ -105,6 +105,14 @@ Development updates from [`buchhlz2`](https://github.com/buchhlz2/)
 
 [Link to update #2](https://hackmd.io/@dtb/By94YjF_F)
 
+## Empeje
+
+Development updates from [`empeje`](https://github.com/empeje)
+
+General notes can be found in [here](./notes/empeje.md).
+
+Weekly update is in WIP.
+
 ## JeremyAkatsa
 
 Development updates from [`jeyakatsa`](https://github.com/jeyakatsa)
