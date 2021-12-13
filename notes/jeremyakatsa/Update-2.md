@@ -1,6 +1,9 @@
 # Project Dive-in (Update 2):
-## Altair - Minimal Light Client Prototype Build 
 
+
+## [ERC-70 Token Proposal](https://hackmd.io/SFNfIcFcRLG5jge6N0onmQ?view#ERC-70-Token-Proposal)
+
+## Altair - Minimal Light Client Prototype Build 
 ### [Light-Client Custom Token Creation Proposal](https://ethresear.ch/t/light-client-custom-token-creation-proposal/11433)
 
 #### The Research & Development process: [Step-By-Step Guide](https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view)
