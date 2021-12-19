@@ -1,7 +1,7 @@
 # Project Dive-in (Update 2):
 
 
-## [ERC-70 Token Proposal](https://ethresear.ch/t/erc-70-token-proposal/11540)
+## [New-ERC Token Proposal](https://ethresear.ch/t/a-new-erc-token-proposal/11540)
 
 ## Altair - Minimal Light Client Prototype Build 
 ### [Light-Client Custom Token Creation Proposal](https://ethresear.ch/t/light-client-custom-token-creation-proposal/11433)
@@ -12,6 +12,7 @@
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Sunday 12/19/21]: Changed ERC token name standard due to EIP naming mertrics *(ERC number to be determined)*. Updated [Ethresearch post](https://ethresear.ch/t/a-new-erc-token-proposal/11540), [HackMd post](https://hackmd.io/SFNfIcFcRLG5jge6N0onmQ?view) as well as [GitHub repo](https://github.com/jeyakatsa/New-ERC-Token).
 - [Saturday 12/18/21]: Continuing process of solving `bits.length` issue, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md). Created [ERC-70 repo](https://github.com/jeyakatsa/ERC-70). [ERC-70 Token Proposal](https://hackmd.io/SFNfIcFcRLG5jge6N0onmQ?view#ERC-70-Token-Proposal) completed within Hackmd post, now available via https://ethresear.ch/t/erc-70-token-proposal/11540 for review.
 - [Friday 12/17/21]: Started solving `bits.length` function issue within `getParticipantPubkeys` function within [Utilities](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/Utilities.java) class, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
 - [Thursday 12/16/21]: `T[]` function issue resolved within [Utilities](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/Utilities.java) class, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
