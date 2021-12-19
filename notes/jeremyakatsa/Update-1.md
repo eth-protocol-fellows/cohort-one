@@ -1,5 +1,5 @@
 # Project Dive-in (Update 1):
-## [ERC-70 Token Proposal](https://ethresear.ch/t/erc-70-token-proposal/11540)
+## [New-ERC Token Proposal](https://ethresear.ch/t/a-new-erc-token-proposal/11540)
 
 ## Altair - Minimal Light Client Prototype Build 
 ### [Light-Client Custom Token Creation Proposal](https://ethresear.ch/t/light-client-custom-token-creation-proposal/11433)
