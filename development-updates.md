@@ -44,6 +44,7 @@
   - [Update #1](#mihir-update-1)
   - [Update #2](#mihir-update-2)
   - [Update #3](#mihir-update-3)
+  - [Update #4](#mihir-update-4)
 
 - [Piper](#piper)
 
@@ -186,6 +187,10 @@ Development updates from [`uink45`](https://github.com/uink45)
 ### Mihir: Update 3
 
 [Link to update #3](https://hackmd.io/@7s45VWTfS62Y7oet2jJOgQ/By_dQU1vY)
+
+### Mihir: Update 4
+
+[Link to update #4](https://hackmd.io/@7s45VWTfS62Y7oet2jJOgQ/HJmeRYn_K)
 
 ## Piper
 
