@@ -71,6 +71,7 @@
 - [Taylor](#taylor)
     - [Update #1](#taylor-update-1)
     - [Update #2](#taylor-update-2)
+    - [Update #3](#taylor-update-3)
 
 
 ## Contributing
@@ -261,3 +262,7 @@ Development updates from [`taylorjordanNC`](https://github.com/taylorjordanNC/)
 ### Taylor: Update 2
 
 [Update #2](https://hackmd.io/@vanitas/stage-1)
+
+### Taylor: Update 3
+
+[Update #3](https://hackmd.io/@vanitas/stage-1-1)
