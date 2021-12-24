@@ -11,6 +11,7 @@
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Thursday 12/23/21]: Continuing to solve `.push` issue, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
 - [Wednesday 12/22/21]: Started solving `.push` issue within [Utilities](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/Utilities.java) class, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
 - [Tuesday 12/21/21]: `bits.length` issue resolved within [Utilities](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/Utilities.java) class, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
 - [Monday 12/20/21]: Continuing process of solving `bits.length` issue, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md). Added WASM link to [New-ERC Token Repo notes](https://github.com/jeyakatsa/New-ERC-Token/blob/main/Notes.md).
