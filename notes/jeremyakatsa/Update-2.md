@@ -11,6 +11,7 @@
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Saturday 12/25/21]: Continuing work on solving Java "returning classes" issue, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
 - [Friday 12/24/21]: Started working on `toBlockHeader` function and solved `.block` issue within [Utilities](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/Utilities.java) class, now working on Java "returning classes" issue, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
 - [Thursday 12/23/21]: `getParticipantPubkeys()` function completed within [Utilities](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/Utilities.java) class. `.push` issue solved, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
 - [Wednesday 12/22/21]: Started solving `.push` issue within [Utilities](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/Utilities.java) class, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
