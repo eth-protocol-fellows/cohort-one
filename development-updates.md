@@ -24,6 +24,8 @@
 - [j-cook](#j-cook)
   - [Update #1](#j-cook-update-1)
   - [Update #2](#j-cook-update-2)
+  - [Update #3](#j-cook-update-3)
+  - [Update #4](#j-cook-update-4)
   - [Link to Github](https://github.com/jmcook1186/beacon-light-client)
 
 - [Jolene](#jolene)
@@ -135,6 +137,12 @@ Development updates from [`jeyakatsa`](https://github.com/jeyakatsa)
 
 ### j-cook: Update 2
 [Link to update notes](./notes/j-cook/update-2.md)
+
+### j-cook: Update 3
+[Link to update notes](./notes/j-cook/update-3.md)
+
+### j-cook: Update 4
+[Link to update notes](./notes/j-cook/update-4.md)
 
 ## Jolene
 
