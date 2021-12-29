@@ -11,6 +11,7 @@
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Tuesday 12/28/21]: `pubkeys` issue solved within [DeserializePubkeys](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/DeserializePubkeys.java) class, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
 - [Monday 12/27/21]: Continuing process of `pubkeys` issue solving, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
 - [Sunday 12/26/21]: Solving `pubkeys` issue for [DeserializePubkeys](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/DeserializePubkeys.java) class, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
 - [Saturday 12/25/21]: Created [ToBlockHeader](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/ToBlockHeader.java) class to solve Java "returning classes" issue, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
