@@ -15,6 +15,7 @@
 
   - [Update #1](#dan-update-1)
   - [Update #2](#dan-update-2)
+  - [Update #3](#dan-update-3)
 
 - [JeremyAkatsa](#jeremyakatsa)
 
@@ -109,6 +110,10 @@ Development updates from [`buchhlz2`](https://github.com/buchhlz2/)
 ### Dan: Update 2
 
 [Link to update #2](https://hackmd.io/@dtb/By94YjF_F)
+
+### Dan: Update 2
+
+[Link to update #2](https://hackmd.io/@dtb/HJdcI_ssF)
 
 ## Empeje
 
