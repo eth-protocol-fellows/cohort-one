@@ -110,10 +110,9 @@ Development updates from [`buchhlz2`](https://github.com/buchhlz2/)
 ### Dan: Update 2
 
 [Link to update #2](https://hackmd.io/@dtb/By94YjF_F)
+### Dan: Update 3
 
-### Dan: Update 2
-
-[Link to update #3](https://hackmd.io/@dtb/HJdcI_ssF)
+[Link to update #3](https://hackmd.io/@dtb/By94YjF_F)
 
 ## Empeje
 
