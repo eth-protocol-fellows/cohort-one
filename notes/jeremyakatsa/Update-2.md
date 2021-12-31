@@ -11,6 +11,7 @@
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Thursday 12/30/21]: Changed [DeserializePubkeys](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/DeserializePubkeys.java) interface into a class, added constructor and altered other methods in order to properly sync with new Teku updates.
 - [Wednesday 12/29/21]: Currently solving/building `return` method for [DeserializePubkeys](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/DeserializePubkeys.java) interface, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
 - [Tuesday 12/28/21]: `pubkeys` issue solved within [DeserializePubkeys](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/DeserializePubkeys.java) interface, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
 - [Monday 12/27/21]: Continuing process of `pubkeys` issue solving, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
