@@ -1,16 +1,19 @@
 # Project Dive-in (Update 2):
 
-## [New-ERC Token Proposal](https://ethresear.ch/t/a-new-erc-token-proposal/11540)
+## New-ERC Token
+### The Proposal: [New-ERC Token Propoal](https://ethresear.ch/t/a-new-erc-token-proposal/11540)
+#### The Research & Development process: [New-ERC Token Notes](https://github.com/jeyakatsa/New-ERC-Token/blob/main/Notes.md)
+#### The Work: [New-ERC Token Build](https://github.com/jeyakatsa/New-ERC-Token)
+_________________________________________________________________________
 
 ## Altair - Minimal Light Client Prototype Build 
 ### [Light-Client Custom Token Creation Proposal](https://ethresear.ch/t/light-client-custom-token-creation-proposal/11433)
-
 #### The Research & Development process: [Step-By-Step Guide](https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view)
 #### The Work: [Prototype Server & Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype)
-
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Monday 1/3/22]: Commenced New-ERC Token work, new notes recorded: [New-ERC Token Notes](https://github.com/jeyakatsa/New-ERC-Token/blob/main/Notes.md).
 - [Sunday 1/2/22]: Continuing to solve/build `return` method for [DeserializePubkeys](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/DeserializePubkeys.java) class, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md)..
 - [Saturday 1/1/22]: Continuing to solve/build `return` method for [DeserializePubkeys](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/DeserializePubkeys.java) class, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
 - [Friday 12/31/21]: Removed `bls` dependency from [build.gradle](https://github.com/jeyakatsa/teku/blob/master/light-client/build.gradle). Continuing to solve/build `return` method for [DeserializePubkeys](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/DeserializePubkeys.java) class, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md). 
