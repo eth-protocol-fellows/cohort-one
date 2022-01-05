@@ -56,3 +56,11 @@ Smart contracts are stored in the global state with four parameters:
 ## EVM (Ethereum Virtual Machine)
 
 Is a lightweight virtual machine that runs in every node validating and executing transactions - The purpose of it is that it can run anywhere without depending on any hardware or operating system. It cannot access network, file system or other processes of the operating system; acting as an independent sandbox. But it can access to the global state and has his own memory at runtime (you can see it as a RAM).
+
+
+
+## Ethereum transaction flow
+
+<p float="center">
+  <img src="./assets/transaction-flow.png" />
+</p>

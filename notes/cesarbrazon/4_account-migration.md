@@ -1,5 +1,16 @@
 # Account Migration
 
+### Introduction
+
+Ethereum has two type of accounts: The externally owner account (EOAs) and contract accounts.
+
+EOA are those that have a private key: Having the private key means control over access to funds. Actually, the EOAs are the only type of accounts that can initiate a transaction in Ethereum, the reason is that in order to send a transaction, the account needs to sign it with a private key. Currently, ethereum uses ECDSA (Elliptic Curve Cryptographic Signature Algorithm) to sign the transactions.
+
+On the other side, Contract Accounts, has arbitrary code associated to it and it's owned and controller by the logic of it. This code is stored in Ethereum blockchain at contract account's creation address, and executed by the EVM.
+
+The main differences between EOA and Contract Accounts is that EOA does not have code associated to it, and Contract Accounts are not associated with any private key.
+
+
 ## EIP 3074
 
 **Cool use cases**
@@ -13,7 +24,7 @@ Currently, we can not fake msg.sender natively
 
 It aims to give an EOA the capacity to give total control of his account to an invoker. The invoker is the contract that must be trusted, it can do whatever if wants once it has the signature of an account, it needs to be secure and audited
 
-***Definitions**
+**Definitions**
 
 EOA:
 - Sponsor: Pays for gas & submits transaction
@@ -25,24 +36,23 @@ Contracts
 
 ### Notes
 - If you want to send ether in EIP3074 it needs to be from the *invoker*
-- Chain ID is important because the invoker should check it to make sure it matches correctly
+- Chain ID is important because the invoker should check it to make sure it matches correctly with the one sent in the payload of the transaction
 - Trust an invoker means that the EOA will need to make sure that it works properly, for example, the invoker should be able to correctly handle replay protection, and the EOA will need to check that this invoker indeed does that
 - People normally does not check this things, this is a double edge word - The main difference is that here you are giving here totally control of your account
-- It can be dangerous if its not used in the correct way, but it allows a lot of flexibility, if we want to achieve mass adoption of Ethereum we will want this kind new Account experience (AC)
-- Alternative to AA which is improving the UX of EOA
-- We need to find a way to authenticate as an EOA in the execution.
+- It can be dangerous if its not used in the correct way, but it allows a lot of flexibility, if we want to achieve mass adoption of Ethereum we will want this Account Experience improvements
 - Allows you to pass the `msg.sender` through different jumps (or calls).
 - Further downs the two type accounts
 - You can batch transactions. The invoker would need to make multiple authcalls using the same commit
-- Two new opcodes will be introduced (`AUTH` and `AUTHCALL`) which is less intrusive than creating a new transaction type (this is the EIP-2938)
+- Only new opcodes will be introduced (`AUTH` and `AUTHCALL`) which is less intrusive than creating a new transaction type 
 
 ### Implementation details
 
 - `AUTH` and `AUTHCALL` opcodes will be introduced
 - Add a new precompile contract 
 
-
-
+<p float="center">
+  <img src="./assets/3074-flow.png" />
+</p>
 
 ## EIP 2938
 
@@ -59,7 +69,10 @@ Allows a contract to be the top-level account that pays fees and start transacti
 - Reduces client complexity - Account abstraction removes EOA. Authorization logic will be moved to Smart Contract execution layer
 - If a new user wants to create a new wallet, he needs to pay for the deployment of the AA contract
 
-With this EIP we want to add multiple improvements, being the most important that we can add signature verification other than ECSDA which allows to make Ethereum post-quantum resistant
+With this EIP we want to add multiple improvements, some of the are:
+  - Support signature verification other than ECSDA which allows to make Ethereum post-quantum resistant
+  - Batch transactions
+  - Gasless transactions
 
 In order to implement AA, we require merging EIP 2937 or preserve nonce on self destruct
 
@@ -83,7 +96,9 @@ In order to implement AA, we require merging EIP 2937 or preserve nonce on self 
 
 ## Differences
   - Introducing a new transaction type means new mem pools rules need to be implemented, we need to be careful with this because it can cause service vector or additional proccesing
-  - Introducing a new opcode is more easier and less intrusive
+  - Introducing a new opcode is more easier and less intrusive than adding a new transaction type
+  - 
+
 
 ### Resources
 

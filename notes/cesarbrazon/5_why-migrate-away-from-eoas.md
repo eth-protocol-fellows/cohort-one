@@ -29,11 +29,8 @@ This means that, if the path of AA is not taken, the protocol itself will need t
 
 On the other side, as mentioned before, this does not gives us a good solution for post-quantum resistance.
 
-Even tho for the long term the EIP 3074 does not looks like the 
+Even though for the long term the EIP 3074 does not seems like the best solution, it can be the first step to improve Ethereum Account Experience, which is a functionality that will help to mass adoption and easier interactions with the network. 
 
-- Currently, Ethereum uses ECDSA to verify the authentication of signers in transactions, this leaves Ethereum technology vulnerable to post quantum computers (because ECDSA was not meant to be post quantum), to mitigate this, a change in Ethereum needs to happen - The most viable path of action is Account Abstraction, this is because it introduces a new Transaction Type which not depends on ECDSA, instead, contracts implements their own authentication logic meaning that they can expect a signature using a different algorithm (which can be post quantum resistant)
-
-- 
 
 ### Resources
 
