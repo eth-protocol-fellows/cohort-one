@@ -3,7 +3,7 @@
 ## New-ERC Token
 ### The Proposal: [New-ERC Token Propoal](https://ethresear.ch/t/a-new-erc-token-proposal/11540)
 #### The EIP: [EIP-700](https://github.com/jeyakatsa/EIPs/blob/f9746034a9d43495c3a414f42058d5380cedf928/EIPS/eip-700.md)
-#### The Research & Development process: [New-ERC Token Notes](https://github.com/jeyakatsa/New-ERC-Token/blob/main/Notes.md)
+#### The Research & Development process: [New-ERC Token R&D](https://github.com/jeyakatsa/New-ERC-Token/blob/main/R&D.md)
 #### The Work: [New-ERC Token Build](https://github.com/jeyakatsa/New-ERC-Token)
 _________________________________________________________________________
 
@@ -14,6 +14,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Thursday 1/6/21]: Added *Solidity-to-Java* code example within [EIP-700](https://github.com/jeyakatsa/EIPs/blob/f9746034a9d43495c3a414f42058d5380cedf928/EIPS/eip-700.md). Added Roadmap & Intro-to-Smart-Contracts into Research & Development notes: [New-ERC-Token R&D](https://github.com/jeyakatsa/New-ERC-Token/blob/main/R&D.md).
 - [Wednesday 1/5/22]: Continuing work on [EIP-700](https://github.com/jeyakatsa/EIPs/blob/f9746034a9d43495c3a414f42058d5380cedf928/EIPS/eip-700.md).
 - [Tuesday 1/4/22]: Started working on a new EIP for the new ERC token standard proposed, [EIP-700](https://github.com/jeyakatsa/EIPs/blob/f9746034a9d43495c3a414f42058d5380cedf928/EIPS/eip-700.md). 
 - [Monday 1/3/22]: Transitioned into working on New-ERC Token, new notes recorded: [New-ERC Token Notes](https://github.com/jeyakatsa/New-ERC-Token/blob/main/Notes.md).
