@@ -3,7 +3,7 @@
 ## New-ERC Token
 ### The Proposal: [New-ERC Token Propoal](https://ethresear.ch/t/a-new-erc-token-proposal/11540)
 #### The EIP: [EIP-700](https://github.com/jeyakatsa/EIPs/blob/f9746034a9d43495c3a414f42058d5380cedf928/EIPS/eip-700.md)
-#### The Research & Development process: [New-ERC Token Notes](https://github.com/jeyakatsa/New-ERC-Token/blob/main/Notes.md)
+#### The Research & Development process: [New-ERC Token R&D](https://github.com/jeyakatsa/New-ERC-Token/blob/main/R&D.md)
 #### The Work: [New-ERC Token Build](https://github.com/jeyakatsa/New-ERC-Token)
 _________________________________________________________________________
 
