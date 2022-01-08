@@ -14,7 +14,8 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
-- [Friday 1/7/21]: Minting, Exchanging & Burning info added within [EIP-700](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-700.md).
+- [Saturday 1/8/21]: Added headline & inheritance into [EIP-700](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-700.md).
+- [Friday 1/7/21]: Minting, exchanging & burning info added within [EIP-700](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-700.md).
 - [Thursday 1/6/21]: Added *Solidity-to-Java* code example within [EIP-700](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-700.md). Added Roadmap & Intro-to-Smart-Contracts into Research & Development notes: [New-ERC-Token R&D](https://github.com/jeyakatsa/New-ERC-Token/blob/main/R&D.md).
 - [Wednesday 1/5/22]: Continuing work on [EIP-700](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-700.md).
 - [Tuesday 1/4/22]: Started working on a new EIP for the new ERC token standard proposed, [EIP-700](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-700.md). 
