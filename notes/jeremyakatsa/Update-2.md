@@ -14,10 +14,10 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
-- [Friday 1/7/21]: Minting, Exchanging & Burning info added within [EIP-700](https://github.com/jeyakatsa/EIPs/blob/f9746034a9d43495c3a414f42058d5380cedf928/EIPS/eip-700.md).
-- [Thursday 1/6/21]: Added *Solidity-to-Java* code example within [EIP-700](https://github.com/jeyakatsa/EIPs/blob/f9746034a9d43495c3a414f42058d5380cedf928/EIPS/eip-700.md). Added Roadmap & Intro-to-Smart-Contracts into Research & Development notes: [New-ERC-Token R&D](https://github.com/jeyakatsa/New-ERC-Token/blob/main/R&D.md).
-- [Wednesday 1/5/22]: Continuing work on [EIP-700](https://github.com/jeyakatsa/EIPs/blob/f9746034a9d43495c3a414f42058d5380cedf928/EIPS/eip-700.md).
-- [Tuesday 1/4/22]: Started working on a new EIP for the new ERC token standard proposed, [EIP-700](https://github.com/jeyakatsa/EIPs/blob/f9746034a9d43495c3a414f42058d5380cedf928/EIPS/eip-700.md). 
+- [Friday 1/7/21]: Minting, Exchanging & Burning info added within [EIP-700](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-700.md).
+- [Thursday 1/6/21]: Added *Solidity-to-Java* code example within [EIP-700](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-700.md). Added Roadmap & Intro-to-Smart-Contracts into Research & Development notes: [New-ERC-Token R&D](https://github.com/jeyakatsa/New-ERC-Token/blob/main/R&D.md).
+- [Wednesday 1/5/22]: Continuing work on [EIP-700](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-700.md).
+- [Tuesday 1/4/22]: Started working on a new EIP for the new ERC token standard proposed, [EIP-700](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-700.md). 
 - [Monday 1/3/22]: Transitioned into working on New-ERC Token, new notes recorded: [New-ERC Token Notes](https://github.com/jeyakatsa/New-ERC-Token/blob/main/Notes.md).
 - [Sunday 1/2/22]: Continuing to solve/build `return` method for [DeserializePubkeys](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/DeserializePubkeys.java) class, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md)..
 - [Saturday 1/1/22]: Continuing to solve/build `return` method for [DeserializePubkeys](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/DeserializePubkeys.java) class, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
