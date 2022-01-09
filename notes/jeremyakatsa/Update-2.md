@@ -14,7 +14,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
-- [Saturday 1/8/21]: Added headline, inheritance and security considerations into [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md), first draft completed.
+- [Saturday 1/8/21]: Added headline, inheritance and security considerations into [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md). First draft completed and pull requested here: [EIP-XXXX Pull Request](https://github.com/ethereum/EIPs/pull/4649).
 - [Friday 1/7/21]: Minting, exchanging & burning info added within [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md).
 - [Thursday 1/6/21]: Added *Solidity-to-Java* code example within [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md). Added Roadmap & Intro-to-Smart-Contracts into Research & Development notes: [New-ERC-Token R&D](https://github.com/jeyakatsa/New-ERC-Token/blob/main/R&D.md).
 - [Wednesday 1/5/22]: Continuing work on [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md).
