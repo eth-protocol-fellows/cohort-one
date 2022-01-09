@@ -2,7 +2,7 @@
 
 ## New-ERC Token
 ### The Proposal: [New-ERC Token Propoal](https://ethresear.ch/t/a-new-erc-token-proposal/11540)
-#### The EIP: [EIP-700](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-700.md)
+#### The EIP: [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md)[number to be determined]
 #### The Research & Development process: [New-ERC Token R&D](https://github.com/jeyakatsa/New-ERC-Token/blob/main/R&D.md)
 #### The Work: [New-ERC Token Build](https://github.com/jeyakatsa/New-ERC-Token)
 _________________________________________________________________________
@@ -14,11 +14,11 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
-- [Saturday 1/8/21]: Added headline & inheritance into [EIP-700](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-700.md).
-- [Friday 1/7/21]: Minting, exchanging & burning info added within [EIP-700](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-700.md).
-- [Thursday 1/6/21]: Added *Solidity-to-Java* code example within [EIP-700](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-700.md). Added Roadmap & Intro-to-Smart-Contracts into Research & Development notes: [New-ERC-Token R&D](https://github.com/jeyakatsa/New-ERC-Token/blob/main/R&D.md).
-- [Wednesday 1/5/22]: Continuing work on [EIP-700](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-700.md).
-- [Tuesday 1/4/22]: Started working on a new EIP for the new ERC token standard proposed, [EIP-700](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-700.md). 
+- [Saturday 1/8/21]: Added headline, inheritance and security considerations into [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md, first draft completed.
+- [Friday 1/7/21]: Minting, exchanging & burning info added within [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md)).
+- [Thursday 1/6/21]: Added *Solidity-to-Java* code example within [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md). Added Roadmap & Intro-to-Smart-Contracts into Research & Development notes: [New-ERC-Token R&D](https://github.com/jeyakatsa/New-ERC-Token/blob/main/R&D.md).
+- [Wednesday 1/5/22]: Continuing work on [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md).
+- [Tuesday 1/4/22]: Started working on a new EIP for the new ERC token standard proposed, [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md). 
 - [Monday 1/3/22]: Transitioned into working on New-ERC Token, new notes recorded: [New-ERC Token Notes](https://github.com/jeyakatsa/New-ERC-Token/blob/main/Notes.md).
 - [Sunday 1/2/22]: Continuing to solve/build `return` method for [DeserializePubkeys](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/DeserializePubkeys.java) class, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md)..
 - [Saturday 1/1/22]: Continuing to solve/build `return` method for [DeserializePubkeys](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/DeserializePubkeys.java) class, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
