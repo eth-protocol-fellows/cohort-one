@@ -10,6 +10,8 @@
   
   - [Update #1](#chao-update-1)
   - [Update #2](#chao-update-2)
+  - [Update #3](#chao-update-3)
+  - [Update #4](#chao-update-4)
 
 - [Dan](#dan)
 
@@ -97,7 +99,16 @@ Development updates from [`chaosma`](https://github.com/chaosma/)
 
 ### Chao: Update 2
 
-[Update #2](https://github.com/appliedzkp/maci/pull/327)
+[PR v1.0](https://github.com/appliedzkp/maci/pull/327)
+
+### Chao: Update 3
+
+[PR v0.10](https://github.com/appliedzkp/maci/pull/338)
+
+### Chao: Update 4
+
+[Update #2 (to be continued)](https://hackmd.io/AEp-d1OBTl-sDF3ZrAEztQ)
+
 
 ## Dan
 
