@@ -1,5 +1,9 @@
 # Project Dive-in (Update 2):
 
+## Smart Contracts in Multiple Languages
+#### The Java Version: [Java Abstraction Smart Contract for Ethereum](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction)
+_________________________________________________________________________
+
 ## New-ERC Token
 ### The Proposal: [New-ERC Token Propoal](https://ethresear.ch/t/a-new-erc-token-proposal/11540)
 #### The EIP: [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md)[number to be determined]
@@ -14,6 +18,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Tuesday 1/11/22]: Redirected focus from ERC token work into building smart contracts for Ethereum in multiple languages, starting with a [Java Abstraction Smart Contract for Ethereum](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction), notes with a Research and Development process/progress to come.  
 - [Monday 1/10/22]: Redirecting focus from building a new kind of ERC token into building a framework of how Smart Contracts can be created in multiple languages on Ethereum with Java, Rust, Go, etc as gathered from the overall conversations from EF Discord and the [EIP-XXXX Pull Request](https://github.com/ethereum/EIPs/pull/4649).
 - [Sunday 1/9/22]: Started [Subcurrency](https://github.com/jeyakatsa/New-ERC-Token-Java-Abstraction/blob/main/Smart-Contract-Reference/src/main/java/Subcurrency.java) smart contract module. R&D results of converting Solidity functions into Java recorded, `mapping` function conversion issue resolved: [New-ERC-Token R&D](https://github.com/jeyakatsa/New-ERC-Token/blob/main/R&D.md).
 - [Saturday 1/8/22]: Added headline, inheritance and security considerations into [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md). First draft completed and pull requested here: [EIP-XXXX Pull Request](https://github.com/ethereum/EIPs/pull/4649). Researching how to create smart-contracts on Ethereum using Java (as the first method of action), results/findings recorded: [New-ERC-Token R&D](https://github.com/jeyakatsa/New-ERC-Token/blob/main/R&D.md). Started building [Java Abstraction Layer](https://github.com/jeyakatsa/New-ERC-Token-Java-Abstraction).
