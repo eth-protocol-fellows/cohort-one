@@ -1,5 +1,9 @@
 # Project Dive-in (Update 1):
 
+## Smart Contracts in Multiple Languages
+#### The Java Version: [Java Abstraction Smart Contract for Ethereum](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction)
+_________________________________________________________________________
+
 ## New-ERC Token
 ### The Proposal: [New-ERC Token Propoal](https://ethresear.ch/t/a-new-erc-token-proposal/11540)
 #### The EIP: [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md)[number to be determined]
