@@ -1,7 +1,8 @@
 # Project Dive-in (Update 2):
 
 ## Smart Contracts in Multiple Languages
-#### The Java Version: [Java Abstraction Smart Contract for Ethereum](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction)
+#### The Java Version: [Java Smart Contract Abstraction for Ethereum](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction)
+#### The Research & Development process: [Java Smart Contract Abstraction for Ethereum R&D](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction/blob/main/R%26D.md)
 _________________________________________________________________________
 
 ## New-ERC Token
@@ -18,6 +19,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Wednesday 1/12/22]: Continuing work on [Subcurrency](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction/blob/main/Smart-Contract-Reference/src/main/java/Subcurrency.java), results recorded: [Java Smart Contract Abstraction for Ethereum R&D](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction/blob/main/R%26D.md).
 - [Tuesday 1/11/22]: Redirected focus from ERC token work into building smart contracts for Ethereum in multiple languages, starting with a [Java Abstraction Smart Contract for Ethereum](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction), notes with a Research and Development process/progress to come.  
 - [Monday 1/10/22]: Redirecting focus from building a new kind of ERC token into building a framework of how Smart Contracts can be created in multiple languages on Ethereum with Java, Rust, Go, etc as gathered from the overall conversations from EF Discord and the [EIP-XXXX Pull Request](https://github.com/ethereum/EIPs/pull/4649).
 - [Sunday 1/9/22]: Started [Subcurrency](https://github.com/jeyakatsa/New-ERC-Token-Java-Abstraction/blob/main/Smart-Contract-Reference/src/main/java/Subcurrency.java) smart contract module. R&D results of converting Solidity functions into Java recorded, `mapping` function conversion issue resolved: [New-ERC-Token R&D](https://github.com/jeyakatsa/New-ERC-Token/blob/main/R&D.md).
