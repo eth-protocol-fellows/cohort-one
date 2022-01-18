@@ -1,0 +1,8 @@
+# Development Update #4
+
+Since my last development update and the holiday break, I have been working on generating different kinds of witnesses to verify the block access list construction against. My project plan was based on the assumption that I would be able to easily get witnesses to test the access lists against. Unfortunately methods to generate witnesses do not seem to be widely available, and writing my own method of generating them has been much more difficult than I expected. I assumed that I could get at least a meta-witness via some kind of API, but so far that has not been possible. 
+
+Being aware of the wit/0 protocol, I tried a few different ways to get access to a node that was running it, including spinning up my own. However, because I require the full state tree to be synced, this turned out to not really be feasible given time constraints of the apprenticeship. I was eventually able to get RPC archive node access via the archivenode.io service, and extended my `py-witness` script to create what I refer to as a partial witness via the RPC `get_proof` endpoint. By collecting the Merkle proofs for all accounts accessed in a block, I thought it might be a good starting point to compare the access lists to until I can figure out how to get witnesses that are more complete. I am also able to run debug traces on this node, which I believe is also a potential route for constructing a full Merkle proof witness of the block.
+
+For the coming week, I intend to work on some technical analysis of how to prove that a certain access list matches a witness - hopefully I can make some headway on this while I figure out how to unblock the other parts of my project.
+
