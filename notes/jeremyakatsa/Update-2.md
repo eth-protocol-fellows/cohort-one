@@ -19,6 +19,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Friday 1/21/22]: Continuing to resolve  `ArrayList` issue, results recorded: [Java Smart Contract Abstraction for Ethereum R&D](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction/blob/main/R%26D.md)..
 - [Thursday 1/20/22]: Solving `ArrayList` issue within [Coin](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction/blob/main/Smart-Contracts/src/main/java/Coin.java) for [Address](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction/blob/main/Smart-Contract-Dependencies/src/main/java/Address.java) Dependency, results recorded: [Java Smart Contract Abstraction for Ethereum R&D](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction/blob/main/R%26D.md).
 - [Wednesday 1/19/22]: Building [Address](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction/blob/main/Smart-Contract-Dependencies/src/main/java/Address.java) dependency, results recorded: [Java Smart Contract Abstraction for Ethereum R&D](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction/blob/main/R%26D.md).
 - [Tuesday 1/18/22]: Researching how to build `Address` Java Dependency, results recorded: [Java Smart Contract Abstraction for Ethereum R&D](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction/blob/main/R%26D.md).
