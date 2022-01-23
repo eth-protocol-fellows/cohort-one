@@ -61,9 +61,10 @@
   - [Update #1](#sevkibaba-update-1)
   - [Update #2](#sevkibaba-update-2)
 
-- [hansmrtn](#hansmrtn)
-  - [Update #1](#hansmrtn-update-1)
-  - [Update #2](#hansmrtn-update-2)
+- [hmux](#humx)
+  - [Update #1](#hmux-update-1)
+  - [Update #2](#hmux-update-2)
+  - [Update #3](#hmux-update-3)
 
 - [Alex](#alex)
   - [Update #1](#alex-update-1)
@@ -243,17 +244,21 @@ Development updates from [`sevkibaba`](https://github.com/sevkibaba/)
 
 [See notes on Stage-1-to-2](./notes/sevki/Stage-1-to-2-Notes.md)
 
-## hansmrtn
+## hmux
 
-Development updates from [`hansmrtn`](https://github.com/hansmrtn/)
+Development updates from [`hmux`](https://github.com/hmux/)
 
-### hansmrtn: Update 1
+### hmux: Update 1
 
 [Update #1](https://hackmd.io/@hansmrtn/Hyytr4ZVF)
 
-### hansmrtn: Update 2
+### hmux: Update 2
 
 [Update #2](https://hackmd.io/@hansmrtn/ry5dKuREt)
+
+### hmux: Update 3
+
+[Update #3](https://hackmd.io/@hansmrtn/HyyhYLqpK)
 
 ## Alex 
 
