@@ -110,7 +110,7 @@ Development updates from [`chaosma`](https://github.com/chaosma/)
 
 ### Chao: Update 4
 
-[Update #2 (to be continued)](https://hackmd.io/AEp-d1OBTl-sDF3ZrAEztQ)
+[Update #2](https://hackmd.io/AEp-d1OBTl-sDF3ZrAEztQ)
 
 
 ## Dan
