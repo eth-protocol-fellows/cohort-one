@@ -19,6 +19,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Monday 1/24/22]: Refactored modules and files within [Java Abstraction](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/6054a021ace6fe84b546db8a2beeb4f86fdf63b8).
 - [Sunday 1/23/22]: `decrypt` function within [Uint256](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/blob/main/smart-contract-dependencies/src/main/java/Uint256.java) successfully built. `Uint256` conversion continues with deciphering decrypting and encrypting information, results recorded: [Java Smart Contract Abstraction for Ethereum R&D](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction/blob/main/R%26D.md).
 - [Saturday 1/22/22]: `Address` conversion completed, `Uint256` conversion started and `balances` issue resolved, results recorded: [Java Smart Contract Abstraction for Ethereum R&D](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction/blob/main/R%26D.md). Refactored modules within [Java Smart Contract Abstraction for Ethereum R&D](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction/blob/main/R%26D.md). 
 - [Friday 1/21/22]: Continuing to resolve  `balances` issue, results recorded: [Java Smart Contract Abstraction for Ethereum R&D](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction/blob/main/R%26D.md).
