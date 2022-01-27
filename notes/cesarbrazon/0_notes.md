@@ -42,7 +42,7 @@ A:
 
 Q: How does `JUMPDEST` opcode exactly works? Why is it needed?
 
-A:
+A: Jump dest marks a valid destination for jumps. This means that before trying to access to a new memory slot, the EVM checks it is available with this opcode
 
 
 ### Resources
