@@ -1,12 +1,20 @@
 # Project Dive-in (Update 1):
-## [ERC-70 Token Proposal](https://hackmd.io/SFNfIcFcRLG5jge6N0onmQ?view#ERC-70-Token-Proposal)
+
+## Smart Contracts in Multiple Languages
+#### The Java Version: [Java Abstraction Smart Contract for Ethereum](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction)
+_________________________________________________________________________
+
+## New-ERC Token
+### The Proposal: [New-ERC Token Propoal](https://ethresear.ch/t/a-new-erc-token-proposal/11540)
+#### The EIP: [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md)[number to be determined]
+#### The Research & Development process: [New-ERC Token R&D](https://github.com/jeyakatsa/New-ERC-Token/blob/main/R&D.md)
+#### The Work: [New-ERC Token Build](https://github.com/jeyakatsa/New-ERC-Token)
+_________________________________________________________________________
 
 ## Altair - Minimal Light Client Prototype Build 
 ### [Light-Client Custom Token Creation Proposal](https://ethresear.ch/t/light-client-custom-token-creation-proposal/11433)
-
 #### The Research & Development process: [Step-By-Step Guide](https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view)
 #### The Work: [Prototype Server & Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype)
-
 _________________________________________________________________________ 
 
 #### Daily Updates (October 2021 - December 2021):

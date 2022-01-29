@@ -10,11 +10,14 @@
   
   - [Update #1](#chao-update-1)
   - [Update #2](#chao-update-2)
+  - [Update #3](#chao-update-3)
+  - [Update #4](#chao-update-4)
 
 - [Dan](#dan)
 
   - [Update #1](#dan-update-1)
   - [Update #2](#dan-update-2)
+  - [Update #3](#dan-update-3)
 
 - [JeremyAkatsa](#jeremyakatsa)
 
@@ -24,6 +27,8 @@
 - [j-cook](#j-cook)
   - [Update #1](#j-cook-update-1)
   - [Update #2](#j-cook-update-2)
+  - [Update #3](#j-cook-update-3)
+  - [Update #4](#j-cook-update-4)
   - [Link to Github](https://github.com/jmcook1186/beacon-light-client)
 
 - [Jolene](#jolene)
@@ -31,6 +36,7 @@
   - [Update #1](#jolene-update-1)
   - [Update #2](#jolene-update-2)
   - [Update #3](#jolene-update-3)
+  - [Update #4](#jolene-update-4)
 
 - [Keenan](#keenan)
 
@@ -44,6 +50,7 @@
   - [Update #1](#mihir-update-1)
   - [Update #2](#mihir-update-2)
   - [Update #3](#mihir-update-3)
+  - [Update #4](#mihir-update-4)
 
 - [Piper](#piper)
 
@@ -54,14 +61,17 @@
   - [Update #1](#sevkibaba-update-1)
   - [Update #2](#sevkibaba-update-2)
 
-- [hansmrtn](#hansmrtn)
-  - [Update #1](#hansmrtn-update-1)
-  - [Update #2](#hansmrtn-update-2)
+- [hmux](#humx)
+  - [Update #1](#hmux-update-1)
+  - [Update #2](#hmux-update-2)
+  - [Update #3](#hmux-update-3)
 
 - [Alex](#alex)
   - [Update #1](#alex-update-1)
   - [Update #2](#alex-update-2)
   - [Update #3](#alex-update-3)
+  - [Update #4](#alex-update-4)
+  - [Update #5](#alex-update-5)
 
 - [muddlebee](#muddlebee)
     - [Update #1](#muddlebee-update-1)
@@ -70,6 +80,7 @@
 - [Taylor](#taylor)
     - [Update #1](#taylor-update-1)
     - [Update #2](#taylor-update-2)
+    - [Update #3](#taylor-update-3)
 
 
 ## Contributing
@@ -91,7 +102,16 @@ Development updates from [`chaosma`](https://github.com/chaosma/)
 
 ### Chao: Update 2
 
-[Update #2](https://github.com/appliedzkp/maci/pull/327)
+[PR v1.0](https://github.com/appliedzkp/maci/pull/327)
+
+### Chao: Update 3
+
+[PR v0.10](https://github.com/appliedzkp/maci/pull/338)
+
+### Chao: Update 4
+
+[Update #2](https://hackmd.io/AEp-d1OBTl-sDF3ZrAEztQ)
+
 
 ## Dan
 
@@ -104,6 +124,9 @@ Development updates from [`buchhlz2`](https://github.com/buchhlz2/)
 ### Dan: Update 2
 
 [Link to update #2](https://hackmd.io/@dtb/By94YjF_F)
+### Dan: Update 3
+
+[Link to update #3](https://hackmd.io/@dtb/HJdcI_ssF)
 
 ## Empeje
 
@@ -134,6 +157,12 @@ Development updates from [`jeyakatsa`](https://github.com/jeyakatsa)
 ### j-cook: Update 2
 [Link to update notes](./notes/j-cook/update-2.md)
 
+### j-cook: Update 3
+[Link to update notes](./notes/j-cook/update-3.md)
+
+### j-cook: Update 4
+[Link to update notes](./notes/j-cook/update-4.md)
+
 ## Jolene
 
 Development updates from [`jldunne`](https://github.com/jldunne)
@@ -149,6 +178,10 @@ Development updates from [`jldunne`](https://github.com/jldunne)
 ### Jolene: Update 3
 
 [Update #3](./notes/jldunne/development-updates/development-update-3.md)
+
+### Jolene: Update 4
+
+[Update #4](./notes/jldunne/development-updates/development-update-4.md)
 
 
 ## Keenan
@@ -187,6 +220,10 @@ Development updates from [`uink45`](https://github.com/uink45)
 
 [Link to update #3](https://hackmd.io/@7s45VWTfS62Y7oet2jJOgQ/By_dQU1vY)
 
+### Mihir: Update 4
+
+[Link to update #4](https://hackmd.io/@7s45VWTfS62Y7oet2jJOgQ/HJmeRYn_K)
+
 ## Piper
 
 Development updates from [`pipermerriam`](https://github.com/pipermerriam/)
@@ -207,17 +244,21 @@ Development updates from [`sevkibaba`](https://github.com/sevkibaba/)
 
 [See notes on Stage-1-to-2](./notes/sevki/Stage-1-to-2-Notes.md)
 
-## hansmrtn
+## hmux
 
-Development updates from [`hansmrtn`](https://github.com/hansmrtn/)
+Development updates from [`hmux`](https://github.com/hmux/)
 
-### hansmrtn: Update 1
+### hmux: Update 1
 
 [Update #1](https://hackmd.io/@hansmrtn/Hyytr4ZVF)
 
-### hansmrtn: Update 2
+### hmux: Update 2
 
 [Update #2](https://hackmd.io/@hansmrtn/ry5dKuREt)
+
+### hmux: Update 3
+
+[Update #3](https://hackmd.io/@hansmrtn/HyyhYLqpK)
 
 ## Alex 
 
@@ -234,6 +275,14 @@ Development updates from [`alexchenzl`](https://github.com/alexchenzl/)
 ### Alex: Update 3
 
 [Update #3](https://hackmd.io/@alexchenzl/H1-IBgiYY)
+
+### Alex: Update 4
+
+[Update #4](https://hackmd.io/@alexchenzl/r1MnAtKit)
+
+### Alex: Update 5
+
+[Update #5](https://hackmd.io/@alexchenzl/Sy7ZVwzTY)
 
 ## muddlebee 
 
@@ -256,3 +305,7 @@ Development updates from [`taylorjordanNC`](https://github.com/taylorjordanNC/)
 ### Taylor: Update 2
 
 [Update #2](https://hackmd.io/@vanitas/stage-1)
+
+### Taylor: Update 3
+
+[Update #3](https://hackmd.io/@vanitas/stage-1-1)

@@ -5,8 +5,7 @@
 - [Describe the Ethereum architecture](./1_ethereum-architecture.md)
 - [Understand what are the benefits of the improvements in Eth 2.0](./2_benefits-ethereum-2.md)
 - Describe the EVM in depth
-- Detail how accounts works in Ethereum
-- [Formalize Account Migration research](./5_aa.md)
+- [Formalize Account Migration research](./4_account-migration.md)
 - Implement a proof of concept of the formalization of AA research
 
 ## Areas of Interest
@@ -45,17 +44,6 @@ Q: How does `JUMPDEST` opcode exactly works? Why is it needed?
 
 A:
 
-Q: How does the verification process would be created? At node level or smart contract level
-
-A:
-
-Q: How does the verification process really works? I would need to use ECDSA until any other signature algorithm is implemented?
-
-A:
-
-Q: Understanding EVM: What does this piece of code exactly does? https://ethresear.ch/t/a-new-account-type-in-abstraction/1379
-
-A: 
 
 ### Resources
 
@@ -75,7 +63,6 @@ A:
 - EOF Overview - https://notes.ethereum.org/@ipsilon/evm-object-format-overview
 - EOF Discussion - https://ethereum-magicians.org/t/evm-object-format-eof/5727
 - In-depth understanding of EVM storage mechanism and security issues - https://coinyuppie.com/in-depth-understanding-of-evm-storage-mechanism-and-security-issues/
-
 - Ethereum 2.0: A complete guide - https://medium.com/chainsafe-systems/ethereum-2-0-a-complete-guide-d46d8ac914ce
 - Ethereum 2.0: Scaling part 1 - https://medium.com/chainsafe-systems/ethereum-2-0-a-complete-guide-3739a74be61a
 - Ethereum 2.0: Scaling part 2 (Sharding) - https://medium.com/chainsafe-systems/ethereum-2-0-a-complete-guide-scaling-ethereum-part-two-sharding-902370ac3be
