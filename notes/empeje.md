@@ -6,7 +6,7 @@
 
 ## Notes
 
-- Although many DEXes market themselves as a decentralized exchange, they're mostly custodial at best.
+- Although many DEXes market themselves as a decentralized exchange, they're mostly custodial at best. You can learn more about my notes [here](./empeje)
 
 ## Interesting Links
 
