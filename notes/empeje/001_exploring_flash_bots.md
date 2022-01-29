@@ -9,7 +9,7 @@ Here are interesting idea I have found
     * [mev-inspect-py](https://github.com/flashbots/mev-inspect-py)
 
 I have found this interesting list of article as well:
-    * [MEV Research](https://github.com/flashbots/mev-research/blob/main/resources.md)
+* [MEV Research](https://github.com/flashbots/mev-research/blob/main/resources.md)
 
 Other than that now the access to create a Flashloan where we can use arbitrage opportunity and use other's people money is more accessible using the following tools
 * AAVE for example provide a native way to create [flashloan](https://docs.aave.com/faq/flash-loans).
