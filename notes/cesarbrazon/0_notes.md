@@ -1,10 +1,14 @@
 # Cesar Brazon Notes
 
+**DISCLAIMER:** These notes are my understanding of Ethereum based on what I have studied. If you see
+something do not makes sense please feel free to reach out to me in discord (Cesar#8320) or twitter (@cesarbrazon)
+so I can improve this documentation accordingly :-)
+
 ## Objectives
 
 - [Describe the Ethereum architecture](./1_ethereum-architecture.md)
 - [Understand what are the benefits of the upcoming improvements in Ethereum Protocol](./2_benefits-ethereum-upgrades.md)
-- Describe the EVM in depth
+- [Describe the EVM in depth](./3_understanding_evm.md)
 - [Formalize Account Migration research](./4_account-migration.md)
 - Implement a proof of concept of the formalization of AA research
 

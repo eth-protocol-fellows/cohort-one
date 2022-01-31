@@ -5,6 +5,12 @@
 > Add yours to the TOC if it isn't there already
 
 - [Contributing](#contributing)
+- [Cesar](#cesar)
+  - [Update #1](#cesar-update-1)
+  - [Update #2](#cesar-update-2)
+  - [Update #3](#cesar-update-3)
+  - [Update #4](#cesar-update-4)
+  - [Update #5](#cesar-update-5)
 
 - [Chao](#chao)
   
@@ -91,6 +97,26 @@ your development updates in this document.
 - Create a new H2 heading section with your name.
 - Add it to the [Table of Contents](#table-of-contents)
 - Keep the overall list of people sorted alphabetically.
+
+
+## Cesar
+
+Development updates from [`cbrzn`](https://github.com/cbrzn)
+
+### Cesar: Update 1
+[Going deep into Ethereum](https://github.com/ethereum-cdap/cohort-one/pull/63)
+
+### Cesar: Update 2
+[Understanding the entire stack - Getting familiar with Account Migration](https://github.com/ethereum-cdap/cohort-one/pull/71)
+
+### Cesar: Update 3
+[Brainstorming on why should we migrate away from EOAs](https://github.com/ethereum-cdap/cohort-one/pull/77)
+
+### Cesar: Update 4
+[Modular vs Monolith Blockchains, Account Migration brainstorm PoC](https://github.com/ethereum-cdap/cohort-one/pull/104)
+
+### Cesar: Update 5
+[Benefits of Ethereum upgrades, understanding EVM a bit more & start notes on Kintsugi testing](https://github.com/ethereum-cdap/cohort-one/pull/110)
 
 ## Chao
 
