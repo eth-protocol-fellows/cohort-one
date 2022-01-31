@@ -36,6 +36,7 @@
   - [Update #1](#jolene-update-1)
   - [Update #2](#jolene-update-2)
   - [Update #3](#jolene-update-3)
+  - [Update #4](#jolene-update-4)
 
 - [Keenan](#keenan)
 
@@ -60,15 +61,17 @@
   - [Update #1](#sevkibaba-update-1)
   - [Update #2](#sevkibaba-update-2)
 
-- [hansmrtn](#hansmrtn)
-  - [Update #1](#hansmrtn-update-1)
-  - [Update #2](#hansmrtn-update-2)
+- [hmux](#humx)
+  - [Update #1](#hmux-update-1)
+  - [Update #2](#hmux-update-2)
+  - [Update #3](#hmux-update-3)
 
 - [Alex](#alex)
   - [Update #1](#alex-update-1)
   - [Update #2](#alex-update-2)
   - [Update #3](#alex-update-3)
   - [Update #4](#alex-update-4)
+  - [Update #5](#alex-update-5)
 
 - [muddlebee](#muddlebee)
     - [Update #1](#muddlebee-update-1)
@@ -107,7 +110,7 @@ Development updates from [`chaosma`](https://github.com/chaosma/)
 
 ### Chao: Update 4
 
-[Update #2 (to be continued)](https://hackmd.io/AEp-d1OBTl-sDF3ZrAEztQ)
+[Update #2](https://hackmd.io/AEp-d1OBTl-sDF3ZrAEztQ)
 
 
 ## Dan
@@ -176,6 +179,10 @@ Development updates from [`jldunne`](https://github.com/jldunne)
 
 [Update #3](./notes/jldunne/development-updates/development-update-3.md)
 
+### Jolene: Update 4
+
+[Update #4](./notes/jldunne/development-updates/development-update-4.md)
+
 
 ## Keenan
 
@@ -237,17 +244,21 @@ Development updates from [`sevkibaba`](https://github.com/sevkibaba/)
 
 [See notes on Stage-1-to-2](./notes/sevki/Stage-1-to-2-Notes.md)
 
-## hansmrtn
+## hmux
 
-Development updates from [`hansmrtn`](https://github.com/hansmrtn/)
+Development updates from [`hmux`](https://github.com/hmux/)
 
-### hansmrtn: Update 1
+### hmux: Update 1
 
 [Update #1](https://hackmd.io/@hansmrtn/Hyytr4ZVF)
 
-### hansmrtn: Update 2
+### hmux: Update 2
 
 [Update #2](https://hackmd.io/@hansmrtn/ry5dKuREt)
+
+### hmux: Update 3
+
+[Update #3](https://hackmd.io/@hansmrtn/HyyhYLqpK)
 
 ## Alex 
 
@@ -268,6 +279,10 @@ Development updates from [`alexchenzl`](https://github.com/alexchenzl/)
 ### Alex: Update 4
 
 [Update #4](https://hackmd.io/@alexchenzl/r1MnAtKit)
+
+### Alex: Update 5
+
+[Update #5](https://hackmd.io/@alexchenzl/Sy7ZVwzTY)
 
 ## muddlebee 
 
