@@ -1,5 +1,5 @@
 
-## Development updates 2 (November-December 2021)
+## Development updates 3 (November-December 2021)
 
 ### Progress
  - Attempted to implement LightHouse's merkleize and serialize modules into light client.
