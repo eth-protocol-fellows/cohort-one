@@ -1,12 +1,19 @@
 
-## Development updates 4 (December-January 2021)
+## Development updates 5 (January-February 2021)
 
 ### Progress
- - main progress has been implementing ssz serialization on the `beacon_state` object 
+ - mostly developing and debugging ssz serialization, merkleization and merkle proof functions for light client
+ - new article on client diversity published at ethereum.org, plus made some additions to the glossary there.
+ - progress slowed somewhat due to day job workload, parenting and some unforeseen issues
+ - struggling to make it to cdap standup calls as it clashes with a work commitment
+
+### Issues/Blockers
+- my calculated state root does not match the downlkaoded state root for the same block. This means I have made a mistake. I have tested everything I can think of to test and my code behaves as I expect it to, which leads me to think I have misunderstood some nuance of the spect and introduced some erroneous behaviour that way.
+- my merkle tree does not allow access to the finalized state root because  merkleize using container roots, not hashes of container fields. I originally thought this was the right decision until I came to calculating the merkle proof for the `finalized_root`, which is a field inside the `finalized_checkpoint` container. 
 
 ## Next steps
-  - implement merkleization of `beacon_state` and use it to get relevant branches for light client update
-
+- I will try to schedule a meeting with Alex Stokes asap to get his opinion on the first issue described above. He may be able to see where I have inadvertently diverged from the spec.
+- I need to rework my merklization functions to include all the fields inside each container rather than their roots so I can provide a proof for the `finalized_checkpoint_root`.
 
 ## Useful Links
 - What is a light client and why should you care? https://www.parity.io/blog/what-is-a-light-client/
