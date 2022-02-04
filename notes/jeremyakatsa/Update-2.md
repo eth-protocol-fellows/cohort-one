@@ -19,6 +19,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Thursday 2/3/22]: Interface to Keyword interlinking skeletons [created](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/c712f5065ffd9ad274571a44bac6f64748bbc12d).
 - [Wednesday 2/2/22]: Java Interface to Solidity Keyword interlinking hypothesis started within [Java Smart Contract Abstraction for Ethereum](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/6cc82a1486fefaa5b07f21b52f7ea19ee74ae4ea).
 - [Tuesday 2/1/22]: `Msg.sender` conversion process [continues](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/0368d39c86fd7eb4fb2af47b81d0dbb356af3096), results recorded within [Java Smart Contract Abstraction for Ethereum](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/4f3391f41453c5ce1ddce3621c9a3f57529ec435).
 - [Monday 1/31/22]: `sender` conversion process [started](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/dffd84030fc1f164dfb89bcabf351dc7da95b532), results recorded within [Java Smart Contract Abstraction for Ethereum](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/24a207cf377817759431b86efa598490f058d0b7).
