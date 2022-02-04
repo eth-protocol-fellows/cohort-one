@@ -1,7 +1,8 @@
 # Project Dive-in (Update 1):
 
-## Smart Contracts in Multiple Languages
-#### The Java Version: [Java Abstraction Smart Contract for Ethereum](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction)
+## Smart Contracts in Java
+#### The Work: [Java Smart Contract Abstraction for Ethereum](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction)
+#### The Research & Development process: [Java Smart Contract Abstraction for Ethereum R&D](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction/blob/main/R%26D.md)
 _________________________________________________________________________
 
 ## New-ERC Token
