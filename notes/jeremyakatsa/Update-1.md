@@ -1,6 +1,7 @@
 # Project Dive-in (Update 1):
 
 ## Smart Contracts in Java
+#### The EIP: [EIP-XX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-xx.md)[number to be determined]
 #### The Work: [Java Smart Contract Abstraction for Ethereum](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction)
 #### The Research & Development process: [Java Smart Contract Abstraction for Ethereum R&D](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction/blob/main/R%26D.md)
 _________________________________________________________________________
