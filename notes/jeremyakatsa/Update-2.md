@@ -20,6 +20,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Saturday 2/5/22]: Opened pull request for new [EIP](https://github.com/ethereum/EIPs/pull/4780). Continuing Interface to Keyword interlinking work within [Smart-Contract Dependencies](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/tree/main/smart-contract-dependencies/src/main/java), R&D recorded here: [Java Smart Contract Abstraction for Ethereum R&D](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction/blob/main/R%26D.md).
 - [Friday 2/4/22]: Started work on a new [EIP](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-xx.md) to reflect new Smart Contracts in Java work.
 - [Thursday 2/3/22]: Interface to Keyword interlinking skeletons [created](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/c712f5065ffd9ad274571a44bac6f64748bbc12d).
 - [Wednesday 2/2/22]: Java Interface to Solidity Keyword interlinking hypothesis started within [Java Smart Contract Abstraction for Ethereum](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/6cc82a1486fefaa5b07f21b52f7ea19ee74ae4ea).
