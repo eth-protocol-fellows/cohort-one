@@ -1,6 +1,7 @@
 # Project Dive-in (Update 2):
 
 ## Smart Contracts in Java
+#### The EIP: [EIP-XX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-xx.md)[number to be determined]
 #### The Work: [Java Smart Contract Abstraction for Ethereum](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction)
 #### The Research & Development process: [Java Smart Contract Abstraction for Ethereum R&D](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction/blob/main/R%26D.md)
 _________________________________________________________________________
@@ -19,6 +20,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Friday 2/4/22]: Started work on a new [EIP](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-xx.md) to reflect new Smart Contracts in Java work.
 - [Thursday 2/3/22]: Interface to Keyword interlinking skeletons [created](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/c712f5065ffd9ad274571a44bac6f64748bbc12d).
 - [Wednesday 2/2/22]: Java Interface to Solidity Keyword interlinking hypothesis started within [Java Smart Contract Abstraction for Ethereum](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/6cc82a1486fefaa5b07f21b52f7ea19ee74ae4ea).
 - [Tuesday 2/1/22]: `Msg.sender` conversion process [continues](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/0368d39c86fd7eb4fb2af47b81d0dbb356af3096), results recorded within [Java Smart Contract Abstraction for Ethereum](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/4f3391f41453c5ce1ddce3621c9a3f57529ec435).
