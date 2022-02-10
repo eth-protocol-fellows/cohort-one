@@ -20,6 +20,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Wednesday 2/9/22]: Added Smart-Contract Deployment notes within [Java Smart-Contract Execution R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/277ae28c126c5394108ff85b5de944df3b8b85f6). Updated [EIP-4780](https://github.com/jeyakatsa/EIPs/commit/908bc1ea1cfa5943586a9309b574d1a6ab428080).
 - [Tuesday 2/8/22]: EIP updates attributed to [EIP-4780](https://github.com/jeyakatsa/EIPs/commit/cfceaca7b233576b53dedf03efccf0d29e556223). Java Smart-Contract Execution R&D process [started](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/da361918a0742a1d7d8786d0be3bf15eb0836659).
 - [Monday 2/7/22]: Added minor test case to [Value Dependency R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/72006428ed0681a4d555eaa40368f52bba7f4a45).
 - [Sunday 2/6/22]: Base Keyword Dependency work continues within [Smart-Contract Dependencies](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/tree/main/smart-contract-dependencies/src/main/java), R&D results recorded here: [R&D files](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/tree/main/R%26D-files). 
