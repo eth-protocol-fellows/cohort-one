@@ -139,6 +139,9 @@ Development updates from [`chaosma`](https://github.com/chaosma/)
 
 [Update #2](https://hackmd.io/AEp-d1OBTl-sDF3ZrAEztQ)
 
+### Chao: Update 5
+
+[Update #3](https://hackmd.io/Lzgpl9owRA2W1FQFVNsIwQ)
 
 ## Dan
 
