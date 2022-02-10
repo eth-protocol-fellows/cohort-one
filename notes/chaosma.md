@@ -43,3 +43,9 @@ This is the first project I have been working on: MACI coordinator service.
 ### Pull request
 [PR v1.0](https://github.com/appliedzkp/maci/pull/327)
 [PR v0.10](https://github.com/appliedzkp/maci/pull/338)
+
+## Pairwise Coordination Subsidy
+This is the second project I am working on: Pairwise Coordination Subsidy.
+
+### Updates 
+[Update #3](https://hackmd.io/Lzgpl9owRA2W1FQFVNsIwQ)
