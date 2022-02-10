@@ -38,10 +38,12 @@ This is the first project I have been working on: MACI coordinator service.
 
 ### Updates
 [Update #1](https://hackmd.io/@TTvN7fKGSjCtpmxVXx1RWw/ByQb3rZHt)
+
 [Update #2](https://hackmd.io/AEp-d1OBTl-sDF3ZrAEztQ)
 
 ### Pull request
 [PR v1.0](https://github.com/appliedzkp/maci/pull/327)
+
 [PR v0.10](https://github.com/appliedzkp/maci/pull/338)
 
 ## Pairwise Coordination Subsidy
