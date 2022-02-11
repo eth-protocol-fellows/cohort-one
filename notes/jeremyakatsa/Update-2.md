@@ -6,20 +6,20 @@
 #### The Research & Development process: [Java Smart Contract Abstraction for Ethereum R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/tree/main/R%26D-files) 
 _________________________________________________________________________
 
-## New-ERC Token
+## New-ERC Token (work forked up to *Smart Contracts in Java*)
 ### The Proposal: [New-ERC Token Propoal](https://ethresear.ch/t/a-new-erc-token-proposal/11540)
-#### The EIP: [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md)[number to be determined]
 #### The Research & Development process: [New-ERC Token R&D](https://github.com/jeyakatsa/New-ERC-Token/blob/main/R&D.md)
 #### The Work: [New-ERC Token Build](https://github.com/jeyakatsa/New-ERC-Token)
 _________________________________________________________________________
 
-## Altair - Minimal Light Client Prototype Build 
+## Altair - Minimal Light Client Prototype Build (work forked up to *New-ERC Token*)
 ### [Light-Client Custom Token Creation Proposal](https://ethresear.ch/t/light-client-custom-token-creation-proposal/11433)
 #### The Research & Development process: [Step-By-Step Guide](https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view)
 #### The Work: [Prototype Server & Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype)
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Thursday 2/10/22]: Started rough draft on Ethresearch post through [HackMd](https://hackmd.io/g1pRJvRfQgibxdpB5cI1gg).
 - [Wednesday 2/9/22]: Added Smart-Contract Deployment notes within [Java Smart-Contract Execution R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/277ae28c126c5394108ff85b5de944df3b8b85f6). Updated [EIP-4780](https://github.com/jeyakatsa/EIPs/commit/908bc1ea1cfa5943586a9309b574d1a6ab428080).
 - [Tuesday 2/8/22]: EIP updates attributed to [EIP-4780](https://github.com/jeyakatsa/EIPs/commit/cfceaca7b233576b53dedf03efccf0d29e556223). Java Smart-Contract Execution R&D process [started](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/da361918a0742a1d7d8786d0be3bf15eb0836659).
 - [Monday 2/7/22]: Added minor test case to [Value Dependency R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/72006428ed0681a4d555eaa40368f52bba7f4a45).
