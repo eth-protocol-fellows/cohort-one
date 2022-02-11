@@ -6,17 +6,17 @@
 #### The Research & Development process: [Java Smart Contract Abstraction for Ethereum R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/tree/main/R%26D-files) 
 _________________________________________________________________________
 
-## New-ERC Token
-### The Proposal: [New-ERC Token Propoal](https://ethresear.ch/t/a-new-erc-token-proposal/11540)
-#### The EIP: [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md)[number to be determined]
+## New-ERC Token (forked up-to *Smart Contracts in Java*)
+#### The Proposal: [New-ERC Token Propoal](https://ethresear.ch/t/a-new-erc-token-proposal/11540)
 #### The Research & Development process: [New-ERC Token R&D](https://github.com/jeyakatsa/New-ERC-Token/blob/main/R&D.md)
 #### The Work: [New-ERC Token Build](https://github.com/jeyakatsa/New-ERC-Token)
 _________________________________________________________________________
 
-## Altair - Minimal Light Client Prototype Build 
-### [Light-Client Custom Token Creation Proposal](https://ethresear.ch/t/light-client-custom-token-creation-proposal/11433)
+## Altair - Minimal Light Client Prototype Build (forked up-to *New-ERC Token*)
+#### The Proposal: [Light-Client Custom Token Creation Proposal](https://ethresear.ch/t/light-client-custom-token-creation-proposal/11433)
 #### The Research & Development process: [Step-By-Step Guide](https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view)
 #### The Work: [Prototype Server & Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype)
+_________________________________________________________________________ 
 _________________________________________________________________________ 
 
 #### Daily Updates (October 2021 - December 2021):
