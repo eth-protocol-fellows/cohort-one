@@ -1,26 +1,25 @@
 # Project Dive-in (Update 2):
 
 ## Smart Contracts in Java
-#### The EIP: [EIP-4780](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-4780.md)
+#### The Proposal (*ethresear.ch*): [Smart-Contracts in Java](https://ethresear.ch/t/smart-contracts-in-java/12021)
 #### The Work: [Java Smart Contract Abstraction for Ethereum](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction)
 #### The Research & Development process: [Java Smart Contract Abstraction for Ethereum R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/tree/main/R%26D-files) 
 _________________________________________________________________________
 
 ## New-ERC Token (forked up-to *Smart Contracts in Java*)
-#### The Proposal: [New-ERC Token Propoal](https://ethresear.ch/t/a-new-erc-token-proposal/11540)
+#### The Proposal (*ethresear.ch*): [New-ERC Token Propoal](https://ethresear.ch/t/a-new-erc-token-proposal/11540)
 #### The Research & Development process: [New-ERC Token R&D](https://github.com/jeyakatsa/New-ERC-Token/blob/main/R&D.md)
 #### The Work: [New-ERC Token Build](https://github.com/jeyakatsa/New-ERC-Token)
 _________________________________________________________________________
 
 ## Altair - Minimal Light Client Prototype Build (forked up-to *New-ERC Token*)
-#### The Proposal: [Light-Client Custom Token Creation Proposal](https://ethresear.ch/t/light-client-custom-token-creation-proposal/11433)
+#### The Proposal (*ethresear.ch*): [Light-Client Custom Token Creation Proposal](https://ethresear.ch/t/light-client-custom-token-creation-proposal/11433)
 #### The Research & Development process: [Step-By-Step Guide](https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view)
 #### The Work: [Prototype Server & Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype)
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
-- [Sunday 2/13/22]: Deployment & Transaction information fully converged within [Java Smart-Contract Execution R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/blob/main/R&D-files/Smart-Contract-Execution-R&D.md). First Draft of Ethresearch post [complete](https://hackmd.io/g1pRJvRfQgibxdpB5cI1gg?edit).
-- [Saturday 2/12/22]: Added network lists within [Java Smart-Contract Execution R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/blob/main/R&D-files/Smart-Contract-Execution-R&D.md).
+- [Saturday 2/12/22]: Added Network lists, Deployment & Transaction information fully converged within [Java Smart-Contract Execution R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/blob/main/R&D-files/Smart-Contract-Execution-R&D.md). First Draft of Ethresearch post [complete](https://hackmd.io/g1pRJvRfQgibxdpB5cI1gg?edit).
 - [Friday 2/11/22]: Fixed links within [Java Smart-Contract Execution R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/64cbcc238f50489e428a8c0090bda195fa3ffc72).
 - [Thursday 2/10/22]: Started rough draft on Ethresearch post through [HackMd](https://hackmd.io/g1pRJvRfQgibxdpB5cI1gg).
 - [Wednesday 2/9/22]: Added Smart-Contract Deployment notes within [Java Smart-Contract Execution R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/277ae28c126c5394108ff85b5de944df3b8b85f6). Updated [EIP-4780](https://github.com/jeyakatsa/EIPs/commit/908bc1ea1cfa5943586a9309b574d1a6ab428080).
