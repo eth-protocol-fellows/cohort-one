@@ -19,6 +19,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Sunday 2/13/22]: Deployment & Transaction information fully converged within [Java Smart-Contract Execution R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/blob/main/R&D-files/Smart-Contract-Execution-R&D.md). First Draft of Ethresearch post [complete](https://hackmd.io/g1pRJvRfQgibxdpB5cI1gg?edit).
 - [Saturday 2/12/22]: Added network lists within [Java Smart-Contract Execution R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/blob/main/R&D-files/Smart-Contract-Execution-R&D.md).
 - [Friday 2/11/22]: Fixed links within [Java Smart-Contract Execution R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/64cbcc238f50489e428a8c0090bda195fa3ffc72).
 - [Thursday 2/10/22]: Started rough draft on Ethresearch post through [HackMd](https://hackmd.io/g1pRJvRfQgibxdpB5cI1gg).
