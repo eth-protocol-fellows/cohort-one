@@ -19,6 +19,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Thursday 2/17/22]: Added new conversion process within [Java Compiler R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/696af622f7a22a695cf0810b1d0a4b0d78e45d1d).
 - [Wednesday 2/16/22]: [CompileOutput](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/5aaa1a0d1f23474d66b3ba19edddc07271e0715b) skeleton built. The technical process of "deconstructing the compiler engine" begins within [Java Compiler R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/9f54a5f5581a51b0d5d3bcc631d02924518de8ea).
 - [Tuesday 2/15/22]: Convert `require` node.js keyword into Java program notes added within [Java Compiler R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/6b7645591a472361ac6a9531df79953a4c4829bf).
 - [Monday 2/14/22]: Added syntax to process within [Java Compiler R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/9bce9742ff4cdf1cf195782211d2f263beeaf51e).
