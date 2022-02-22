@@ -19,6 +19,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Monday 2/21/22]: Updated dates within [Java Abstraction R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/07aa87657075089538cfc18eeafeb6bbd58f2aa3).
 - [Saturday 2/19/22]: Added Javascript example to process within [Java Compiler R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/a817516d7527803b5b46b025571c1b57c3f5e53e).
 - [Friday 2/18/22]: Added process information to new conversion process within [Java Compiler R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/6f7b75a9fa4446c4b7db935f8302a1b374dab374).
 - [Thursday 2/17/22]: Added new conversion process within [Java Compiler R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/696af622f7a22a695cf0810b1d0a4b0d78e45d1d).
