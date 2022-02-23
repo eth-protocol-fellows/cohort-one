@@ -1,6 +1,9 @@
 # Project Dive-in (Update 1):
 
-## Smart Contracts in Java
+## Jehova: A Smart-Contract Language for Java Developers 
+#### The Proposal (*rough-draft*): [Jehova Proposal](https://hackmd.io/JMw0UIBURLGS3h8c3wrNcg?view)
+________________________________________________________________________
+## Smart Contracts in Java (forked up-to *Jehova*)
 #### The Proposal (*ethresear.ch*): [Smart-Contracts in Java](https://ethresear.ch/t/smart-contracts-in-java/12021)
 #### The Work: [Java Smart Contract Abstraction for Ethereum](https://github.com/jeyakatsa/Ethereum-Smart-Contract-Java-Abstraction)
 #### The Research & Development process: [Java Smart Contract Abstraction for Ethereum R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/tree/main/r%26d-files) 
