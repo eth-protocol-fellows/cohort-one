@@ -1,7 +1,8 @@
 # Project Dive-in (Update 2):
 
 ## Jehova: A Smart-Contract Language for Java Developers 
-#### The Proposal (*rough-draft*): [Jehova Proposal](https://hackmd.io/JMw0UIBURLGS3h8c3wrNcg?view)
+#### The Work: [Jehova](https://github.com/jeyakatsa/Jehova)
+#### The Research & Development process: [Jehova R&D](https://github.com/jeyakatsa/jehova/tree/main/R%26D-files)
 ________________________________________________________________________
 ## Smart Contracts in Java (forked up-to *Jehova*)
 #### The Proposal (*ethresear.ch*): [Smart-Contracts in Java](https://ethresear.ch/t/smart-contracts-in-java/12021)
@@ -22,6 +23,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Wednesday 2/23/22]: Continuing work within [Jehova Smart Contract Language](https://github.com/jeyakatsa/jehova) repo.
 - [Tuesday 2/22/22]: Started work on a new Smart Contract programming language: [Jehova](https://hackmd.io/JMw0UIBURLGS3h8c3wrNcg?view).
 - [Monday 2/21/22]: Updated dates within [Java Abstraction R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/07aa87657075089538cfc18eeafeb6bbd58f2aa3).
 - [Saturday 2/19/22]: Added Javascript example to process within [Java Compiler R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/a817516d7527803b5b46b025571c1b57c3f5e53e).
