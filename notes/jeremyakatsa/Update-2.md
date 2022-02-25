@@ -23,6 +23,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Thursday 2/24/22]: Started [Grammar & Semantics Research & Development](https://github.com/jeyakatsa/jehova/commit/98154c98e04e0cb5d266fa499ea58275a72f412d) work for Jehova.
 - [Wednesday 2/23/22]: Continuing work within [Jehova Smart Contract Language](https://github.com/jeyakatsa/jehova) repo.
 - [Tuesday 2/22/22]: Started work on a new Smart Contract programming language: [Jehova](https://hackmd.io/JMw0UIBURLGS3h8c3wrNcg?view).
 - [Monday 2/21/22]: Updated dates within [Java Abstraction R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/07aa87657075089538cfc18eeafeb6bbd58f2aa3).
