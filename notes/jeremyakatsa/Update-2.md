@@ -23,6 +23,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Sunday 2/27/22]: Added Syntactic & Lexical structure within [Grammar & Semantics R&D](https://github.com/jeyakatsa/jehova/commit/84891afde34767d60435427bd045a7de80c56896).
 - [Saturday 2/26/22]: Added Grammar chapter within [Grammar & Semantics R&D](https://github.com/jeyakatsa/jehova/commit/e3012e5406b7ffb7df524ca99df33ad51a2d0bd1).
 - [Thursday 2/24/22]: Started [Grammar & Semantics Research & Development](https://github.com/jeyakatsa/jehova/commit/98154c98e04e0cb5d266fa499ea58275a72f412d) work for Jehova.
 - [Wednesday 2/23/22]: Continuing work within [Jehova Smart Contract Language](https://github.com/jeyakatsa/jehova) repo.
