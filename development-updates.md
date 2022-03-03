@@ -342,3 +342,9 @@ Development updates from [`taylorjordanNC`](https://github.com/taylorjordanNC/)
 ### Taylor: Update 3
 
 [Update #3](https://hackmd.io/@vanitas/stage-1-1)
+
+## Leo Lara
+
+### Leo Lara: Update 1
+
+[Update #1](./notes/leolara/update-1.md)
