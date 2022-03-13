@@ -3,7 +3,8 @@
 ## Projects:
 
 ### Jehova: A Smart-Contract Language for Java Developers 
-#### The Work: [Jehova](https://github.com/jeyakatsa/Jehova)
+#### The Proposal: [Jehova Proposal](https://ethresear.ch/t/jehova-a-smart-contract-language-for-java-devs/12194)
+#### The Work: [Jehova Work](https://github.com/jeyakatsa/Jehova)
 #### The Research & Development process: [Jehova R&D](https://github.com/jeyakatsa/jehova/tree/main/R%26D-files)
 ________________________________________________________________________
 ### Smart Contracts in Java (forked up-to *Jehova*)
