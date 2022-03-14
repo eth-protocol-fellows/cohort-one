@@ -26,6 +26,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Sunday 3/13/22]: Updated [Jehova Completion Time-Frame](https://github.com/jeyakatsa/jehova/tree/main/R%26D-files).
 - [Saturday 3/12/22]: Opened [Jehova Proposal](https://ethresear.ch/t/jehova-a-smart-contract-language-for-java-devs/12194) within Ethresear.ch.
 - [Friday 3/11/22]: Added Chapter 4 Notes to [Jehova Research & Development](https://github.com/jeyakatsa/jehova/commit/49843ad61ff1ea074aad33887e86990cb1c9f80d).
 - [Thursday 3/10/22]: Continuously updating [Jehova: A Smart-Contract Language for Java Developers](https://github.com/jeyakatsa/jehova/tree/main/R%26D-files).
