@@ -26,6 +26,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 ## Daily Updates (September 2021 - February 2022):
+- [Tuesday 3/15/22]: Added Integer operation notes to [Grammar & Semantics R&D](https://github.com/jeyakatsa/jehova/commit/d1a3db0bf921c7c7d4dcd9ff9b4c09873bc2ebc0).
 - [Monday 3/14/22]: Added primitive type notes to [Grammar & Semantics R&D](https://github.com/jeyakatsa/jehova/commit/fb4b6d384cd1cb7537577ccaa172f2339cbecd1b).
 - [Sunday 3/13/22]: Updated [Jehova Completion Time-Frame](https://github.com/jeyakatsa/jehova/tree/main/R%26D-files).
 - [Saturday 3/12/22]: Opened [Jehova Proposal](https://ethresear.ch/t/jehova-a-smart-contract-language-for-java-devs/12194) within Ethresear.ch.
