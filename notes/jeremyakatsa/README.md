@@ -26,7 +26,8 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 ## Daily Updates (September 2021 - February 2022):
-- [Thursday 3/17/21]: Added reference types and values to [Grammar & Semantics R&D](https://github.com/jeyakatsa/jehova/commit/b81c011fa2865c022809c4d9e2d5f1e529efaab5).
+- [Friday 3/18/22]: Added Type Variables to [Grammar & Semantics R&D](https://github.com/jeyakatsa/jehova/commit/e7f1460dfe23617d2ca4cf3216bdf10cd8080fb0).
+- [Thursday 3/17/22]: Added reference types and values to [Grammar & Semantics R&D](https://github.com/jeyakatsa/jehova/commit/b81c011fa2865c022809c4d9e2d5f1e529efaab5).
 - [Wednesday 3/16/22]: Created [Minimal Viable Product blueprint](https://github.com/jeyakatsa/jehova/blob/main/R&D-files/MVPblueprint.md).
 - [Tuesday 3/15/22]: Added Integer operation notes to [Grammar & Semantics R&D](https://github.com/jeyakatsa/jehova/commit/d1a3db0bf921c7c7d4dcd9ff9b4c09873bc2ebc0).
 - [Monday 3/14/22]: Added primitive type notes to [Grammar & Semantics R&D](https://github.com/jeyakatsa/jehova/commit/fb4b6d384cd1cb7537577ccaa172f2339cbecd1b).
