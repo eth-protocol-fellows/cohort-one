@@ -26,6 +26,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 ## Daily Updates (September 2021 - February 2022):
+- [Tuesday 3/22/22]: Added Listing 3 notes to Lexing Design blueprint within [MVP Blueprint](https://github.com/jeyakatsa/jehova/commit/417851cc39b2fe67b45383d37e7d45d29198d4ee).
 - [Monday 3/21/22]: Added first listing information to [MVP Blueprint](https://github.com/jeyakatsa/jehova/commit/6e79e970128fa8908f58b8060257f285e8222aa1).
 - [Sunday 3/20/22]: Added Parameterized Types to [Grammar & Semantics R&D](https://github.com/jeyakatsa/jehova/commit/863901d4c0559957e7b61c5126f23ceea2e5fc24).
 - [Saturday 3/19/22]: Expanded the roadmap and added more notes to the MVP among other updates within the [Jehova](https://github.com/jeyakatsa/jehova) project.
