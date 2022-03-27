@@ -2,6 +2,9 @@
 
 ## Projects:
 
+### MonaLisa: An Experimental new kind of Ethereum Token
+#### The Work: [MonaLisa Work](https://github.com/jeyakatsa/monalisa)
+
 ### Jehova: A Smart-Contract Language for Java Developers 
 #### The Proposal: [Jehova Proposal](https://ethresear.ch/t/jehova-a-smart-contract-language-for-java-devs/12194)
 #### The Work: [Jehova Work](https://github.com/jeyakatsa/Jehova)
@@ -26,6 +29,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 ## Daily Updates (September 2021 - February 2022):
+- [Saturday 3/26/22]: Started work on an experimental new kind of Ethereum Token [MonaLisa](https://github.com/jeyakatsa/monalisa).
 - [Wednesday 3/23/22]: Added Listing 4 notes to Lexing blueprint within [MVP Blueprint](https://github.com/jeyakatsa/jehova/commit/5bfe3481bd3d081e463fc642107ee1f6f10010c0).
 - [Tuesday 3/22/22]: Added Listing 3 notes to Lexing Design blueprint within [MVP Blueprint](https://github.com/jeyakatsa/jehova/commit/417851cc39b2fe67b45383d37e7d45d29198d4ee).
 - [Monday 3/21/22]: Added first listing information to [MVP Blueprint](https://github.com/jeyakatsa/jehova/commit/6e79e970128fa8908f58b8060257f285e8222aa1).
