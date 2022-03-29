@@ -4,7 +4,7 @@
 
 ### MonaLisa: An Experimental new kind of Ethereum Token
 #### The Work: [MonaLisa Work](https://github.com/jeyakatsa/monalisa)
-#### The Research & Development process [MonaLisa R&D](https://github.com/jeyakatsa/monalisa/tree/main/R%26D)
+#### The Research & Development process: [MonaLisa R&D](https://github.com/jeyakatsa/monalisa/tree/main/R%26D)
 _________________________________________________________________________
 
 ### Jehova: A Smart-Contract Language for Java Developers 
