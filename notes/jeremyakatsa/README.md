@@ -31,6 +31,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 ## Daily Updates (September 2021 - Present):
+- [Tuesday 3/29/22]: Added basic steps to [Base Framework Research & Development](https://github.com/jeyakatsa/monalisa/commit/6e823b0d13725d688a8fc6953ba16a55911f87f7).
 - [Monday 3/28/22]: Started work on the base framework for MonaLisa within the [Research & Development section](https://github.com/jeyakatsa/monalisa/commit/ec1ac73b7483785cc1775a4c0fa9c6aefb233af4).
 - [Saturday 3/26/22]: Started work on an experimental new kind of Ethereum Token [MonaLisa](https://github.com/jeyakatsa/monalisa).
 - [Wednesday 3/23/22]: Added Listing 4 notes to Lexing blueprint within [MVP Blueprint](https://github.com/jeyakatsa/jehova/commit/5bfe3481bd3d081e463fc642107ee1f6f10010c0).
