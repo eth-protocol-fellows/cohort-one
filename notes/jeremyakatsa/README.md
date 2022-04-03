@@ -31,6 +31,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 ## Daily Updates (September 2021 - Present):
+- [Saturday 4/2/22]: Added Expanded Steps within [Base Framework Research & Development](https://github.com/jeyakatsa/monalisa/commit/c960057c0ad4437839cad55c752fe14e789018d1).
 - [Wednesday 3/30/22]: Added tools and technologies to [Base Framework Research & Development](https://github.com/jeyakatsa/monalisa/commit/8a81f8db51af5a5e2a313d68f5c7d8e9a0edc996).
 - [Tuesday 3/29/22]: Added basic steps to [Base Framework Research & Development](https://github.com/jeyakatsa/monalisa/commit/6e823b0d13725d688a8fc6953ba16a55911f87f7).
 - [Monday 3/28/22]: Started work on the base framework for MonaLisa within the [Research & Development section](https://github.com/jeyakatsa/monalisa/commit/ec1ac73b7483785cc1775a4c0fa9c6aefb233af4).
