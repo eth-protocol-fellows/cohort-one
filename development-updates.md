@@ -348,3 +348,11 @@ Development updates from [`taylorjordanNC`](https://github.com/taylorjordanNC/)
 ### Leo Lara: Update 1
 
 [Update #1](./notes/leolara/update-1.md)
+
+### Leo Lara: Update 2
+
+[Update #2](./notes/leolara/update-2.md)
+
+### Leo Lara: Summary of Open Source contributions
+
+[OS contributions](./notes/leolara/os-contrib.md)
