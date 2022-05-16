@@ -2,9 +2,9 @@
 
 ## Projects:
 
-### MonaLisa: An Experimental new kind of Ethereum Token
-#### The Work: [MonaLisa Work](https://github.com/jeyakatsa/monalisa)
-#### The Research & Development process: [MonaLisa R&D](https://github.com/jeyakatsa/monalisa/tree/main/R%26D)
+### ECARE: Ethereum Combinatorial Auction Rate Exchange
+#### The Work: [Ecare Work](https://github.com/jeyakatsa/monalisa)
+#### The Research & Development process: [Ecare R&D](https://github.com/jeyakatsa/monalisa/tree/main/R%26D)
 _________________________________________________________________________
 
 ### Jehova: A Smart-Contract Language for Java Developers 
@@ -31,6 +31,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 ## Daily Updates (September 2021 - Present):
+- [Saturday 5/7/22 - Sunday 5/7/22]: Multiple Updates to [ECARE](https://github.com/jeyakatsa/monalisa/commits/main).
 - [Sunday 4/3/22 - Friday 5/6/22]: Multiple Updates to [Base Framework R&D](https://github.com/jeyakatsa/monalisa/commits/main).
 - [Saturday 4/2/22]: Added Expanded Steps within [Base Framework Research & Development](https://github.com/jeyakatsa/monalisa/commit/c960057c0ad4437839cad55c752fe14e789018d1).
 - [Wednesday 3/30/22]: Added tools and technologies to [Base Framework Research & Development](https://github.com/jeyakatsa/monalisa/commit/8a81f8db51af5a5e2a313d68f5c7d8e9a0edc996).
