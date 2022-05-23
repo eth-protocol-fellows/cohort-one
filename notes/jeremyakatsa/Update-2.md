@@ -31,6 +31,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 ## Daily Updates (September 2021 - Present):
+- [Monday 5/8/22 - Sunday 5/22/22]: Website published (https://ecare.exchange), mechanics updated and MVP(prototype) building process started: [ECARE](https://github.com/jeyakatsa/monalisa/commits/main).
 - [Saturday 5/7/22 - Sunday 5/7/22]: Multiple Updates to [ECARE](https://github.com/jeyakatsa/monalisa/commits/main).
 - [Sunday 4/3/22 - Friday 5/6/22]: Multiple Updates to [Base Framework R&D](https://github.com/jeyakatsa/monalisa/commits/main).
 - [Saturday 4/2/22]: Added Expanded Steps within [Base Framework Research & Development](https://github.com/jeyakatsa/monalisa/commit/c960057c0ad4437839cad55c752fe14e789018d1).
