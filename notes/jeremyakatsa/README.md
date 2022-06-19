@@ -31,6 +31,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 ## Daily Updates (September 2021 - Present):
+- [Monday 5/23/22 - Saturday 6/18/22]: Prototype Front-End Complete (https://ecare.exchange/prototype), back-end building process started, roadmap expanded, etc: [ECARE](https://github.com/jeyakatsa/monalisa/commits/main).
 - [Monday 5/8/22 - Sunday 5/22/22]: Website published (https://ecare.exchange), mechanics updated and MVP(prototype) building process started: [ECARE](https://github.com/jeyakatsa/monalisa/commits/main).
 - [Saturday 5/7/22 - Sunday 5/7/22]: Multiple Updates to [ECARE](https://github.com/jeyakatsa/monalisa/commits/main).
 - [Sunday 4/3/22 - Friday 5/6/22]: Multiple Updates to [Base Framework R&D](https://github.com/jeyakatsa/monalisa/commits/main).
@@ -57,7 +58,7 @@ _________________________________________________________________________
 - [Saturday 2/26/22]: Added Grammar chapter within [Grammar & Semantics R&D](https://github.com/jeyakatsa/jehova/commit/e3012e5406b7ffb7df524ca99df33ad51a2d0bd1).
 - [Thursday 2/24/22]: Started [Grammar & Semantics Research & Development](https://github.com/jeyakatsa/jehova/commit/98154c98e04e0cb5d266fa499ea58275a72f412d) work for Jehova.
 - [Wednesday 2/23/22]: Continuing work within [Jehova Smart Contract Language](https://github.com/jeyakatsa/jehova) repo.
-- [Tuesday 2/22/22]: Started work on a new Smart Contract programming language: [Jehova](https://hackmd.io/JMw0UIBURLGS3h8c3wrNcg?view).
+- [Tuesday /2/22/22]: Started work on a new Smart Contract programming language: [Jehova](https://hackmd.io/JMw0UIBURLGS3h8c3wrNcg?view).
 - [Monday 2/21/22]: Updated dates within [Java Abstraction R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/07aa87657075089538cfc18eeafeb6bbd58f2aa3).
 - [Saturday 2/19/22]: Added Javascript example to process within [Java Compiler R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/a817516d7527803b5b46b025571c1b57c3f5e53e).
 - [Friday 2/18/22]: Added process information to new conversion process within [Java Compiler R&D](https://github.com/jeyakatsa/ethereum-smart-contract-java-abstraction/commit/6f7b75a9fa4446c4b7db935f8302a1b374dab374).
