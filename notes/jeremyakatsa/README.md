@@ -3,8 +3,8 @@
 ## Projects:
 
 ### [ECARE: Ethereum Combinatorial Auction Rate Exchange](https://ecare.exchange)
-#### The Work: [Ecare Work](https://github.com/jeyakatsa/monalisa)
-#### The Research & Development process: [Ecare R&D](https://github.com/jeyakatsa/monalisa/tree/main/R%26D)
+#### The Work: [Ecare Work](https://github.com/jeyakatsa/Ecare)
+#### The Research & Development process: [Ecare R&D](https://github.com/jeyakatsa/Ecare/tree/main/R%26D)
 _________________________________________________________________________
 
 ### Jehova: A Smart-Contract Language for Java Developers 
@@ -31,6 +31,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 ## Daily Updates (September 2021 - Present):
+- [Sunday 6/19/22 - Saturday 7/16/22]: Prototype Fully Completed (https://ecare.exchange/prototype). Now working on base dApp: [ECARE](https://github.com/jeyakatsa/Ecare/commits/main).
 - [Monday 5/23/22 - Saturday 6/18/22]: Prototype Front-End Complete (https://ecare.exchange/prototype), back-end building process started, roadmap expanded, etc: [ECARE](https://github.com/jeyakatsa/monalisa/commits/main).
 - [Monday 5/8/22 - Sunday 5/22/22]: Website published (https://ecare.exchange), mechanics updated and MVP(prototype) building process started: [ECARE](https://github.com/jeyakatsa/monalisa/commits/main).
 - [Saturday 5/7/22 - Sunday 5/7/22]: Multiple Updates to [ECARE](https://github.com/jeyakatsa/monalisa/commits/main).
