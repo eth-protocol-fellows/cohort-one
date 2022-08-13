@@ -31,6 +31,7 @@ _________________________________________________________________________
 _________________________________________________________________________ 
 
 ## Daily Updates (September 2021 - Present):
+- [Sunday 7/17/22 - Friday 8/12/22]: Started dApp Automated Market Maker Work for [ECARE](https://github.com/jeyakatsa/Ecare/commits/main).
 - [Sunday 6/19/22 - Saturday 7/16/22]: Prototype Fully Completed (https://ecare.exchange/prototype). Now working on base dApp: [ECARE](https://github.com/jeyakatsa/Ecare/commits/main).
 - [Monday 5/23/22 - Saturday 6/18/22]: Prototype Front-End Complete (https://ecare.exchange/prototype), back-end building process started, roadmap expanded, etc: [ECARE](https://github.com/jeyakatsa/monalisa/commits/main).
 - [Monday 5/8/22 - Sunday 5/22/22]: Website published (https://ecare.exchange), mechanics updated and MVP(prototype) building process started: [ECARE](https://github.com/jeyakatsa/monalisa/commits/main).
