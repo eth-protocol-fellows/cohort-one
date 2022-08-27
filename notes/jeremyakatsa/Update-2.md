@@ -30,7 +30,8 @@ _________________________________________________________________________
 #### The Work: [Prototype Server & Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype)
 _________________________________________________________________________ 
 
-## Daily Updates (September 2021 - Present):
+## Updates (September 2021 - Present):
+- [Saturday 8/13/22 - Saturday 8/27/22]: Work continues on BdApp and R&D for [ECARE](https://github.com/jeyakatsa/Ecare/commits/main).
 - [Sunday 7/17/22 - Friday 8/12/22]: Started dApp Automated Market Maker Work for [ECARE](https://github.com/jeyakatsa/Ecare/commits/main).
 - [Sunday 6/19/22 - Saturday 7/16/22]: Prototype Fully Completed (https://ecare.exchange/prototype). Now working on base dApp: [ECARE](https://github.com/jeyakatsa/Ecare/commits/main).
 - [Monday 5/23/22 - Saturday 6/18/22]: Prototype Front-End Complete (https://ecare.exchange/prototype), back-end building process started, roadmap expanded, etc: [ECARE](https://github.com/jeyakatsa/monalisa/commits/main).
