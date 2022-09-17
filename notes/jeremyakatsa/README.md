@@ -32,6 +32,7 @@ _________________________________________________________________________
 
 
 ## Updates (September 2021 - Present):
+- [Sunday 8/28/22 - Saturday 9/17/22]: Expanded work on BdApp for [ECARE](https://github.com/jeyakatsa/Ecare/commits/main).
 - [Saturday 8/13/22 - Saturday 8/27/22]: Work continues on BdApp and R&D for [ECARE](https://github.com/jeyakatsa/Ecare/commits/main).
 - [Sunday 7/17/22 - Friday 8/12/22]: Started dApp Automated Market Maker Work for [ECARE](https://github.com/jeyakatsa/Ecare/commits/main).
 - [Sunday 6/19/22 - Saturday 7/16/22]: Prototype Fully Completed (https://ecare.exchange/prototype). Now working on base dApp: [ECARE](https://github.com/jeyakatsa/Ecare/commits/main).
