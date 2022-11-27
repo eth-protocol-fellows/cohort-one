@@ -32,6 +32,7 @@ _________________________________________________________________________
 
 
 ## Updates (September 2021 - Present):
+- [Wednesday 11/12/22 - Saturday 11/26/22]: Expanded [Ecare](https://github.com/Ecare-Exchange/infrastructure) work into [Arells](https://github.com/Ecare-Exchange/Arells), main Repository link: https://github.com/Ecare-Exchange.
 - [Sunday 9/18/22 - Wesnesday 10/12/22]: Added more infrastructure to [ECARE](https://github.com/Ecare-Exchange/infrastructure).
 - [Sunday 8/28/22 - Saturday 9/17/22]: Expanded work on BdApp for [ECARE](https://github.com/jeyakatsa/Ecare/commits/main).
 - [Saturday 8/13/22 - Saturday 8/27/22]: Work continues on BdApp and R&D for [ECARE](https://github.com/jeyakatsa/Ecare/commits/main).
