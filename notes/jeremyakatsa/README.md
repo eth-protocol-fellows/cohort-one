@@ -32,6 +32,7 @@ _________________________________________________________________________
 
 
 ## Updates (September 2021 - Present):
+- [Monday 12/19/22 - Sunday 12/25/22]: Resolving BroswerRouter-CSS components issue for [Ecare](https://github.com/Ecare-Exchange/infrastructure), updated blog work for [Arells](https://github.com/Ecare-Exchange/Arells)
 - [Monday 12/15/22 - Sunday 12/18/22]: Updated Roadmap Components and BdApp for [Ecare](https://github.com/Ecare-Exchange/infrastructure) as well as StayUpdated UI for [Arells](https://github.com/Ecare-Exchange/Arells)
 - [Sunday 11/27/22 - Sunday 12/4/22]: Work continues for [Ecare](https://github.com/Ecare-Exchange/infrastructure) and [Arells](https://github.com/Ecare-Exchange/Arells)
 - [Wednesday 11/12/22 - Saturday 11/26/22]: Expanded [Ecare](https://github.com/Ecare-Exchange/infrastructure) work into [Arells](https://github.com/Ecare-Exchange/Arells), main Repository link: https://github.com/Ecare-Exchange.
