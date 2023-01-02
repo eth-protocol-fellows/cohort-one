@@ -3,8 +3,8 @@
 ## Projects:
 
 ### [ECARE: Ethereum Combinatorial Auction Rate Exchange](https://ecare.exchange)
-#### The Work: [Ecare Work](https://github.com/jeyakatsa/Ecare)
-#### The Research & Development process: [Ecare R&D](https://github.com/jeyakatsa/Ecare/tree/main/R%26D)
+#### The Work: [Ecare Work](https://github.com/Ecare-Exchange/infrastructure)
+#### The Research & Development process: [Ecare R&D](https://github.com/Ecare-Exchange/infrastructure/tree/main/R%26D)
 _________________________________________________________________________
 
 ### Jehova: A Smart-Contract Language for Java Developers 
