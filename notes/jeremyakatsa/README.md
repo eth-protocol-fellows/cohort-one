@@ -32,6 +32,7 @@ _________________________________________________________________________
 
 
 ## Updates (September 2021 - Present):
+- [Monday 1/2/23 - 1/8/23]: Restarting BdApp building process with MacOS software for [Ecare](https://github.com/Ecare-Exchange/infrastructure), updated blog work for [Arells](https://github.com/Ecare-Exchange/Arells)
 - [Monday 12/26/22 - Sunday 1/1/23]: Continuing to resolve BroswerRouter-CSS components issue for [Ecare](https://github.com/Ecare-Exchange/infrastructure), updated blog work for [Arells](https://github.com/Ecare-Exchange/Arells)
 - [Monday 12/19/22 - Sunday 12/25/22]: Resolving BroswerRouter-CSS components issue for [Ecare](https://github.com/Ecare-Exchange/infrastructure), updated blog work for [Arells](https://github.com/Ecare-Exchange/Arells)
 - [Monday 12/15/22 - Sunday 12/18/22]: Updated Roadmap Components and BdApp for [Ecare](https://github.com/Ecare-Exchange/infrastructure) as well as StayUpdated UI for [Arells](https://github.com/Ecare-Exchange/Arells)
