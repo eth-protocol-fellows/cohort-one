@@ -32,6 +32,7 @@ _________________________________________________________________________
 
 
 ## Updates (September 2021 - Present):
+- [Monday 1/16/23 - Sunday 1/22/23]: Migrating [Ecare's](https://github.com/Ecare-Exchange/infrastructure) structure from Java to React(Javascript), updated blog work for [Arells](https://github.com/Ecare-Exchange/Arells)
 - [Monday 1/9/23 - Sunday 1/15/23]: Successfully resolved BrowserRouting issue for [Ecare's bDapp](https://github.com/Ecare-Exchange/infrastructure), updated blog work for [Arells](https://github.com/Ecare-Exchange/Arells)
 - [Monday 1/2/23 - Sunday 1/8/23]: Restarting BdApp building process with MacOS software for [Ecare](https://github.com/Ecare-Exchange/infrastructure), updated blog work for [Arells](https://github.com/Ecare-Exchange/Arells)
 - [Monday 12/26/22 - Sunday 1/1/23]: Continuing to resolve BroswerRouter-CSS components issue for [Ecare](https://github.com/Ecare-Exchange/infrastructure), updated blog work for [Arells](https://github.com/Ecare-Exchange/Arells)
