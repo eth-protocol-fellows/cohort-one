@@ -32,6 +32,7 @@ _________________________________________________________________________
 
 
 ## Updates (September 2021 - Present):
+- [Monday 2/13/23 - Tuesday 2/21/23]: Minor updates to [Ecare](https://github.com/Ecare-Exchange/infrastructure), updated blog work for [Arells](https://github.com/Ecare-Exchange/Arells)
 - [Monday 2/6/23 - Sunday 2/12/23]: Minor updates made for [Ecare](https://github.com/Ecare-Exchange/infrastructure), updated blog work for [Arells](https://github.com/Ecare-Exchange/Arells)
 - [Monday 1/30/23 - Sunday 2/5/23]: Java to React migration continues for [Ecare](https://github.com/Ecare-Exchange/infrastructure), updated blog work for [Arells](https://github.com/Ecare-Exchange/Arells)
 - [Monday 1/23/23 - Sunday 1/29/23]: A few technical issues regarding [Ecare's](https://github.com/Ecare-Exchange/infrastructure) migration from Java to React resolved, updated blog work for [Arells](https://github.com/Ecare-Exchange/Arells)
