@@ -32,6 +32,7 @@ _________________________________________________________________________
 
 
 ## Updates (September 2021 - Present):
+- [Wednesday 2/22/23 - Sunday 2/26/23]: Resolved input issues and added Modals to [Ecare](https://github.com/Ecare-Exchange/infrastructure) React components.
 - [Monday 2/13/23 - Tuesday 2/21/23]: Minor updates to [Ecare](https://github.com/Ecare-Exchange/infrastructure), updated blog work for [Arells](https://github.com/Ecare-Exchange/Arells)
 - [Monday 2/6/23 - Sunday 2/12/23]: Minor updates made for [Ecare](https://github.com/Ecare-Exchange/infrastructure), updated blog work for [Arells](https://github.com/Ecare-Exchange/Arells)
 - [Monday 1/30/23 - Sunday 2/5/23]: Java to React migration continues for [Ecare](https://github.com/Ecare-Exchange/infrastructure), updated blog work for [Arells](https://github.com/Ecare-Exchange/Arells)
