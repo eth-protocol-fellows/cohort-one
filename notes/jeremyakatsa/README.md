@@ -2,6 +2,9 @@
 
 ## Projects:
 
+### [Arells](https://arells.com)
+#### The Work: [Arells Work](https://github.com/Art-Sells/Arells)
+_________________________________________________________________________
 ### [ECARE: Ethereum Combinatorial Auction Rate Exchange](https://ecare.exchange)
 #### The Work: [Ecare Work](https://github.com/Ecare-Exchange/infrastructure)
 #### The Research & Development process: [Ecare R&D](https://github.com/Ecare-Exchange/infrastructure/tree/main/R%26D)
