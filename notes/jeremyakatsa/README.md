@@ -35,6 +35,7 @@ _________________________________________________________________________
 
 
 ## Updates (September 2021 - Present):
+- [Monday 3/27/23 - Sunday 4/2/23]: Worked on different modules for [Arells](https://github.com/Art-Sells/Arells) prototype.
 - [Monday 3/20/23 - Sunday 3/26/23]: Completed basic foundation for [Arells](https://github.com/Art-Sells/Arells) prototype.
 - [Monday 3/23/23 - Sunday 3/19/23]: The pivoting process from [Ecare](https://github.com/Ecare-Exchange/infrastructure) to [Arells](https://github.com/Art-Sells/Arells) complete! Working on Arells prototype.
 - [Monday 2/27/23 - Sunday 3/12/23]: The Pivoting process for [Ecare](https://github.com/Ecare-Exchange/infrastructure) begins to fully focus to [Arells](https://github.com/Art-Sells/Arells).
