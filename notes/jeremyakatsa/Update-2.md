@@ -35,6 +35,7 @@ _________________________________________________________________________
 
 
 ## Updates (September 2021 - Present):
+- [Monday 4/10/23 - Sunday 4/16/23]: Varying Prototype Test Modules completed for [Arells](https://github.com/Art-Sells/Arells).
 - [Monday 4/3/23 - Sunday 4/9/23]: Varying Prototype Test Modules built for [Arells](https://github.com/Art-Sells/Arells).
 - [Monday 3/27/23 - Sunday 4/2/23]: Worked on different modules for [Arells](https://github.com/Art-Sells/Arells) prototype.
 - [Monday 3/20/23 - Sunday 3/26/23]: Completed basic foundation for [Arells](https://github.com/Art-Sells/Arells) prototype.
