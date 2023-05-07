@@ -35,6 +35,7 @@ _________________________________________________________________________
 
 
 ## Updates (September 2021 - Present):
+- [Monday 5/1/23 - Sunday 5/7/23]: MVP building for [Arells](https://github.com/Art-Sells/Arells) begins!
 - [Monday 4/24/23 - Sunday 4/30/23]: Prototype completed for [Arells](https://github.com/Art-Sells/Arells).
 - [Monday 4/17/23 - Sunday 4/23/23]: Prototype Script Functions completed for [Arells](https://github.com/Art-Sells/Arells).
 - [Monday 4/10/23 - Sunday 4/16/23]: Varying Prototype Test Modules completed for [Arells](https://github.com/Art-Sells/Arells).
