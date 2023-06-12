@@ -35,6 +35,7 @@ _________________________________________________________________________
 
 
 ## Updates (September 2021 - Present):
+- [Monday 6/5/23 - Sunday 6/11/23]: MVP Framework for [Arells](https://github.com/Art-Sells/Arells) building continues.
 - [Monday 5/29/23 - Sunday 6/4/23]: Building MVP Framework for [Arells](https://github.com/Art-Sells/Arells) continues.
 - [Monday 5/15/23 - Sunday 5/28/23]: Building MVP Framework for [Arells](https://github.com/Art-Sells/Arells).
 - [Monday 5/8/23 - Sunday 5/14/23]: MVP building for [Arells](https://github.com/Art-Sells/Arells) continues.
