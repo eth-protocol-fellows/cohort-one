@@ -35,6 +35,7 @@ _________________________________________________________________________
 
 
 ## Updates (September 2021 - Present):
+- [Monday 6/19/23 - Sunday 6/25/23]: Converting Java framework into Next.js for [Arells](https://github.com/Art-Sells/Arells) MVP continues.
 - [Monday 6/12/23 - Sunday 6/18/23]: Converting Java framework into Next.js for [Arells](https://github.com/Art-Sells/Arells) MVP.
 - [Monday 6/5/23 - Sunday 6/11/23]: MVP Framework for [Arells](https://github.com/Art-Sells/Arells) building continues.
 - [Monday 5/29/23 - Sunday 6/4/23]: Building MVP Framework for [Arells](https://github.com/Art-Sells/Arells) continues.
