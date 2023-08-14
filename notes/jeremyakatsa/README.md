@@ -35,7 +35,8 @@ _________________________________________________________________________
 
 
 ## Updates (September 2021 - Present):
-- [Monday 8/1/23 - Sunday 8/26/23]: Layout for [Arells](https://github.com/Art-Sells/Arells) MVP nearly complete.
+- [Monday 8/7/23 - Sunday 8/13/23]: Layout for [Arells](https://github.com/Art-Sells/Arells) MVP completed, ready to deploy and test.
+- [Monday 8/1/23 - Sunday 8/6/23]: Layout for [Arells](https://github.com/Art-Sells/Arells) MVP nearly complete.
 - [Monday 7/24/23 - Sunday 7/31/23]: Tough slow week in updates for [Arells](https://github.com/Art-Sells/Arells) MVP.
 - [Monday 6/26/23 - Sunday 7/23/23]: Converting Java framework into Next.js for [Arells](https://github.com/Art-Sells/Arells) MVP nearly complete.
 - [Monday 6/19/23 - Sunday 6/25/23]: Converting Java framework into Next.js for [Arells](https://github.com/Art-Sells/Arells) MVP continues.
